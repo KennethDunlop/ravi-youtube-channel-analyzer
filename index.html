@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YouTube Analyzer</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Karla:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  /* Midnight Arena -- a single committed dark look, not adapted per viewer
+     theme preference (Kenneth chose this deliberately over the old
+     light/dark "Vintage Paper" pair). */
+  :root{
+    --paper:#12151C;
+    --paper-raised:#1B2029;
+    --paper-line:#2A2F3A;
+    --ink:#E8ECF2;
+    --ink-dim:#8891A0;
+    --red:#FF6B6B;
+    --red-ink:#E0574F;
+    --blue:#4FD1C5;
+    --blue-soft:#1B3634;
+    --brass:#F5B942;
+    --brass-soft:#3A2E14;
+    --shadow: 0 1px 0 rgba(0,0,0,.4);
+    --focus: #4FD1C5;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Karla',system-ui,sans-serif;
+    padding:24px 20px 56px;
+    max-width:1100px;
+    margin:0 auto;
+  }
+  a{color:inherit;}
+  .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);}
+
+  /* ---------- header ---------- */
+  header.marquee{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap:16px;
+    flex-wrap:wrap;
+    padding-bottom:18px;
+  }
+  .channel-id{display:flex;align-items:center;gap:14px;}
+  .avatar-link{display:block;border-radius:50%;flex-shrink:0;}
+  .avatar-link:focus-visible{outline:2px solid var(--focus);outline-offset:2px;}
+  .avatar{
+    width:56px;height:56px;border-radius:50%;
+    border:2px solid var(--paper-line);
+    object-fit:cover;flex-shrink:0;background:var(--paper-raised);
+    display:block;transition:border-color .15s ease;
+  }
+  .avatar-link:hover .avatar{border-color:var(--blue);}
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--red);margin:0 0 2px;font-weight:600;
+  }
+  h1{
+    font-family:'Anton',sans-serif;
+    font-weight:400;
+    font-size:clamp(28px,5vw,40px);
+    letter-spacing:.01em;
+    margin:0;
+    line-height:.95;
+    text-wrap:balance;
+  }
+  .sub{
+    margin:5px 0 0;
+    font-size:13.5px;
+    color:var(--ink-dim);
+    font-variant-numeric:tabular-nums;
+  }
+  .sub span{color:var(--ink);font-weight:600;}
+  .channel-link{color:var(--blue);text-decoration:none;font-weight:600;}
+  .channel-link:hover{color:var(--red);}
+  td.col-analyze{white-space:nowrap;font-size:12px;}
+  .refresh-line{
+    margin:7px 0 0;
+    font-size:12px;
+    color:var(--ink-dim);
+    display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  }
+  .refresh-line .ask{
+    font-family:'IBM Plex Mono',monospace;
+    font-weight:600;
+    color:var(--blue);
+    background:var(--blue-soft);
+    padding:2px 8px;border-radius:5px;
+    font-size:11px;letter-spacing:.01em;
+  }
+  .refresh-line .version{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;color:var(--ink-dim);
+  }
+
+  /* channel banner -- only shown when the channel actually has one set on
+     YouTube */
+  .channel-banner{
+    display:block;width:100%;max-height:160px;object-fit:cover;
+    border-radius:10px;margin-top:16px;background:var(--paper-raised);
+  }
+  .channel-banner[hidden]{display:none;}
+
+  /* corner rope divider */
+  .rope{
+    height:5px;border-radius:3px;
+    background:linear-gradient(90deg,var(--red) 0 48%, var(--blue) 52% 100%);
+    opacity:.85;margin-bottom:28px;
+  }
+
+  /* ---------- record table ---------- */
+  .record-section{margin-top:44px;}
+  .record-heading{
+    font-family:'Anton',sans-serif;font-weight:400;
+    font-size:clamp(20px,3.4vw,26px);letter-spacing:.01em;
+    margin:0 0 4px;text-wrap:balance;
+  }
+  .record-sub{margin:0 0 16px;font-size:12.5px;color:var(--ink-dim);}
+
+  /* ---------- longform / shortform panels ---------- */
+  .panel{
+    background:var(--paper-raised);border:1px solid var(--paper-line);border-radius:12px;
+    padding:18px 20px;margin-top:44px;
+  }
+  .panel .record-heading{font-size:clamp(18px,3vw,22px);}
+  .panel .record-sub{margin-bottom:14px;}
+
+  .long-hero{display:flex;gap:26px;align-items:flex-start;flex-wrap:wrap;}
+  .long-thumb-wrap{
+    position:relative;flex:1 1 320px;max-width:400px;aspect-ratio:16/9;border-radius:10px;overflow:hidden;
+    background:#000;cursor:pointer;border:none;padding:0;
+    display:block;text-decoration:none;
+  }
+  .long-thumb-wrap img{width:100%;height:100%;object-fit:cover;display:block;}
+  .long-thumb-wrap .play-icon{
+    position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    background:rgba(20,16,12,0);transition:background .15s ease;
+  }
+  .long-thumb-wrap .play-icon svg{
+    width:44px;height:44px;opacity:0;transform:scale(.85);
+    transition:opacity .15s ease,transform .15s ease;
+    filter:drop-shadow(0 2px 6px rgba(0,0,0,.5));
+  }
+  .long-thumb-wrap:hover .play-icon,.long-thumb-wrap:focus-visible .play-icon{background:rgba(20,16,12,.32);}
+  .long-thumb-wrap:hover .play-icon svg,.long-thumb-wrap:focus-visible .play-icon svg{opacity:1;transform:scale(1);}
+  .long-thumb-wrap:focus-visible{outline:3px solid var(--focus);outline-offset:-2px;}
+
+  .long-body{flex:1 1 280px;display:flex;flex-direction:column;gap:10px;min-width:240px;padding-top:2px;}
+  .long-title{margin:0;font-size:18px;font-weight:700;line-height:1.3;}
+  .long-title a{text-decoration:none;color:inherit;}
+  .long-title a:hover{color:var(--blue);}
+  .long-meta{font-size:12px;color:var(--ink-dim);font-family:'IBM Plex Mono',monospace;}
+  .long-stats{display:flex;gap:32px;flex-wrap:wrap;margin-top:auto;padding-top:8px;}
+  .long-stat{display:flex;flex-direction:column;gap:4px;}
+  .long-stat-label{
+    font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-dim);
+    font-family:'IBM Plex Mono',monospace;font-weight:600;
+  }
+  .long-stat-value{
+    font-size:24px;font-weight:700;font-family:'IBM Plex Mono',monospace;
+    color:var(--ink);font-variant-numeric:tabular-nums;
+  }
+
+  .short-strip{display:grid;grid-template-columns:repeat(8,1fr);gap:10px;}
+  @media (max-width:760px){ .short-strip{grid-template-columns:repeat(4,1fr);} }
+  @media (max-width:480px){ .short-strip{grid-template-columns:repeat(2,1fr);} }
+  .short-tile{
+    background:none;border:none;padding:0;cursor:pointer;text-align:left;
+    display:flex;flex-direction:column;gap:5px;width:100%;font-family:inherit;color:inherit;
+    text-decoration:none;
+  }
+  .short-thumb{
+    position:relative;width:100%;aspect-ratio:9/16;border-radius:7px;overflow:hidden;background:#000;
+  }
+  .short-thumb img{width:100%;height:100%;object-fit:cover;display:block;}
+  .short-tile:focus-visible .short-thumb{outline:2px solid var(--focus);outline-offset:-2px;}
+  .short-title{
+    font-size:10.5px;font-weight:600;line-height:1.28;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  }
+  .short-tile:hover .short-title{color:var(--blue);}
+  .short-views{font-size:10px;color:var(--ink-dim);font-family:'IBM Plex Mono',monospace;}
+
+  .leaderboard-grid{display:flex;flex-wrap:wrap;gap:12px;}
+  .lb-card{
+    display:flex;align-items:center;gap:10px;
+    background:var(--paper-raised);border:1px solid var(--paper-line);border-radius:10px;
+    padding:10px 12px;flex:1 1 210px;min-width:210px;max-width:280px;
+    cursor:pointer;text-align:left;font-family:inherit;color:inherit;
+    text-decoration:none;
+  }
+  .lb-card:hover{border-color:var(--brass);}
+  .lb-card:focus-visible{outline:2px solid var(--focus);outline-offset:2px;}
+  .lb-thumb{
+    width:34px;height:48px;border-radius:5px;object-fit:cover;flex-shrink:0;background:#000;
+  }
+  .lb-body{display:flex;flex-direction:column;gap:2px;overflow:hidden;min-width:0;}
+  .lb-label{
+    font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.07em;
+    color:var(--brass);font-weight:700;
+  }
+  .lb-title{
+    font-size:11.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  }
+  .lb-value{font-family:'IBM Plex Mono',monospace;font-size:15px;font-weight:700;font-variant-numeric:tabular-nums;}
+  .lb-value small{font-size:10px;color:var(--ink-dim);font-weight:500;margin-left:3px;}
+
+  .sub-top-row{display:flex;gap:28px;align-items:center;flex-wrap:wrap;margin-bottom:20px;}
+  .sub-top-row .chart-wrap{flex:1 1 380px;min-width:260px;margin-bottom:0;}
+  .sub-top-row .sub-goal{flex:1 1 220px;min-width:200px;margin-bottom:0;}
+
+  .sub-goal{margin-bottom:18px;}
+  .sub-goal-label{
+    display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;
+    font-size:12.5px;color:var(--ink-dim);margin-bottom:7px;
+  }
+  .sub-goal-label b{color:var(--ink);font-family:'IBM Plex Mono',monospace;font-weight:700;}
+  .sub-goal-bar{height:10px;border-radius:6px;background:var(--blue-soft);overflow:hidden;}
+  .sub-goal-fill{height:100%;background:linear-gradient(90deg,var(--blue),var(--brass));border-radius:6px;}
+
+  .chart-wrap{position:relative;margin-bottom:20px;}
+  .chart-wrap svg{width:100%;height:auto;display:block;}
+  .chart-axis{stroke:var(--paper-line);stroke-width:1;}
+  .chart-goal-line{stroke:var(--brass);stroke-width:1.5;stroke-dasharray:4 4;}
+  .chart-goal-label,.chart-axis-label{
+    fill:var(--ink-dim);font-family:'IBM Plex Mono',monospace;font-size:10px;
+  }
+  .chart-area{fill:var(--blue);opacity:.14;}
+  .chart-line{fill:none;stroke:var(--blue);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+  .chart-dot-ring{fill:var(--paper);}
+  .chart-dot{fill:var(--blue);}
+  .chart-value-label{
+    fill:var(--ink);font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:700;
+  }
+  .chart-empty-note{margin:8px 0 0;font-size:11.5px;color:var(--ink-dim);}
+
+  .chart-crosshair{
+    position:fixed;top:0;width:1px;background:var(--paper-line);z-index:150;pointer-events:none;
+  }
+  .chart-crosshair[hidden]{display:none;}
+  .chart-tooltip{
+    position:fixed;z-index:200;pointer-events:none;
+    background:var(--paper-raised);border:1px solid var(--paper-line);border-radius:8px;
+    padding:8px 11px;font-size:12px;box-shadow:0 8px 20px rgba(0,0,0,.22);
+  }
+  .chart-tooltip[hidden]{display:none;}
+  .chart-tooltip b{font-family:'IBM Plex Mono',monospace;color:var(--ink);font-size:14px;}
+  .chart-tooltip .tt-sub{color:var(--ink-dim);font-size:11px;margin-top:2px;}
+
+  .table-scroll{
+    overflow-x:auto;
+    border:1px solid var(--paper-line);
+    border-radius:10px;
+  }
+  table.record-table{
+    width:100%;border-collapse:collapse;font-size:13px;min-width:820px;
+  }
+  .record-table thead th{
+    text-align:left;
+    font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--ink-dim);font-weight:600;
+    padding:11px 14px;background:var(--paper-raised);
+    border-bottom:1px solid var(--paper-line);
+    white-space:nowrap;
+  }
+  .record-table th[data-key]{cursor:pointer;user-select:none;position:relative;padding-right:22px;}
+  .record-table th[data-key]:hover{color:var(--ink);}
+  .record-table th[data-key].sort-asc::after,
+  .record-table th[data-key].sort-desc::after{
+    position:absolute;right:8px;top:50%;transform:translateY(-50%);
+    font-size:8px;color:var(--blue);
+  }
+  .record-table th[data-key].sort-asc::after{content:"\25B2";}
+  .record-table th[data-key].sort-desc::after{content:"\25BC";}
+  .record-table td{
+    padding:9px 14px;border-bottom:1px solid var(--paper-line);vertical-align:middle;
+  }
+  .record-table tbody tr:last-child td{border-bottom:none;}
+  .record-table tbody tr:hover td{background:var(--paper-raised);}
+  .col-title{max-width:340px;}
+  .col-title a{
+    font-weight:600;text-decoration:none;
+    display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  }
+  .col-title a:hover{color:var(--blue);}
+  .col-date{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink-dim);white-space:nowrap;}
+  th.col-num,td.col-num{text-align:right;}
+  td.col-num{
+    font-family:'IBM Plex Mono',monospace;font-variant-numeric:tabular-nums;white-space:nowrap;
+  }
+  td.col-num.lpv{color:var(--blue);font-weight:600;}
+  td.col-num.engaged{color:var(--blue);}
+  td.col-num.discuss{color:var(--red);}
+  td.col-num.success{color:var(--brass);font-weight:700;}
+  .thumb-preview{
+    position:fixed;z-index:200;pointer-events:none;
+    width:260px;aspect-ratio:9/16;border-radius:8px;overflow:hidden;
+    background:#000;border:1px solid var(--paper-line);
+    box-shadow:0 10px 28px rgba(0,0,0,.35);
+  }
+  .thumb-preview[hidden]{display:none;}
+  .thumb-preview img{width:100%;height:100%;object-fit:cover;display:block;}
+
+  footer{
+    margin-top:40px;padding-top:16px;border-top:1px solid var(--paper-line);
+    font-size:12px;color:var(--ink-dim);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
+  }
+  footer a{color:var(--blue);text-decoration:none;font-weight:600;}
+
+
+  @media (max-width:480px){
+    header.marquee{align-items:center;}
+    .settings-panel{right:auto;left:0;}
+  }
+</style>
+</head>
+<body>
+
+<header class="marquee">
+  <div class="channel-id">
+    <a class="avatar-link" id="avatar-link" href="https://www.youtube.com/@naturallymagneticmen" target="_blank" rel="noopener" aria-label="View this channel on YouTube">
+      <img class="avatar" id="avatar" alt="" src="" />
+    </a>
+    <div>
+      <p class="eyebrow">Tracking</p>
+      <h1 id="channel-title">Loading&hellip;</h1>
+      <p class="sub" id="channel-sub">loading&hellip;</p>
+      <p class="refresh-line"><span id="refresh-kind">Refreshed</span> <time id="updated-at">&hellip;</time><span class="version" id="version-tag"></span></p>
+    </div>
+  </div>
+
+</header>
+<img class="channel-banner" id="channel-banner" alt="" hidden />
+<div class="rope"></div>
+
+<section class="record-section">
+  <h2 class="record-heading">Subscriber Watch</h2>
+  <p class="record-sub">Goal: <span id="sub-goal-num">128</span> subscribers (double the count at onboarding). YouTube doesn't expose historical subscriber counts, so this log only grows from here, one refresh at a time.</p>
+  <div class="sub-top-row">
+    <div class="chart-wrap" id="sub-chart"></div>
+    <div class="sub-goal" id="sub-goal"></div>
+  </div>
+  <div class="table-scroll">
+    <table class="record-table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th class="col-num">Subscribers</th>
+          <th class="col-num">Change</th>
+        </tr>
+      </thead>
+      <tbody id="sub-history-body"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="panel panel-long">
+  <h2 class="record-heading">Longform</h2>
+  <p class="record-sub">The channel's most recent upload over 3 minutes.</p>
+  <div class="long-hero" id="long-hero"></div>
+</section>
+
+<section class="panel panel-short">
+  <h2 class="record-heading">Shortform</h2>
+  <p class="record-sub">Last 8 short uploads.</p>
+  <div class="short-strip" id="short-strip"></div>
+</section>
+
+<section class="record-section">
+  <h2 class="record-heading">Champion's Belt</h2>
+  <p class="record-sub">Current leaders across the last 20 uploads. Success Score blends age-adjusted view velocity with Wilson-adjusted engagement quality &mdash; explained below the table.</p>
+  <div class="leaderboard-grid" id="leaderboard-grid"></div>
+</section>
+
+<section class="record-section">
+  <h2 class="record-heading">Last 20 Uploads</h2>
+  <p class="record-sub">Click a column to sort.</p>
+  <div class="table-scroll">
+    <table class="record-table" id="fight-record-table">
+      <thead>
+        <tr>
+          <th data-key="title">Title</th>
+          <th data-key="publishedAt">Released</th>
+          <th class="col-num" data-key="durationSeconds">Length</th>
+          <th class="col-num" data-key="views">Views</th>
+          <th class="col-num" data-key="engagedViews" title="Estimate, not a YouTube metric: views &#215; Wilson-adjusted engagement rate &mdash; roughly how many views represented real engagement rather than a passive replay">Engaged Views</th>
+          <th class="col-num" data-key="likes">Likes</th>
+          <th class="col-num" data-key="comments">Comments</th>
+          <th class="col-num" data-key="commentsWilson" title="Comments alone, Wilson-adjusted (not likes) &mdash; isolates real discussion from lower-effort likes, penalised for small sample sizes">Discussion Rate</th>
+          <th class="col-num" data-key="lpv">Likes / View</th>
+          <th class="col-num" data-key="successScore" title="Blends age-adjusted view velocity (views &#247; days live, floored at 3) with Wilson-adjusted engagement into one 0-100 score">Success Score</th>
+          <th title="Opens YouTube Studio's Analytics page for this video -- only shows real data if you're signed in with an account that has permission on this channel">Analyze</th>
+        </tr>
+      </thead>
+      <tbody id="record-body"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="record-section">
+  <h2 class="record-heading">Hall of Fame</h2>
+  <p class="record-sub">The channel's 20 most-viewed uploads of all time &mdash; not just the recent 20 above. Click a column to sort.</p>
+  <div class="table-scroll">
+    <table class="record-table" id="popular-table">
+      <thead>
+        <tr>
+          <th data-key="title">Title</th>
+          <th data-key="publishedAt">Released</th>
+          <th class="col-num" data-key="durationSeconds">Length</th>
+          <th class="col-num" data-key="views">Views</th>
+          <th class="col-num" data-key="engagedViews" title="Estimate, not a YouTube metric: views &#215; Wilson-adjusted engagement rate &mdash; roughly how many views represented real engagement rather than a passive replay">Engaged Views</th>
+          <th class="col-num" data-key="likes">Likes</th>
+          <th class="col-num" data-key="comments">Comments</th>
+          <th class="col-num" data-key="commentsWilson" title="Comments alone, Wilson-adjusted (not likes) &mdash; isolates real discussion from lower-effort likes, penalised for small sample sizes">Discussion Rate</th>
+          <th class="col-num" data-key="lpv">Likes / View</th>
+          <th class="col-num" data-key="successScore" title="Blends age-adjusted view velocity (views &#247; days live, floored at 3) with Wilson-adjusted engagement into one 0-100 score, ranked against the other 19 videos in this table only">Success Score</th>
+          <th title="Opens YouTube Studio's Analytics page for this video -- only shows real data if you're signed in with an account that has permission on this channel">Analyze</th>
+        </tr>
+      </thead>
+      <tbody id="popular-body"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="record-section">
+  <h2 class="record-heading">By Hashtag</h2>
+  <p class="record-sub">How each topic tag performs, averaged across the last 20 uploads that used it.</p>
+  <div class="table-scroll">
+    <table class="record-table">
+      <thead>
+        <tr>
+          <th>Hashtag</th>
+          <th class="col-num">Videos</th>
+          <th class="col-num">Avg Views</th>
+          <th class="col-num">Avg Success Score</th>
+        </tr>
+      </thead>
+      <tbody id="hashtag-body"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="record-section">
+  <h2 class="record-heading">By Duration</h2>
+  <p class="record-sub">Does clip length itself predict performance? Grouped across the last 20 uploads.</p>
+  <div class="table-scroll">
+    <table class="record-table">
+      <thead>
+        <tr>
+          <th>Duration</th>
+          <th class="col-num">Videos</th>
+          <th class="col-num">Avg Views</th>
+          <th class="col-num">Avg Success Score</th>
+        </tr>
+      </thead>
+      <tbody id="duration-body"></tbody>
+    </table>
+  </div>
+</section>
+
+<div class="thumb-preview" id="thumb-preview" hidden>
+  <img id="thumb-preview-img" src="" alt="" />
+</div>
+
+<div class="chart-crosshair" id="chart-crosshair" hidden></div>
+<div class="chart-tooltip" id="chart-tooltip" hidden></div>
+
+<footer>
+  <span>Engaged Views = views &#215; Wilson-adjusted engagement rate &mdash; an estimate of how many views represented real engagement rather than a passive replay, not a metric YouTube itself publishes. Success Score (0&ndash;100) = 55% age-adjusted view velocity (views &divide; days live, with the age floored at 3 days so a brand-new video's opening-day spike &mdash; nearly every video gets one &mdash; can't inflate its rate, and an old video isn't rewarded just for having had longer to accumulate raw views) + 45% that same Wilson-adjusted engagement (likes+comments vs. views, penalised for small sample sizes so a couple of superfan likes on a low-view clip can't outrank real traction). Ranked against the other 19 videos shown, not an absolute scale. YouTube's public data has no watch-time, audience-retention, unique-viewer, or day-by-day view history &mdash; only a live cumulative total &mdash; so this is the fairest comparison that data allows, not a perfect one.</span>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  // ---- live data: fetched at page load from data.json, which a Cloudflare
+  // Worker (cron-triggered twice a day) keeps up to date by pulling from the
+  // YouTube Data API and pushing the new file to this repo. See the
+  // "How to apply" note in the Ali's Fight Card deployment memory (this site's twin) for the
+  // full pipeline. SUBSCRIBER_GOAL is a fallback until data.json loads. ----
+  var SUBSCRIBER_GOAL = 128;
+
+  var updatedAtEl = document.getElementById("updated-at");
+  var channelSub = document.getElementById("channel-sub");
+  var channelTitleEl = document.getElementById("channel-title");
+  var avatarEl = document.getElementById("avatar");
+
+  function formatCount(n){
+    if(n>=1000000) return (n/1000000).toFixed(1).replace(/\.0$/,"")+"M";
+    if(n>=1000) return (n/1000).toFixed(1).replace(/\.0$/,"")+"K";
+    return String(n);
+  }
+  function formatDuration(sec){
+    sec = Math.round(sec);
+    var h = Math.floor(sec/3600), m = Math.floor((sec%3600)/60), s = sec%60;
+    var mm = h>0 ? String(m).padStart(2,"0") : String(m);
+    var ss = String(s).padStart(2,"0");
+    return h>0 ? (h+":"+mm+":"+ss) : (mm+":"+ss);
+  }
+  var PLAY_ICON = '<svg viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg>';
+  function formatDate(iso){
+    var d = new Date(iso);
+    return d.toLocaleDateString("en-GB",{day:"numeric",month:"short"});
+  }
+  function formatDateTime(iso){
+    var d = new Date(iso);
+    var datePart = d.toLocaleDateString("en-GB",{day:"numeric",month:"short"});
+    var timePart = d.toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit"});
+    return datePart+", "+timePart;
+  }
+  function relTime(iso){
+    // Compares calendar dates, not a rolling 24h window -- otherwise a
+    // refresh late in the evening keeps saying "today" well into the next
+    // calendar day, contradicting the date shown right next to it.
+    var then = new Date(iso), now = new Date();
+    var thenDate = new Date(then.getFullYear(), then.getMonth(), then.getDate());
+    var nowDate = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var days = Math.round((nowDate - thenDate) / 86400000);
+    if(days<=0) return "today";
+    if(days===1) return "1 day ago";
+    if(days<30) return days+" days ago";
+    var months = Math.floor(days/30);
+    return months + (months===1?" month ago":" months ago");
+  }
+  function formatRate(r){
+    return (r<1 ? r.toFixed(2) : r.toFixed(1)) + "%";
+  }
+  function likesPerView(v){
+    return v.views>0 ? (v.likes/v.views*100) : 0;
+  }
+
+  // Wilson lower-bound on a proportion (successes out of n trials, 95% confidence).
+  // Same trick Reddit/Amazon use so a handful of likes on a low-view clip can't
+  // masquerade as "high engagement" the way a raw ratio does.
+  function wilsonLowerBound(successes, n){
+    if(n<=0) return 0;
+    var z = 1.96, phat = successes/n, z2 = z*z;
+    var denom = 1 + z2/n;
+    var center = phat + z2/(2*n);
+    var margin = z*Math.sqrt((phat*(1-phat) + z2/(4*n))/n);
+    return Math.max(0, (center-margin)/denom);
+  }
+  // Floored at 3 days: a brand-new video's opening-day spike (almost every
+  // video gets one) would otherwise inflate its rate purely for being fresh,
+  // and the same floor keeps an old video's rate from ever being judged on
+  // less than a realistic settling window either.
+  function daysSincePublish(iso){
+    return Math.max(3, (Date.now()-new Date(iso).getTime())/86400000);
+  }
+  function viewsPerDay(v){
+    return v.views / daysSincePublish(v.publishedAt);
+  }
+  // Rank-based (not min/max) so one outlier clip can't compress everyone else's score.
+  function percentileRank(value, arr){
+    var less=0, equal=0;
+    arr.forEach(function(a){ if(a<value) less++; else if(a===value) equal++; });
+    return arr.length ? ((less + 0.5*equal)/arr.length*100) : 0;
+  }
+  function computeScores(videos){
+    // Raw cumulative views are deliberately NOT scored directly -- an older
+    // video simply has more time to accumulate them, which would reward age
+    // rather than performance. Age-adjusted rate (views per day live) stands
+    // in as the reach signal instead, so two videos of very different ages
+    // are judged on the same basis.
+    var velArr = videos.map(function(v){ return viewsPerDay(v); });
+    var engArr = videos.map(function(v){ return wilsonLowerBound(v.likes+v.comments, v.views); });
+    return videos.map(function(v){
+      var eng = wilsonLowerBound(v.likes+v.comments, v.views);
+      var vel = viewsPerDay(v);
+      var velScore = percentileRank(vel, velArr);
+      var engScore = percentileRank(eng, engArr);
+      var copy = {};
+      for(var k in v){ copy[k]=v[k]; }
+      copy.engagementWilson = eng*100;
+      // Comments alone, Wilson-adjusted -- isolates real discussion from the
+      // much lower-effort action of a like, so a video that gets people
+      // talking shows up distinctly from one that just gets passive taps.
+      copy.commentsWilson = wilsonLowerBound(v.comments, v.views)*100;
+      copy.viewsPerDay = vel;
+      // Not a YouTube metric -- YouTube doesn't publish one. An estimate of
+      // how many of the raw views represented real engagement, by scaling
+      // views down by the same Wilson-adjusted engagement rate used above.
+      copy.engagedViews = Math.round(v.views * eng);
+      copy.successScore = 0.55*velScore + 0.45*engScore;
+      return copy;
+    });
+  }
+
+  // Thumbnail preview that follows the cursor while hovering any element
+  // carrying a data-thumb attribute -- table title links and the channel
+  // avatar alike. Size follows the actual thumbnail image's own pixel
+  // dimensions once it loads (not the video's duration -- some Shorts use a
+  // landscape source image and some longform clips a cropped vertical one).
+  // data-thumb-ratio, when an element sets it explicitly (e.g. the square
+  // channel avatar), still overrides the detected image ratio.
+  var thumbPreview = document.getElementById("thumb-preview");
+  var thumbPreviewImg = document.getElementById("thumb-preview-img");
+  var thumbPreviewBoxW = 260, thumbPreviewBoxH = 462;
+  function applyThumbPreviewSize(el, e){
+    var w = parseInt(el.dataset.thumbWidth, 10) || 260;
+    var ratio = el.dataset.thumbRatio;
+    if(!ratio && thumbPreviewImg.naturalWidth && thumbPreviewImg.naturalHeight){
+      ratio = thumbPreviewImg.naturalWidth+"/"+thumbPreviewImg.naturalHeight;
+    }
+    ratio = ratio || "9/16";
+    var parts = ratio.split("/");
+    var h = w * (parseFloat(parts[1]) / parseFloat(parts[0]));
+    thumbPreviewBoxW = w;
+    thumbPreviewBoxH = h;
+    thumbPreview.style.width = w+"px";
+    thumbPreview.style.aspectRatio = ratio;
+    positionThumbPreview(e, w, h);
+  }
+  function positionThumbPreview(e, w, h){
+    var pad = 16;
+    var x = e.clientX + pad;
+    var y = e.clientY + pad;
+    if(x + w > window.innerWidth) x = e.clientX - w - pad;
+    if(y + h > window.innerHeight) y = Math.max(pad, window.innerHeight - h - pad);
+    thumbPreview.style.left = x+"px";
+    thumbPreview.style.top = y+"px";
+  }
+  document.addEventListener("mouseover", function(e){
+    var el = e.target.closest ? e.target.closest("[data-thumb]") : null;
+    if(!el) return;
+    thumbPreviewImg.src = el.dataset.thumb;
+    thumbPreview.hidden = false;
+    applyThumbPreviewSize(el, e);
+    thumbPreviewImg.onload = function(){ applyThumbPreviewSize(el, e); };
+  });
+  document.addEventListener("mousemove", function(e){
+    if(thumbPreview.hidden) return;
+    positionThumbPreview(e, thumbPreviewBoxW, thumbPreviewBoxH);
+  });
+  document.addEventListener("mouseout", function(e){
+    var el = e.target.closest ? e.target.closest("[data-thumb]") : null;
+    if(el) thumbPreview.hidden = true;
+  });
+
+  function recordRowHtml(v){
+    return '<td class="col-title"><a href="https://www.youtube.com/watch?v='+v.id+'" target="_blank" rel="noopener" title="'+escapeHtml(v.title)+'" data-thumb="'+v.thumbnail+'">'+escapeHtml(v.title)+'</a></td>' +
+      '<td class="col-date">'+formatDate(v.publishedAt)+'</td>' +
+      '<td class="col-num">'+formatDuration(v.durationSeconds)+'</td>' +
+      '<td class="col-num">'+v.views.toLocaleString()+'</td>' +
+      '<td class="col-num engaged">'+v.engagedViews.toLocaleString()+'</td>' +
+      '<td class="col-num">'+v.likes.toLocaleString()+'</td>' +
+      '<td class="col-num">'+v.comments.toLocaleString()+'</td>' +
+      '<td class="col-num discuss">'+formatRate(v.commentsWilson)+'</td>' +
+      '<td class="col-num lpv">'+formatRate(likesPerView(v))+'</td>' +
+      '<td class="col-num success">'+Math.round(v.successScore)+'</td>' +
+      '<td class="col-analyze"><a class="channel-link" href="https://studio.youtube.com/video/'+v.id+'/analytics/tab-overview/period-default" target="_blank" rel="noopener">Analyze &#8599;</a></td>';
+  }
+
+  // A sortable stats table bound to one <table id="tableId"> -- both the
+  // Full Fight Record and the Hall of Fame use this, each with independent
+  // sort state so clicking a column in one never affects the other.
+  function createRecordTable(tableId, bodyId, defaultKey, defaultDir){
+    var body = document.getElementById(bodyId);
+    var headSelector = "#"+tableId+" th[data-key]";
+    var cache = [];
+    var sort = {key: defaultKey, dir: defaultDir};
+
+    function renderRows(videos){
+      body.innerHTML = "";
+      videos.forEach(function(v){
+        var tr = document.createElement("tr");
+        tr.innerHTML = recordRowHtml(v);
+        body.appendChild(tr);
+      });
+    }
+    function updateIndicators(){
+      document.querySelectorAll(headSelector).forEach(function(th){
+        th.classList.remove("sort-asc","sort-desc");
+        th.removeAttribute("aria-sort");
+        if(th.dataset.key === sort.key){
+          th.classList.add(sort.dir === "asc" ? "sort-asc" : "sort-desc");
+          th.setAttribute("aria-sort", sort.dir === "asc" ? "ascending" : "descending");
+        }
+      });
+    }
+    function apply(){
+      var key = sort.key, dir = sort.dir;
+      var arr = cache.slice();
+      arr.sort(function(a,b){
+        var av, bv;
+        if(key === "lpv"){ av = likesPerView(a); bv = likesPerView(b); }
+        else if(key === "title"){ av = a.title.toLowerCase(); bv = b.title.toLowerCase(); }
+        else if(key === "publishedAt"){ av = new Date(a.publishedAt).getTime(); bv = new Date(b.publishedAt).getTime(); }
+        else { av = a[key]; bv = b[key]; }
+        if(av < bv) return dir === "asc" ? -1 : 1;
+        if(av > bv) return dir === "asc" ? 1 : -1;
+        return 0;
+      });
+      renderRows(arr);
+      updateIndicators();
+    }
+    document.querySelectorAll(headSelector).forEach(function(th){
+      th.addEventListener("click", function(){
+        var key = th.dataset.key;
+        if(sort.key === key){ sort.dir = sort.dir === "asc" ? "desc" : "asc"; }
+        else { sort.key = key; sort.dir = key === "title" ? "asc" : "desc"; }
+        apply();
+      });
+    });
+    return {
+      setData: function(videos){ cache = videos; apply(); }
+    };
+  }
+
+  var fightRecordTable = createRecordTable("fight-record-table", "record-body", "publishedAt", "desc");
+  var popularTable = createRecordTable("popular-table", "popular-body", "views", "desc");
+
+  function renderTable(videos){
+    if(!videos || !videos.length) return;
+    var scored = computeScores(videos);
+    fightRecordTable.setData(scored);
+    renderLeaderboard(scored);
+    renderHashtags(scored);
+    renderDuration(scored);
+  }
+
+  function renderPopular(videos){
+    if(!videos || !videos.length) return;
+    popularTable.setData(computeScores(videos));
+  }
+
+  // ---- hashtag breakdown ----
+  function extractHashtags(title){
+    var matches = title.match(/#[A-Za-z0-9_]+/g) || [];
+    var seen = {}, out = [];
+    matches.forEach(function(h){
+      var tag = h.toLowerCase();
+      if(!seen[tag]){ seen[tag] = true; out.push(tag); }
+    });
+    return out;
+  }
+  function renderHashtags(videos){
+    var body = document.getElementById("hashtag-body");
+    if(!body || !videos.length) return;
+    var map = {};
+    videos.forEach(function(v){
+      extractHashtags(v.title).forEach(function(tag){
+        if(!map[tag]) map[tag] = {tag:tag, count:0, totalViews:0, totalScore:0};
+        map[tag].count++;
+        map[tag].totalViews += v.views;
+        map[tag].totalScore += v.successScore;
+      });
+    });
+    var stats = Object.keys(map).map(function(k){ return map[k]; });
+    stats.sort(function(a,b){ return (b.totalScore/b.count) - (a.totalScore/a.count); });
+    body.innerHTML = "";
+    stats.forEach(function(s){
+      var tr = document.createElement("tr");
+      tr.innerHTML =
+        '<td class="col-title"><b>'+escapeHtml(s.tag)+'</b></td>' +
+        '<td class="col-num">'+s.count+'</td>' +
+        '<td class="col-num">'+formatCount(Math.round(s.totalViews/s.count))+'</td>' +
+        '<td class="col-num success">'+Math.round(s.totalScore/s.count)+'</td>';
+      body.appendChild(tr);
+    });
+  }
+
+  // ---- duration breakdown ----
+  var EN_DASH = String.fromCharCode(8211); // built from an ASCII code point, not a
+  // literal character, so it can't be mangled by any tool/host along the way
+  // that isn't strictly UTF-8 clean.
+  var DURATION_BUCKETS = ["Under 15s", "15"+EN_DASH+"30s", "30"+EN_DASH+"60s", "60s+"];
+  function durationBucket(sec){
+    if(sec<15) return DURATION_BUCKETS[0];
+    if(sec<30) return DURATION_BUCKETS[1];
+    if(sec<60) return DURATION_BUCKETS[2];
+    return DURATION_BUCKETS[3];
+  }
+  function renderDuration(videos){
+    var body = document.getElementById("duration-body");
+    if(!body || !videos.length) return;
+    var map = {};
+    videos.forEach(function(v){
+      var b = durationBucket(v.durationSeconds);
+      if(!map[b]) map[b] = {bucket:b, count:0, totalViews:0, totalScore:0};
+      map[b].count++;
+      map[b].totalViews += v.views;
+      map[b].totalScore += v.successScore;
+    });
+    body.innerHTML = "";
+    DURATION_BUCKETS.forEach(function(b){
+      var s = map[b];
+      if(!s) return;
+      var tr = document.createElement("tr");
+      tr.innerHTML =
+        '<td class="col-title"><b>'+escapeHtml(s.bucket)+'</b></td>' +
+        '<td class="col-num">'+s.count+'</td>' +
+        '<td class="col-num">'+formatCount(Math.round(s.totalViews/s.count))+'</td>' +
+        '<td class="col-num success">'+Math.round(s.totalScore/s.count)+'</td>';
+      body.appendChild(tr);
+    });
+  }
+
+  // ---- leaderboard ----
+  var LEADERBOARD_CATEGORIES = [
+    {key:"views", label:"Most Views", fmt:function(v){ return formatCount(v.views); }},
+    {key:"likes", label:"Most Likes", fmt:function(v){ return formatCount(v.likes); }},
+    {key:"comments", label:"Most Comments", fmt:function(v){ return formatCount(v.comments); }},
+    {key:"viewsPerDay", label:"Fastest Growing", fmt:function(v){ return v.viewsPerDay.toFixed(1)+'<small> views/day</small>'; }},
+    {key:"engagementWilson", label:"Highest Engagement", fmt:function(v){ return formatRate(v.engagementWilson); }},
+    {key:"successScore", label:"Top Success Score", fmt:function(v){ return Math.round(v.successScore)+'<small> /100</small>'; }}
+  ];
+  function renderLeaderboard(scoredVideos){
+    var grid = document.getElementById("leaderboard-grid");
+    if(!grid || !scoredVideos.length) return;
+    grid.innerHTML = "";
+    LEADERBOARD_CATEGORIES.forEach(function(cat){
+      var winner = scoredVideos.reduce(function(best, v){
+        return (best===null || v[cat.key] > best[cat.key]) ? v : best;
+      }, null);
+      if(!winner) return;
+      var card = document.createElement("a");
+      card.href = "https://www.youtube.com/watch?v="+winner.id;
+      card.target = "_blank";
+      card.rel = "noopener";
+      card.className = "lb-card";
+      card.innerHTML =
+        '<img class="lb-thumb" src="'+winner.thumbnail+'" alt="" loading="lazy" />' +
+        '<span class="lb-body">' +
+          '<span class="lb-label">'+cat.label+'</span>' +
+          '<span class="lb-title">'+escapeHtml(winner.title)+'</span>' +
+          '<span class="lb-value">'+cat.fmt(winner)+'</span>' +
+        '</span>';
+      grid.appendChild(card);
+    });
+  }
+
+
+  function formatChannelAge(iso){
+    var start = new Date(iso), now = new Date();
+    var years = now.getFullYear() - start.getFullYear();
+    var months = now.getMonth() - start.getMonth();
+    if(now.getDate() < start.getDate()) months--;
+    if(months<0){ years--; months+=12; }
+    if(years<=0) return months+(months===1?" month":" months");
+    if(months===0) return years+(years===1?" year":" years");
+    return years+"y "+months+"m";
+  }
+
+  function renderMeta(meta){
+    if(!meta) return;
+    channelTitleEl.textContent = meta.channelTitle || "Loading…";
+    if(meta.avatar) avatarEl.src = meta.avatar;
+    var channelUrl = meta.channelUrl || "https://www.youtube.com/@naturallymagneticmen";
+    var avatarLink = document.getElementById("avatar-link");
+    if(avatarLink){
+      avatarLink.href = channelUrl;
+      if(meta.avatarLarge){
+        avatarLink.dataset.thumb = meta.avatarLarge;
+        avatarLink.dataset.thumbWidth = "180";
+        avatarLink.dataset.thumbRatio = "1/1";
+      }
+    }
+    // Not every channel has a banner set on YouTube --
+    // show it only when the data actually has one.
+    var bannerEl = document.getElementById("channel-banner");
+    if(bannerEl){
+      if(meta.banner){
+        bannerEl.src = meta.banner;
+        bannerEl.hidden = false;
+      } else {
+        bannerEl.hidden = true;
+        bannerEl.removeAttribute("src");
+      }
+    }
+    var bits = [];
+    if(meta.subscriberCount!=null) bits.push(meta.subscriberCount+" subscribers");
+    if(meta.videoCount!=null) bits.push(meta.videoCount+" uploads");
+    if(meta.channelViews!=null) bits.push(formatCount(meta.channelViews)+" lifetime views");
+    if(meta.channelCreatedAt!=null) bits.push(formatChannelAge(meta.channelCreatedAt)+" on YouTube");
+    bits.push('<a class="channel-link" href="'+channelUrl+'" target="_blank" rel="noopener">View channel &#8599;</a>');
+    channelSub.innerHTML = bits.join(" &middot; ");
+    if(meta.lastUpdated){
+      updatedAtEl.textContent = relTime(meta.lastUpdated) + " (" + formatDateTime(meta.lastUpdated) + ")";
+      updatedAtEl.setAttribute("datetime", meta.lastUpdated);
+    }
+    var refreshKindEl = document.getElementById("refresh-kind");
+    if(refreshKindEl){
+      refreshKindEl.textContent = meta.refreshedBy === "manual" ? "Manually refreshed" : "Auto-refreshed";
+    }
+  }
+
+  function escapeHtml(s){
+    var d = document.createElement("div");
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  // ---- subscriber watch ----
+  function renderSubscriberHistory(history){
+    if(!history || !history.length) return;
+    var sorted = history.slice().sort(function(a,b){ return new Date(a.date)-new Date(b.date); });
+    var latest = sorted[sorted.length-1];
+    var pct = Math.min(100, latest.subscriberCount/SUBSCRIBER_GOAL*100);
+
+    var goalHost = document.getElementById("sub-goal");
+    if(goalHost){
+      goalHost.innerHTML =
+        '<div class="sub-goal-label"><span>Progress to goal</span><span><b>'+latest.subscriberCount+'</b> / '+SUBSCRIBER_GOAL+' &nbsp;(' + pct.toFixed(0) + '%)</span></div>' +
+        '<div class="sub-goal-bar"><div class="sub-goal-fill" style="width:'+pct+'%"></div></div>';
+    }
+
+    renderSubscriberChart(sorted);
+
+    var body = document.getElementById("sub-history-body");
+    if(!body) return;
+    var newestFirst = sorted.slice().reverse();
+    body.innerHTML = "";
+    newestFirst.forEach(function(row, idx){
+      var prev = newestFirst[idx+1];
+      var change = prev ? row.subscriberCount - prev.subscriberCount : null;
+      var changeText = change===null ? "&mdash;" : (change>0 ? "+"+change : String(change));
+      var tr = document.createElement("tr");
+      tr.innerHTML =
+        '<td class="col-date">'+formatDate(row.date)+'</td>' +
+        '<td class="col-num">'+row.subscriberCount+'</td>' +
+        '<td class="col-num">'+changeText+'</td>';
+      body.appendChild(tr);
+    });
+  }
+
+  // ---- subscriber chart ----
+  var CHART_W = 420, CHART_H = 190, CHART_L = 42, CHART_R = 14, CHART_T = 20, CHART_B = 26;
+  var chartCrosshair = document.getElementById("chart-crosshair");
+  var chartTooltip = document.getElementById("chart-tooltip");
+  var chartPointsCache = [];
+
+  function renderSubscriberChart(sorted){
+    var host = document.getElementById("sub-chart");
+    if(!host || !sorted.length) return;
+
+    var pts = sorted.map(function(r){
+      return {t:new Date(r.date).getTime(), v:r.subscriberCount, date:r.date};
+    });
+    var minT = pts[0].t, maxT = pts[pts.length-1].t;
+    var maxV = Math.max(SUBSCRIBER_GOAL, Math.max.apply(null, pts.map(function(p){ return p.v; })));
+    var x0 = CHART_L, x1 = CHART_W - CHART_R, y0 = CHART_T, y1 = CHART_H - CHART_B;
+
+    function X(t){ return pts.length<=1 ? (x0+x1)/2 : x0 + (t-minT)/(maxT-minT)*(x1-x0); }
+    function Y(v){ return y1 - (v/maxV)*(y1-y0); }
+
+    var goalY = Y(SUBSCRIBER_GOAL);
+    var last = pts[pts.length-1];
+
+    var svg = '<svg viewBox="0 0 '+CHART_W+' '+CHART_H+'" preserveAspectRatio="none" role="img" aria-label="Subscriber count over time, goal '+SUBSCRIBER_GOAL+'">';
+    svg += '<line x1="'+x0+'" y1="'+y1+'" x2="'+x1+'" y2="'+y1+'" class="chart-axis" />';
+    svg += '<line x1="'+x0+'" y1="'+goalY.toFixed(1)+'" x2="'+x1+'" y2="'+goalY.toFixed(1)+'" class="chart-goal-line" />';
+    svg += '<text x="'+x1+'" y="'+(goalY-6).toFixed(1)+'" class="chart-goal-label" text-anchor="end">Goal '+SUBSCRIBER_GOAL+'</text>';
+    svg += '<text x="'+(x0-8)+'" y="'+y1+'" class="chart-axis-label" text-anchor="end" dominant-baseline="middle">0</text>';
+
+    if(pts.length>=2){
+      var linePath = pts.map(function(p,i){ return (i===0?'M':'L')+X(p.t).toFixed(1)+','+Y(p.v).toFixed(1); }).join(' ');
+      var areaPath = linePath+' L'+X(last.t).toFixed(1)+','+y1+' L'+X(pts[0].t).toFixed(1)+','+y1+' Z';
+      svg += '<path d="'+areaPath+'" class="chart-area" />';
+      svg += '<path d="'+linePath+'" class="chart-line" />';
+    }
+
+    pts.forEach(function(p,i){
+      var isLast = i===pts.length-1;
+      svg += '<circle cx="'+X(p.t).toFixed(1)+'" cy="'+Y(p.v).toFixed(1)+'" r="'+(isLast?7:5)+'" class="chart-dot-ring" />';
+      svg += '<circle cx="'+X(p.t).toFixed(1)+'" cy="'+Y(p.v).toFixed(1)+'" r="'+(isLast?4:2.5)+'" class="chart-dot" />';
+    });
+
+    svg += '<text x="'+X(last.t).toFixed(1)+'" y="'+(Y(last.v)-13).toFixed(1)+'" class="chart-value-label" text-anchor="middle">'+last.v+'</text>';
+    svg += '<text x="'+x0+'" y="'+(CHART_H-6)+'" class="chart-axis-label" text-anchor="start">'+formatDate(pts[0].date)+'</text>';
+    if(pts.length>1){
+      svg += '<text x="'+x1+'" y="'+(CHART_H-6)+'" class="chart-axis-label" text-anchor="end">'+formatDate(last.date)+'</text>';
+    }
+    svg += '</svg>';
+
+    if(pts.length<2){
+      svg += '<p class="chart-empty-note">Come back after your next refresh to start seeing a trend line &mdash; today is the first tracked point.</p>';
+    }
+
+    host.innerHTML = svg;
+    chartPointsCache = pts.map(function(p,i){ return {xFrac:(X(p.t)-0)/CHART_W, v:p.v, date:p.date, prev: i>0 ? pts[i-1].v : null}; });
+  }
+
+  function chartPointerMove(e){
+    if(!chartPointsCache.length) return;
+    var host = document.getElementById("sub-chart");
+    var svgEl = host.querySelector("svg");
+    if(!svgEl) return;
+    var rect = svgEl.getBoundingClientRect();
+    var relX = Math.max(0, Math.min(1, (e.clientX-rect.left)/rect.width));
+    var nearest = chartPointsCache[0], best = Infinity;
+    chartPointsCache.forEach(function(p){
+      var d = Math.abs(p.xFrac-relX);
+      if(d<best){ best=d; nearest=p; }
+    });
+    var px = rect.left + nearest.xFrac*rect.width;
+    chartCrosshair.style.left = px+"px";
+    chartCrosshair.style.top = rect.top+"px";
+    chartCrosshair.style.height = rect.height+"px";
+    chartCrosshair.hidden = false;
+
+    var change = nearest.prev!=null ? nearest.v-nearest.prev : null;
+    var changeText = change==null ? "first tracked point" : ((change>0?"+":"")+change+" since previous check");
+    chartTooltip.innerHTML = '<b>'+nearest.v+'</b> subscribers<div class="tt-sub">'+formatDate(nearest.date)+' &middot; '+changeText+'</div>';
+    var tx = e.clientX+16, ty = e.clientY+16;
+    if(tx+150>window.innerWidth) tx = e.clientX-166;
+    chartTooltip.style.left = tx+"px";
+    chartTooltip.style.top = ty+"px";
+    chartTooltip.hidden = false;
+  }
+  function chartPointerLeave(){
+    chartCrosshair.hidden = true;
+    chartTooltip.hidden = true;
+  }
+  var subChartHost = document.getElementById("sub-chart");
+  if(subChartHost){
+    subChartHost.addEventListener("mousemove", chartPointerMove);
+    subChartHost.addEventListener("mouseleave", chartPointerLeave);
+  }
+
+  // ---- longform panel ----
+  function renderLongform(v){
+    if(!v) return;
+    var host = document.getElementById("long-hero");
+    host.innerHTML =
+      '<a class="long-thumb-wrap" href="https://www.youtube.com/watch?v='+v.id+'" target="_blank" rel="noopener" aria-label="Watch '+escapeHtml(v.title)+' on YouTube">' +
+        '<img src="'+v.thumbnail+'" alt="" loading="lazy" />' +
+        '<span class="play-icon">'+PLAY_ICON+'</span>' +
+      '</a>' +
+      '<div class="long-body">' +
+        '<h3 class="long-title"><a href="https://www.youtube.com/watch?v='+v.id+'" target="_blank" rel="noopener">'+escapeHtml(v.title)+'</a></h3>' +
+        '<div class="long-meta">'+formatDate(v.publishedAt)+' &middot; '+relTime(v.publishedAt)+' &middot; '+formatDuration(v.durationSeconds)+'</div>' +
+        '<div class="long-stats">' +
+          '<div class="long-stat"><span class="long-stat-label">Views</span><span class="long-stat-value">'+formatCount(v.views)+'</span></div>' +
+          '<div class="long-stat"><span class="long-stat-label">Likes</span><span class="long-stat-value">'+formatCount(v.likes)+'</span></div>' +
+          '<div class="long-stat"><span class="long-stat-label">Comments</span><span class="long-stat-value">'+formatCount(v.comments)+'</span></div>' +
+        '</div>' +
+      '</div>';
+  }
+
+  // ---- shortform panel ----
+  function renderShortform(videos){
+    if(!videos || !videos.length) return;
+    var host = document.getElementById("short-strip");
+    host.innerHTML = "";
+    videos.slice(0,8).forEach(function(v){
+      var tile = document.createElement("a");
+      tile.href = "https://www.youtube.com/watch?v="+v.id;
+      tile.target = "_blank";
+      tile.rel = "noopener";
+      tile.className = "short-tile";
+      tile.setAttribute("aria-label", "Watch "+v.title+" on YouTube");
+      tile.innerHTML =
+        '<span class="short-thumb"><img src="'+v.thumbnail+'" alt="" loading="lazy" /></span>' +
+        '<span class="short-title">'+escapeHtml(v.title)+'</span>' +
+        '<span class="short-views">'+formatCount(v.views)+' views</span>';
+      host.appendChild(tile);
+    });
+  }
+
+  // ---- load live data and paint ----
+  fetch("data.json", {cache:"no-store"})
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      if(data.subscriberGoal) SUBSCRIBER_GOAL = data.subscriberGoal;
+      var versionTag = document.getElementById("version-tag");
+      if(versionTag && data.version) versionTag.textContent = "v"+data.version;
+      var goalNumEl = document.getElementById("sub-goal-num");
+      if(goalNumEl && data.subscriberGoal) goalNumEl.textContent = data.subscriberGoal;
+      renderMeta(data.meta);
+      renderTable((data.videos||[]).slice(0,20));
+      renderPopular(data.popularVideos||[]);
+      renderLongform(data.longform);
+      renderShortform((data.videos||[]).filter(function(v){ return v.durationSeconds<=180; }).slice(0,8));
+      renderSubscriberHistory(data.subscriberHistory||[]);
+    })
+    .catch(function(err){
+      channelSub.textContent = "Couldn't load live data (" + err.message + "). Try reloading the page.";
+    });
+
+})();
+</script>
+
+</body>
+</html>

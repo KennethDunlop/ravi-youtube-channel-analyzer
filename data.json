@@ -1,5 +1,5 @@
 {
-  "version": "1.3",
+  "version": "1.4",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 378,
-    "videoCount": 214,
-    "channelViews": 90049,
+    "videoCount": 215,
+    "channelViews": 90056,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-09-19T07:00:47.725Z",
+    "lastUpdated": "2026-09-19T19:00:26.251Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -27,12 +27,22 @@
   ],
   "videos": [
     {
+      "id": "ydC_89ZWblo",
+      "title": "Brown Men, Your NAME Is Killing Your Matches (so do THIS)",
+      "publishedAt": "2026-09-19T14:15:53Z",
+      "thumbnail": "thumbs/ydC_89ZWblo.jpg",
+      "views": 440,
+      "likes": 7,
+      "comments": 0,
+      "durationSeconds": 40
+    },
+    {
       "id": "OCJQLjruaBY",
       "title": "Brown Men Will NEVER Get Hot Girls",
       "publishedAt": "2026-09-18T07:32:33Z",
       "thumbnail": "thumbs/OCJQLjruaBY.jpg",
-      "views": 13,
-      "likes": 0,
+      "views": 21,
+      "likes": 1,
       "comments": 0,
       "durationSeconds": 69
     },
@@ -41,7 +51,7 @@
       "title": "Brown Men Get REJECTED",
       "publishedAt": "2026-09-17T18:01:16Z",
       "thumbnail": "thumbs/OFrzeA0E-bA.jpg",
-      "views": 798,
+      "views": 802,
       "likes": 10,
       "comments": 5,
       "durationSeconds": 83
@@ -51,8 +61,8 @@
       "title": "Brown Men ALWAYS Get Rejected (Unless They Do THIS)",
       "publishedAt": "2026-09-17T14:19:20Z",
       "thumbnail": "thumbs/_L4AVPfhLgg.jpg",
-      "views": 32,
-      "likes": 1,
+      "views": 41,
+      "likes": 2,
       "comments": 0,
       "durationSeconds": 87
     },
@@ -61,7 +71,7 @@
       "title": "Brown Men Will NEVER Get Matches (Unless They Do This)",
       "publishedAt": "2026-09-17T06:07:53Z",
       "thumbnail": "thumbs/L6RFPAwFj-8.jpg",
-      "views": 1029,
+      "views": 1031,
       "likes": 5,
       "comments": 4,
       "durationSeconds": 68
@@ -71,7 +81,7 @@
       "title": "Average Looking Brown Men Will Fat At Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-16T09:56:45Z",
       "thumbnail": "thumbs/ep_Z8SeN4TI.jpg",
-      "views": 1953,
+      "views": 1959,
       "likes": 23,
       "comments": 3,
       "durationSeconds": 78
@@ -81,7 +91,7 @@
       "title": "Brown Men: More Women = Less Neediness",
       "publishedAt": "2026-09-15T19:58:50Z",
       "thumbnail": "thumbs/Xk9lKclyNQA.jpg",
-      "views": 171,
+      "views": 165,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 55
@@ -91,7 +101,7 @@
       "title": "Brown Men: Want Hot Girls?",
       "publishedAt": "2026-09-15T11:40:12Z",
       "thumbnail": "thumbs/JtUWiOptJfY.jpg",
-      "views": 1073,
+      "views": 1063,
       "likes": 17,
       "comments": 1,
       "durationSeconds": 52
@@ -101,7 +111,7 @@
       "title": "Brown Men Never Get Hot Wives",
       "publishedAt": "2026-09-14T20:37:13Z",
       "thumbnail": "thumbs/Ej-jHfGaSCE.jpg",
-      "views": 146,
+      "views": 147,
       "likes": 3,
       "comments": 2,
       "durationSeconds": 64
@@ -111,7 +121,7 @@
       "title": "Brown Men NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-14T09:13:41Z",
       "thumbnail": "thumbs/jaJt7lNpp2M.jpg",
-      "views": 1388,
+      "views": 1389,
       "likes": 19,
       "comments": 9,
       "durationSeconds": 50
@@ -121,7 +131,7 @@
       "title": "Brown Men: Never Treat Dating Apps Like This",
       "publishedAt": "2026-09-11T19:43:43Z",
       "thumbnail": "thumbs/yHgDdstYKgA.jpg",
-      "views": 232,
+      "views": 233,
       "likes": 5,
       "comments": 0,
       "durationSeconds": 69
@@ -131,7 +141,7 @@
       "title": "Brown Men Ruin Their Dates (Unless They Do This)",
       "publishedAt": "2026-09-11T13:10:27Z",
       "thumbnail": "thumbs/obaeZPGgVrQ.jpg",
-      "views": 1324,
+      "views": 1325,
       "likes": 19,
       "comments": 2,
       "durationSeconds": 55
@@ -141,7 +151,7 @@
       "title": "Brown Men Should NOT Say This When Theyre Dating",
       "publishedAt": "2026-09-10T19:07:04Z",
       "thumbnail": "thumbs/l0K20G1sB6E.jpg",
-      "views": 1335,
+      "views": 1336,
       "likes": 8,
       "comments": 0,
       "durationSeconds": 50
@@ -151,7 +161,7 @@
       "title": "Brown Men Should STOP Doing THIS On Their Dates",
       "publishedAt": "2026-09-10T11:56:53Z",
       "thumbnail": "thumbs/refG5_-5HJg.jpg",
-      "views": 253,
+      "views": 254,
       "likes": 3,
       "comments": 0,
       "durationSeconds": 49
@@ -215,16 +225,6 @@
       "likes": 9,
       "comments": 4,
       "durationSeconds": 45
-    },
-    {
-      "id": "OJNfB8PeFi8",
-      "title": "Brown Men Dating In The West Are DOOMED Unless They Do THIS",
-      "publishedAt": "2026-09-03T14:35:59Z",
-      "thumbnail": "thumbs/OJNfB8PeFi8.jpg",
-      "views": 302,
-      "likes": 1,
-      "comments": 2,
-      "durationSeconds": 47
     }
   ],
   "longform": {
@@ -253,7 +253,7 @@
       "title": "Average Looking Brown Men Will Fat At Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-16T09:56:45Z",
       "thumbnail": "thumbs/ep_Z8SeN4TI.jpg",
-      "views": 1953,
+      "views": 1959,
       "likes": 23,
       "comments": 3,
       "durationSeconds": 78
@@ -363,7 +363,7 @@
       "title": "Brown Men NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-14T09:13:41Z",
       "thumbnail": "thumbs/jaJt7lNpp2M.jpg",
-      "views": 1388,
+      "views": 1389,
       "likes": 19,
       "comments": 9,
       "durationSeconds": 50
@@ -393,7 +393,7 @@
       "title": "Brown Men Should NOT Say This When Theyre Dating",
       "publishedAt": "2026-09-10T19:07:04Z",
       "thumbnail": "thumbs/l0K20G1sB6E.jpg",
-      "views": 1335,
+      "views": 1336,
       "likes": 8,
       "comments": 0,
       "durationSeconds": 50
@@ -403,7 +403,7 @@
       "title": "Brown Men Ruin Their Dates (Unless They Do This)",
       "publishedAt": "2026-09-11T13:10:27Z",
       "thumbnail": "thumbs/obaeZPGgVrQ.jpg",
-      "views": 1324,
+      "views": 1325,
       "likes": 19,
       "comments": 2,
       "durationSeconds": 55
@@ -475,6 +475,7 @@
     "ykzC5Eczksw",
     "RS3ExnB314w",
     "Ok5s-lrETks",
-    "NB8PFFrdQVs"
+    "NB8PFFrdQVs",
+    "ydC_89ZWblo"
   ]
 }

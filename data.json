@@ -1,5 +1,5 @@
 {
-  "version": "1.6",
+  "version": "1.7",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
-    "subscriberCount": 375,
+    "subscriberCount": 378,
     "videoCount": 215,
     "channelViews": 89877,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-09-20T19:00:40.348Z",
+    "lastUpdated": "2026-09-21T07:00:36.925Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -27,6 +27,10 @@
     {
       "date": "2026-09-20",
       "subscriberCount": 375
+    },
+    {
+      "date": "2026-09-21",
+      "subscriberCount": 378
     }
   ],
   "videos": [
@@ -35,7 +39,7 @@
       "title": "Brown Men, Your NAME Is Killing Your Matches (so do THIS)",
       "publishedAt": "2026-09-19T14:15:53Z",
       "thumbnail": "thumbs/ydC_89ZWblo.jpg",
-      "views": 699,
+      "views": 702,
       "likes": 6,
       "comments": 0,
       "durationSeconds": 40
@@ -55,7 +59,7 @@
       "title": "Brown Men Get REJECTED",
       "publishedAt": "2026-09-17T18:01:16Z",
       "thumbnail": "thumbs/OFrzeA0E-bA.jpg",
-      "views": 810,
+      "views": 777,
       "likes": 11,
       "comments": 5,
       "durationSeconds": 83
@@ -75,7 +79,7 @@
       "title": "Brown Men Will NEVER Get Matches (Unless They Do This)",
       "publishedAt": "2026-09-17T06:07:53Z",
       "thumbnail": "thumbs/L6RFPAwFj-8.jpg",
-      "views": 1030,
+      "views": 1028,
       "likes": 5,
       "comments": 4,
       "durationSeconds": 68
@@ -85,7 +89,7 @@
       "title": "Average Looking Brown Men Will Fat At Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-16T09:56:45Z",
       "thumbnail": "thumbs/ep_Z8SeN4TI.jpg",
-      "views": 1817,
+      "views": 1819,
       "likes": 23,
       "comments": 3,
       "durationSeconds": 78
@@ -95,7 +99,7 @@
       "title": "Brown Men: More Women = Less Neediness",
       "publishedAt": "2026-09-15T19:58:50Z",
       "thumbnail": "thumbs/Xk9lKclyNQA.jpg",
-      "views": 160,
+      "views": 158,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 55
@@ -257,7 +261,7 @@
       "title": "Average Looking Brown Men Will Fat At Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-16T09:56:45Z",
       "thumbnail": "thumbs/ep_Z8SeN4TI.jpg",
-      "views": 1817,
+      "views": 1819,
       "likes": 23,
       "comments": 3,
       "durationSeconds": 78

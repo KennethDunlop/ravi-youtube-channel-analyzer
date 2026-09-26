@@ -1,5 +1,5 @@
 {
-  "version": "1.17",
+  "version": "1.18",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 380,
-    "videoCount": 219,
-    "channelViews": 92953,
+    "videoCount": 220,
+    "channelViews": 92956,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-09-26T07:00:35.752Z",
+    "lastUpdated": "2026-09-26T19:00:26.034Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -55,11 +55,21 @@
   ],
   "videos": [
     {
+      "id": "btfCj0ZWEbI",
+      "title": "Brown Men LOSE In Dating (Unless They Do THIS)",
+      "publishedAt": "2026-09-26T16:15:41Z",
+      "thumbnail": "thumbs/btfCj0ZWEbI.jpg",
+      "views": 40,
+      "likes": 1,
+      "comments": 0,
+      "durationSeconds": 98
+    },
+    {
       "id": "6dwjM1-sD5c",
       "title": "Brown Men: THIS Is Why Women Swipe Left",
       "publishedAt": "2026-09-23T15:32:30Z",
       "thumbnail": "thumbs/6dwjM1-sD5c.jpg",
-      "views": 999,
+      "views": 1002,
       "likes": 18,
       "comments": 0,
       "durationSeconds": 64
@@ -69,8 +79,8 @@
       "title": "Brown Men: STOP Trying To Make Her Like You",
       "publishedAt": "2026-09-23T00:02:48Z",
       "thumbnail": "thumbs/AKwwNu91Riw.jpg",
-      "views": 82,
-      "likes": 2,
+      "views": 83,
+      "likes": 3,
       "comments": 0,
       "durationSeconds": 63
     },
@@ -149,7 +159,7 @@
       "title": "Average Looking Brown Men Will Fat At Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-16T09:56:45Z",
       "thumbnail": "thumbs/ep_Z8SeN4TI.jpg",
-      "views": 1829,
+      "views": 1830,
       "likes": 24,
       "comments": 3,
       "durationSeconds": 78
@@ -189,8 +199,8 @@
       "title": "Brown Men NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-14T09:13:41Z",
       "thumbnail": "thumbs/jaJt7lNpp2M.jpg",
-      "views": 1390,
-      "likes": 19,
+      "views": 1391,
+      "likes": 20,
       "comments": 9,
       "durationSeconds": 50
     },
@@ -243,16 +253,6 @@
       "likes": 0,
       "comments": 0,
       "durationSeconds": 60
-    },
-    {
-      "id": "msrpFbzbC40",
-      "title": "Brown Men Are INVISIBLE",
-      "publishedAt": "2026-09-08T16:15:52Z",
-      "thumbnail": "thumbs/msrpFbzbC40.jpg",
-      "views": 1014,
-      "likes": 14,
-      "comments": 4,
-      "durationSeconds": 57
     }
   ],
   "longform": {
@@ -281,7 +281,7 @@
       "title": "Average Looking Brown Men Will Fat At Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-16T09:56:45Z",
       "thumbnail": "thumbs/ep_Z8SeN4TI.jpg",
-      "views": 1829,
+      "views": 1830,
       "likes": 24,
       "comments": 3,
       "durationSeconds": 78
@@ -391,8 +391,8 @@
       "title": "Brown Men NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-14T09:13:41Z",
       "thumbnail": "thumbs/jaJt7lNpp2M.jpg",
-      "views": 1390,
-      "likes": 19,
+      "views": 1391,
+      "likes": 20,
       "comments": 9,
       "durationSeconds": 50
     },
@@ -508,6 +508,7 @@
     "CXFH32vrd34",
     "AKwwNu91Riw",
     "hbsJpSFkTLs",
-    "6dwjM1-sD5c"
+    "6dwjM1-sD5c",
+    "btfCj0ZWEbI"
   ]
 }

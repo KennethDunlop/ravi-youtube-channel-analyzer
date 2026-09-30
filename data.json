@@ -1,5 +1,5 @@
 {
-  "version": "1.25",
+  "version": "1.26",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 381,
-    "videoCount": 222,
-    "channelViews": 94576,
+    "videoCount": 224,
+    "channelViews": 94817,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-09-30T07:00:37.417Z",
+    "lastUpdated": "2026-09-30T19:00:49.077Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -71,11 +71,31 @@
   ],
   "videos": [
     {
+      "id": "TqvlPb-2bZE",
+      "title": "Successful Brown Men LOSE In Dating (Unless They Do THIS)",
+      "publishedAt": "2026-09-30T16:22:13Z",
+      "thumbnail": "thumbs/TqvlPb-2bZE.jpg",
+      "views": 1,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 64
+    },
+    {
+      "id": "ndl-uB8zoRs",
+      "title": "Brown Men FAIL At Online Dating (Unless They Know THIS)",
+      "publishedAt": "2026-09-30T13:34:17Z",
+      "thumbnail": "thumbs/ndl-uB8zoRs.jpg",
+      "views": 911,
+      "likes": 16,
+      "comments": 0,
+      "durationSeconds": 43
+    },
+    {
       "id": "x9gWVlII3rk",
       "title": "Brown Men Will NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-28T16:42:52Z",
       "thumbnail": "thumbs/x9gWVlII3rk.jpg",
-      "views": 9,
+      "views": 14,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 77
@@ -85,7 +105,7 @@
       "title": "Brown Men Must Take 3 STEPS To Win In Western Dating",
       "publishedAt": "2026-09-26T21:30:10Z",
       "thumbnail": "thumbs/GXwbtnKC8h0.jpg",
-      "views": 1483,
+      "views": 1586,
       "likes": 8,
       "comments": 2,
       "durationSeconds": 124
@@ -95,7 +115,7 @@
       "title": "Brown Men LOSE In Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-26T16:15:41Z",
       "thumbnail": "thumbs/btfCj0ZWEbI.jpg",
-      "views": 315,
+      "views": 316,
       "likes": 4,
       "comments": 0,
       "durationSeconds": 98
@@ -105,7 +125,7 @@
       "title": "Brown Men: THIS Is Why Women Swipe Left",
       "publishedAt": "2026-09-23T15:32:30Z",
       "thumbnail": "thumbs/6dwjM1-sD5c.jpg",
-      "views": 1003,
+      "views": 1004,
       "likes": 18,
       "comments": 0,
       "durationSeconds": 64
@@ -249,26 +269,6 @@
       "likes": 5,
       "comments": 0,
       "durationSeconds": 69
-    },
-    {
-      "id": "obaeZPGgVrQ",
-      "title": "Brown Men Ruin Their Dates (Unless They Do This)",
-      "publishedAt": "2026-09-11T13:10:27Z",
-      "thumbnail": "thumbs/obaeZPGgVrQ.jpg",
-      "views": 1327,
-      "likes": 19,
-      "comments": 2,
-      "durationSeconds": 55
-    },
-    {
-      "id": "l0K20G1sB6E",
-      "title": "Brown Men Should NOT Say This When Theyre Dating",
-      "publishedAt": "2026-09-10T19:07:04Z",
-      "thumbnail": "thumbs/l0K20G1sB6E.jpg",
-      "views": 1338,
-      "likes": 8,
-      "comments": 0,
-      "durationSeconds": 50
     }
   ],
   "longform": {
@@ -276,7 +276,7 @@
     "title": "Dating Is Not Race Blind. Why Indian And Asian Men On $300K Lose To A $30K Barista. How To Fix It.",
     "publishedAt": "2026-08-19T18:00:23Z",
     "thumbnail": "thumbs/NB8PFFrdQVs.jpg",
-    "views": 145,
+    "views": 146,
     "likes": 4,
     "comments": 0,
     "durationSeconds": 1084
@@ -353,6 +353,16 @@
       "durationSeconds": 419
     },
     {
+      "id": "GXwbtnKC8h0",
+      "title": "Brown Men Must Take 3 STEPS To Win In Western Dating",
+      "publishedAt": "2026-09-26T21:30:10Z",
+      "thumbnail": "thumbs/GXwbtnKC8h0.jpg",
+      "views": 1586,
+      "likes": 8,
+      "comments": 2,
+      "durationSeconds": 124
+    },
+    {
       "id": "nztIZ0n7530",
       "title": "If You Freeze Socially, It’s Not A Confidence Problem",
       "publishedAt": "2026-01-06T22:11:46Z",
@@ -381,16 +391,6 @@
       "likes": 28,
       "comments": 13,
       "durationSeconds": 570
-    },
-    {
-      "id": "GXwbtnKC8h0",
-      "title": "Brown Men Must Take 3 STEPS To Win In Western Dating",
-      "publishedAt": "2026-09-26T21:30:10Z",
-      "thumbnail": "thumbs/GXwbtnKC8h0.jpg",
-      "views": 1483,
-      "likes": 8,
-      "comments": 2,
-      "durationSeconds": 124
     },
     {
       "id": "Fv3GLdEAAgc",
@@ -527,6 +527,8 @@
     "6dwjM1-sD5c",
     "btfCj0ZWEbI",
     "GXwbtnKC8h0",
-    "x9gWVlII3rk"
+    "x9gWVlII3rk",
+    "TqvlPb-2bZE",
+    "ndl-uB8zoRs"
   ]
 }

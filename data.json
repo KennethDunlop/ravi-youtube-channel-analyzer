@@ -1,5 +1,5 @@
 {
-  "version": "1.28",
+  "version": "1.29",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -11,7 +11,7 @@
     "videoCount": 228,
     "channelViews": 96524,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-01T19:01:02.982Z",
+    "lastUpdated": "2026-10-02T07:00:19.159Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -71,6 +71,10 @@
     {
       "date": "2026-10-01",
       "subscriberCount": 382
+    },
+    {
+      "date": "2026-10-02",
+      "subscriberCount": 382
     }
   ],
   "videos": [
@@ -79,8 +83,8 @@
       "title": "Brown Men Dating MUST OVERCOME This (Or They’ll Fail)",
       "publishedAt": "2026-10-01T18:30:03Z",
       "thumbnail": "thumbs/613ex24C4Tw.jpg",
-      "views": 34,
-      "likes": 0,
+      "views": 388,
+      "likes": 7,
       "comments": 0,
       "durationSeconds": 70
     },
@@ -89,7 +93,7 @@
       "title": "Brown Men Dating LOSE The Girl (Unless They Do THIS)",
       "publishedAt": "2026-10-01T12:00:31Z",
       "thumbnail": "thumbs/JyYvwwh782w.jpg",
-      "views": 757,
+      "views": 1015,
       "likes": 14,
       "comments": 0,
       "durationSeconds": 60
@@ -99,7 +103,7 @@
       "title": "Brown Men Dating MUST Avoid This (Or They'll FAIL)",
       "publishedAt": "2026-10-01T08:41:34Z",
       "thumbnail": "thumbs/DlmbNSsQzlU.jpg",
-      "views": 1158,
+      "views": 1173,
       "likes": 15,
       "comments": 0,
       "durationSeconds": 73
@@ -109,7 +113,7 @@
       "title": "Respectful Brown Men WONT Attract Girls (Unless They Do This)",
       "publishedAt": "2026-09-30T21:30:27Z",
       "thumbnail": "thumbs/DFyNJJNX8Y8.jpg",
-      "views": 22,
+      "views": 25,
       "likes": 1,
       "comments": 1,
       "durationSeconds": 62
@@ -119,7 +123,7 @@
       "title": "Successful Brown Men LOSE In Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-30T16:22:13Z",
       "thumbnail": "thumbs/TqvlPb-2bZE.jpg",
-      "views": 24,
+      "views": 27,
       "likes": 1,
       "comments": 0,
       "durationSeconds": 64
@@ -129,7 +133,7 @@
       "title": "Brown Men FAIL At Online Dating (Unless They Know THIS)",
       "publishedAt": "2026-09-30T13:34:17Z",
       "thumbnail": "thumbs/ndl-uB8zoRs.jpg",
-      "views": 1330,
+      "views": 1333,
       "likes": 16,
       "comments": 0,
       "durationSeconds": 43
@@ -139,7 +143,7 @@
       "title": "Brown Men Will NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-28T16:42:52Z",
       "thumbnail": "thumbs/x9gWVlII3rk.jpg",
-      "views": 29,
+      "views": 31,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 77
@@ -149,7 +153,7 @@
       "title": "Brown Men Must Take 3 STEPS To Win In Western Dating",
       "publishedAt": "2026-09-26T21:30:10Z",
       "thumbnail": "thumbs/GXwbtnKC8h0.jpg",
-      "views": 1674,
+      "views": 1672,
       "likes": 8,
       "comments": 2,
       "durationSeconds": 124
@@ -327,16 +331,6 @@
       "durationSeconds": 1349
     },
     {
-      "id": "GXwbtnKC8h0",
-      "title": "Brown Men Must Take 3 STEPS To Win In Western Dating",
-      "publishedAt": "2026-09-26T21:30:10Z",
-      "thumbnail": "thumbs/GXwbtnKC8h0.jpg",
-      "views": 1674,
-      "likes": 8,
-      "comments": 2,
-      "durationSeconds": 124
-    },
-    {
       "id": "ToMAvRHGBDw",
       "title": "Can I Get 5 Chats in NYC?",
       "publishedAt": "2026-04-18T02:26:38Z",
@@ -345,6 +339,16 @@
       "likes": 10,
       "comments": 0,
       "durationSeconds": 16
+    },
+    {
+      "id": "GXwbtnKC8h0",
+      "title": "Brown Men Must Take 3 STEPS To Win In Western Dating",
+      "publishedAt": "2026-09-26T21:30:10Z",
+      "thumbnail": "thumbs/GXwbtnKC8h0.jpg",
+      "views": 1672,
+      "likes": 8,
+      "comments": 2,
+      "durationSeconds": 124
     },
     {
       "id": "dKGZva_EwUo",
@@ -461,7 +465,7 @@
       "title": "Brown Men FAIL At Online Dating (Unless They Know THIS)",
       "publishedAt": "2026-09-30T13:34:17Z",
       "thumbnail": "thumbs/ndl-uB8zoRs.jpg",
-      "views": 1330,
+      "views": 1333,
       "likes": 16,
       "comments": 0,
       "durationSeconds": 43

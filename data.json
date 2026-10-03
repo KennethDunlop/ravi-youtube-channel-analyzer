@@ -1,5 +1,5 @@
 {
-  "version": "1.30",
+  "version": "1.31",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
-    "subscriberCount": 382,
-    "videoCount": 230,
-    "channelViews": 98804,
+    "subscriberCount": 383,
+    "videoCount": 231,
+    "channelViews": 99283,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-02T19:00:41.994Z",
+    "lastUpdated": "2026-10-03T07:01:22.756Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -75,16 +75,30 @@
     {
       "date": "2026-10-02",
       "subscriberCount": 382
+    },
+    {
+      "date": "2026-10-03",
+      "subscriberCount": 383
     }
   ],
   "videos": [
+    {
+      "id": "F3mYu1ibhvY",
+      "title": "Brown Men Will NEVER Attract Women (unless they do THIS)",
+      "publishedAt": "2026-10-02T21:30:07Z",
+      "thumbnail": "thumbs/F3mYu1ibhvY.jpg",
+      "views": 43,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 70
+    },
     {
       "id": "hXfBiy7LuhM",
       "title": "Insecure Brown Men DESTROY Their Dating Option (unless they do THIS)",
       "publishedAt": "2026-10-02T18:30:35Z",
       "thumbnail": "thumbs/hXfBiy7LuhM.jpg",
-      "views": 31,
-      "likes": 1,
+      "views": 343,
+      "likes": 2,
       "comments": 0,
       "durationSeconds": 75
     },
@@ -93,7 +107,7 @@
       "title": "Brown Men Will NEVER Get Hot Wives (unless they do THIS)",
       "publishedAt": "2026-10-02T15:05:59Z",
       "thumbnail": "thumbs/37mXg-VBl7Q.jpg",
-      "views": 9,
+      "views": 23,
       "likes": 1,
       "comments": 0,
       "durationSeconds": 64
@@ -103,7 +117,7 @@
       "title": "Brown Men Dating MUST OVERCOME This (Or They’ll Fail)",
       "publishedAt": "2026-10-01T18:30:03Z",
       "thumbnail": "thumbs/613ex24C4Tw.jpg",
-      "views": 443,
+      "views": 462,
       "likes": 7,
       "comments": 0,
       "durationSeconds": 70
@@ -113,7 +127,7 @@
       "title": "Brown Men Dating LOSE The Girl (Unless They Do THIS)",
       "publishedAt": "2026-10-01T12:00:31Z",
       "thumbnail": "thumbs/JyYvwwh782w.jpg",
-      "views": 1024,
+      "views": 1025,
       "likes": 13,
       "comments": 0,
       "durationSeconds": 60
@@ -123,7 +137,7 @@
       "title": "Brown Men Dating MUST Avoid This (Or They'll FAIL)",
       "publishedAt": "2026-10-01T08:41:34Z",
       "thumbnail": "thumbs/DlmbNSsQzlU.jpg",
-      "views": 1181,
+      "views": 1185,
       "likes": 15,
       "comments": 0,
       "durationSeconds": 73
@@ -133,7 +147,7 @@
       "title": "Respectful Brown Men WONT Attract Girls (Unless They Do This)",
       "publishedAt": "2026-09-30T21:30:27Z",
       "thumbnail": "thumbs/DFyNJJNX8Y8.jpg",
-      "views": 30,
+      "views": 34,
       "likes": 1,
       "comments": 1,
       "durationSeconds": 62
@@ -143,7 +157,7 @@
       "title": "Successful Brown Men LOSE In Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-30T16:22:13Z",
       "thumbnail": "thumbs/TqvlPb-2bZE.jpg",
-      "views": 28,
+      "views": 31,
       "likes": 1,
       "comments": 0,
       "durationSeconds": 64
@@ -153,7 +167,7 @@
       "title": "Brown Men FAIL At Online Dating (Unless They Know THIS)",
       "publishedAt": "2026-09-30T13:34:17Z",
       "thumbnail": "thumbs/ndl-uB8zoRs.jpg",
-      "views": 1336,
+      "views": 1337,
       "likes": 16,
       "comments": 0,
       "durationSeconds": 43
@@ -163,7 +177,7 @@
       "title": "Brown Men Will NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-28T16:42:52Z",
       "thumbnail": "thumbs/x9gWVlII3rk.jpg",
-      "views": 30,
+      "views": 31,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 77
@@ -173,7 +187,7 @@
       "title": "Brown Men Must Take 3 STEPS To Win In Western Dating",
       "publishedAt": "2026-09-26T21:30:10Z",
       "thumbnail": "thumbs/GXwbtnKC8h0.jpg",
-      "views": 1671,
+      "views": 1672,
       "likes": 8,
       "comments": 2,
       "durationSeconds": 124
@@ -183,7 +197,7 @@
       "title": "Brown Men LOSE In Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-26T16:15:41Z",
       "thumbnail": "thumbs/btfCj0ZWEbI.jpg",
-      "views": 320,
+      "views": 321,
       "likes": 4,
       "comments": 0,
       "durationSeconds": 98
@@ -193,7 +207,7 @@
       "title": "Brown Men: THIS Is Why Women Swipe Left",
       "publishedAt": "2026-09-23T15:32:30Z",
       "thumbnail": "thumbs/6dwjM1-sD5c.jpg",
-      "views": 1011,
+      "views": 1012,
       "likes": 18,
       "comments": 0,
       "durationSeconds": 64
@@ -203,7 +217,7 @@
       "title": "Brown Men: STOP Trying To Make Her Like You",
       "publishedAt": "2026-09-23T00:02:48Z",
       "thumbnail": "thumbs/AKwwNu91Riw.jpg",
-      "views": 90,
+      "views": 91,
       "likes": 3,
       "comments": 0,
       "durationSeconds": 63
@@ -213,7 +227,7 @@
       "title": "Brown Men: STOP Asking Women These Questions",
       "publishedAt": "2026-09-22T20:19:33Z",
       "thumbnail": "thumbs/hbsJpSFkTLs.jpg",
-      "views": 48,
+      "views": 49,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 57
@@ -223,7 +237,7 @@
       "title": "Brown Men Are Building THE WRONG Bodies To Attract Girls",
       "publishedAt": "2026-09-22T13:35:24Z",
       "thumbnail": "thumbs/CXFH32vrd34.jpg",
-      "views": 1199,
+      "views": 1200,
       "likes": 23,
       "comments": 0,
       "durationSeconds": 62
@@ -233,7 +247,7 @@
       "title": "Brown Men, Your NAME Is Killing Your Matches (so do THIS)",
       "publishedAt": "2026-09-19T14:15:53Z",
       "thumbnail": "thumbs/ydC_89ZWblo.jpg",
-      "views": 723,
+      "views": 724,
       "likes": 6,
       "comments": 0,
       "durationSeconds": 40
@@ -243,7 +257,7 @@
       "title": "Brown Men Will NEVER Get Hot Girls",
       "publishedAt": "2026-09-18T07:32:33Z",
       "thumbnail": "thumbs/OCJQLjruaBY.jpg",
-      "views": 31,
+      "views": 32,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 69
@@ -253,7 +267,7 @@
       "title": "Brown Men Get REJECTED",
       "publishedAt": "2026-09-17T18:01:16Z",
       "thumbnail": "thumbs/OFrzeA0E-bA.jpg",
-      "views": 785,
+      "views": 786,
       "likes": 11,
       "comments": 5,
       "durationSeconds": 83
@@ -263,20 +277,10 @@
       "title": "Brown Men ALWAYS Get Rejected (Unless They Do THIS)",
       "publishedAt": "2026-09-17T14:19:20Z",
       "thumbnail": "thumbs/_L4AVPfhLgg.jpg",
-      "views": 45,
+      "views": 46,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 87
-    },
-    {
-      "id": "L6RFPAwFj-8",
-      "title": "Brown Men Will NEVER Get Matches (Unless They Do This)",
-      "publishedAt": "2026-09-17T06:07:53Z",
-      "thumbnail": "thumbs/L6RFPAwFj-8.jpg",
-      "views": 1029,
-      "likes": 5,
-      "comments": 4,
-      "durationSeconds": 68
     }
   ],
   "longform": {
@@ -284,7 +288,7 @@
     "title": "Dating Is Not Race Blind. Why Indian And Asian Men On $300K Lose To A $30K Barista. How To Fix It.",
     "publishedAt": "2026-08-19T18:00:23Z",
     "thumbnail": "thumbs/NB8PFFrdQVs.jpg",
-    "views": 147,
+    "views": 149,
     "likes": 4,
     "comments": 0,
     "durationSeconds": 1084
@@ -315,7 +319,7 @@
       "title": "Asking Girls In NYC The Real Reason Women Lose Interest in Men",
       "publishedAt": "2026-04-15T21:50:34Z",
       "thumbnail": "thumbs/OdU7SQEZeK4.jpg",
-      "views": 1743,
+      "views": 1744,
       "likes": 14,
       "comments": 7,
       "durationSeconds": 239
@@ -325,7 +329,7 @@
       "title": "I Spent 10 Years Trying To Get A Girlfriend, And Ended Up A 30 Year Old Virgin. What I Wish I Knew.",
       "publishedAt": "2025-03-20T18:02:22Z",
       "thumbnail": "thumbs/By4OGcBsOYc.jpg",
-      "views": 1694,
+      "views": 1695,
       "likes": 19,
       "comments": 32,
       "durationSeconds": 1349
@@ -345,7 +349,7 @@
       "title": "Brown Men Must Take 3 STEPS To Win In Western Dating",
       "publishedAt": "2026-09-26T21:30:10Z",
       "thumbnail": "thumbs/GXwbtnKC8h0.jpg",
-      "views": 1671,
+      "views": 1672,
       "likes": 8,
       "comments": 2,
       "durationSeconds": 124
@@ -417,7 +421,7 @@
       "thumbnail": "thumbs/9u_ljwE12lk.jpg",
       "views": 1409,
       "likes": 15,
-      "comments": 16,
+      "comments": 14,
       "durationSeconds": 496
     },
     {
@@ -465,7 +469,7 @@
       "title": "Brown Men FAIL At Online Dating (Unless They Know THIS)",
       "publishedAt": "2026-09-30T13:34:17Z",
       "thumbnail": "thumbs/ndl-uB8zoRs.jpg",
-      "views": 1336,
+      "views": 1337,
       "likes": 16,
       "comments": 0,
       "durationSeconds": 43
@@ -543,6 +547,7 @@
     "JyYvwwh782w",
     "DlmbNSsQzlU",
     "hXfBiy7LuhM",
-    "37mXg-VBl7Q"
+    "37mXg-VBl7Q",
+    "F3mYu1ibhvY"
   ]
 }

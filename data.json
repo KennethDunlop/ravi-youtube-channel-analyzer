@@ -1,5 +1,5 @@
 {
-  "version": "1.35",
+  "version": "1.36",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 383,
-    "videoCount": 231,
-    "channelViews": 99832,
+    "videoCount": 228,
+    "channelViews": 99920,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-04T19:01:25.384Z",
+    "lastUpdated": "2026-10-05T07:00:19.269Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -83,6 +83,10 @@
     {
       "date": "2026-10-04",
       "subscriberCount": 383
+    },
+    {
+      "date": "2026-10-05",
+      "subscriberCount": 383
     }
   ],
   "videos": [
@@ -91,7 +95,7 @@
       "title": "Brown Men Will NEVER Attract Women (unless they do THIS)",
       "publishedAt": "2026-10-02T21:30:07Z",
       "thumbnail": "thumbs/F3mYu1ibhvY.jpg",
-      "views": 72,
+      "views": 80,
       "likes": 3,
       "comments": 1,
       "durationSeconds": 70
@@ -121,7 +125,7 @@
       "title": "Brown Men Dating MUST OVERCOME This (Or They’ll Fail)",
       "publishedAt": "2026-10-01T18:30:03Z",
       "thumbnail": "thumbs/613ex24C4Tw.jpg",
-      "views": 500,
+      "views": 503,
       "likes": 9,
       "comments": 1,
       "durationSeconds": 70
@@ -131,7 +135,7 @@
       "title": "Brown Men Dating LOSE The Girl (Unless They Do THIS)",
       "publishedAt": "2026-10-01T12:00:31Z",
       "thumbnail": "thumbs/JyYvwwh782w.jpg",
-      "views": 1062,
+      "views": 1069,
       "likes": 15,
       "comments": 0,
       "durationSeconds": 60
@@ -141,7 +145,7 @@
       "title": "Brown Men Dating MUST Avoid This (Or They'll FAIL)",
       "publishedAt": "2026-10-01T08:41:34Z",
       "thumbnail": "thumbs/DlmbNSsQzlU.jpg",
-      "views": 1196,
+      "views": 1198,
       "likes": 17,
       "comments": 0,
       "durationSeconds": 73
@@ -251,7 +255,7 @@
       "title": "Brown Men, Your NAME Is Killing Your Matches (so do THIS)",
       "publishedAt": "2026-09-19T14:15:53Z",
       "thumbnail": "thumbs/ydC_89ZWblo.jpg",
-      "views": 724,
+      "views": 726,
       "likes": 6,
       "comments": 0,
       "durationSeconds": 40
@@ -292,7 +296,7 @@
     "title": "Dating Is Not Race Blind. Why Indian And Asian Men On $300K Lose To A $30K Barista. How To Fix It.",
     "publishedAt": "2026-08-19T18:00:23Z",
     "thumbnail": "thumbs/NB8PFFrdQVs.jpg",
-    "views": 149,
+    "views": 150,
     "likes": 4,
     "comments": 0,
     "durationSeconds": 1084

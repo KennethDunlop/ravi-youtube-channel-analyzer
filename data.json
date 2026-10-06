@@ -1,5 +1,5 @@
 {
-  "version": "1.38",
+  "version": "1.39",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 383,
-    "videoCount": 231,
+    "videoCount": 232,
     "channelViews": 99982,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-06T07:00:54.356Z",
+    "lastUpdated": "2026-10-06T19:00:11.262Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -95,6 +95,26 @@
   ],
   "videos": [
     {
+      "id": "tdoM4VkWpjQ",
+      "title": "Brown and Asian Men Pay THIS Tax In Dating",
+      "publishedAt": "2026-10-06T16:12:36Z",
+      "thumbnail": "thumbs/tdoM4VkWpjQ.jpg",
+      "views": 223,
+      "likes": 3,
+      "comments": 0,
+      "durationSeconds": 70
+    },
+    {
+      "id": "rdwXHIuHzn8",
+      "title": "5 Reasons Brown Men Are FUCKED If They're Dating In The West (+The Fix)",
+      "publishedAt": "2026-10-06T12:35:30Z",
+      "thumbnail": "thumbs/rdwXHIuHzn8.jpg",
+      "views": 4,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 80
+    },
+    {
       "id": "F3mYu1ibhvY",
       "title": "Brown Men Will NEVER Attract Women (unless they do THIS)",
       "publishedAt": "2026-10-02T21:30:07Z",
@@ -119,7 +139,7 @@
       "title": "Brown Men Will NEVER Get Hot Wives (unless they do THIS)",
       "publishedAt": "2026-10-02T15:05:59Z",
       "thumbnail": "thumbs/37mXg-VBl7Q.jpg",
-      "views": 29,
+      "views": 30,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 64
@@ -129,7 +149,7 @@
       "title": "Brown Men Dating MUST OVERCOME This (Or They’ll Fail)",
       "publishedAt": "2026-10-01T18:30:03Z",
       "thumbnail": "thumbs/613ex24C4Tw.jpg",
-      "views": 507,
+      "views": 509,
       "likes": 9,
       "comments": 1,
       "durationSeconds": 70
@@ -139,7 +159,7 @@
       "title": "Brown Men Dating LOSE The Girl (Unless They Do THIS)",
       "publishedAt": "2026-10-01T12:00:31Z",
       "thumbnail": "thumbs/JyYvwwh782w.jpg",
-      "views": 1073,
+      "views": 1074,
       "likes": 15,
       "comments": 0,
       "durationSeconds": 60
@@ -259,7 +279,7 @@
       "title": "Brown Men, Your NAME Is Killing Your Matches (so do THIS)",
       "publishedAt": "2026-09-19T14:15:53Z",
       "thumbnail": "thumbs/ydC_89ZWblo.jpg",
-      "views": 726,
+      "views": 727,
       "likes": 6,
       "comments": 0,
       "durationSeconds": 40
@@ -273,26 +293,6 @@
       "likes": 2,
       "comments": 0,
       "durationSeconds": 69
-    },
-    {
-      "id": "OFrzeA0E-bA",
-      "title": "Brown Men Get REJECTED",
-      "publishedAt": "2026-09-17T18:01:16Z",
-      "thumbnail": "thumbs/OFrzeA0E-bA.jpg",
-      "views": 787,
-      "likes": 11,
-      "comments": 5,
-      "durationSeconds": 83
-    },
-    {
-      "id": "_L4AVPfhLgg",
-      "title": "Brown Men ALWAYS Get Rejected (Unless They Do THIS)",
-      "publishedAt": "2026-09-17T14:19:20Z",
-      "thumbnail": "thumbs/_L4AVPfhLgg.jpg",
-      "views": 47,
-      "likes": 2,
-      "comments": 0,
-      "durationSeconds": 87
     }
   ],
   "longform": {
@@ -560,6 +560,8 @@
     "DlmbNSsQzlU",
     "hXfBiy7LuhM",
     "37mXg-VBl7Q",
-    "F3mYu1ibhvY"
+    "F3mYu1ibhvY",
+    "tdoM4VkWpjQ",
+    "rdwXHIuHzn8"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": "1.40",
+  "version": "1.41",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
-    "subscriberCount": 383,
-    "videoCount": 234,
-    "channelViews": 100060,
+    "subscriberCount": 384,
+    "videoCount": 236,
+    "channelViews": 100048,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-07T07:00:21.018Z",
+    "lastUpdated": "2026-10-07T19:00:25.266Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -94,17 +94,37 @@
     },
     {
       "date": "2026-10-07",
-      "subscriberCount": 383
+      "subscriberCount": 384
     }
   ],
   "videos": [
+    {
+      "id": "Vp5y7hMKqlw",
+      "title": "Brown & Asian Men Are INVISIBLE To Women, Because Of THIS Hidden Tax",
+      "publishedAt": "2026-10-07T17:30:22Z",
+      "thumbnail": "thumbs/Vp5y7hMKqlw.jpg",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 38
+    },
+    {
+      "id": "mDfE_jyEcUY",
+      "title": "Brown & Asian Men Can’t Get Second Sates Because Of THIS Hidden Tax",
+      "publishedAt": "2026-10-07T12:13:06Z",
+      "thumbnail": "thumbs/mDfE_jyEcUY.jpg",
+      "views": 24,
+      "likes": 2,
+      "comments": 0,
+      "durationSeconds": 33
+    },
     {
       "id": "nnAoVrFK1es",
       "title": "Brown & Asian Men WILL Get Rejected On Dating Apps By The Western Female Gaze",
       "publishedAt": "2026-10-07T06:21:43Z",
       "thumbnail": "thumbs/nnAoVrFK1es.jpg",
-      "views": 0,
-      "likes": 0,
+      "views": 56,
+      "likes": 4,
       "comments": 0,
       "durationSeconds": 60
     },
@@ -113,8 +133,8 @@
       "title": "Brown and Asian Men Pay THIS Tax In Dating",
       "publishedAt": "2026-10-06T16:12:36Z",
       "thumbnail": "thumbs/tdoM4VkWpjQ.jpg",
-      "views": 468,
-      "likes": 5,
+      "views": 480,
+      "likes": 6,
       "comments": 0,
       "durationSeconds": 70
     },
@@ -123,8 +143,8 @@
       "title": "5 Reasons Brown Men Are FUCKED If They're Dating In The West (+The Fix)",
       "publishedAt": "2026-10-06T12:35:30Z",
       "thumbnail": "thumbs/rdwXHIuHzn8.jpg",
-      "views": 4,
-      "likes": 0,
+      "views": 7,
+      "likes": 1,
       "comments": 0,
       "durationSeconds": 80
     },
@@ -183,7 +203,7 @@
       "title": "Brown Men Dating MUST Avoid This (Or They'll FAIL)",
       "publishedAt": "2026-10-01T08:41:34Z",
       "thumbnail": "thumbs/DlmbNSsQzlU.jpg",
-      "views": 1199,
+      "views": 1200,
       "likes": 17,
       "comments": 0,
       "durationSeconds": 73
@@ -213,7 +233,7 @@
       "title": "Brown Men FAIL At Online Dating (Unless They Know THIS)",
       "publishedAt": "2026-09-30T13:34:17Z",
       "thumbnail": "thumbs/ndl-uB8zoRs.jpg",
-      "views": 1309,
+      "views": 1310,
       "likes": 16,
       "comments": 0,
       "durationSeconds": 43
@@ -277,26 +297,6 @@
       "likes": 0,
       "comments": 0,
       "durationSeconds": 57
-    },
-    {
-      "id": "CXFH32vrd34",
-      "title": "Brown Men Are Building THE WRONG Bodies To Attract Girls",
-      "publishedAt": "2026-09-22T13:35:24Z",
-      "thumbnail": "thumbs/CXFH32vrd34.jpg",
-      "views": 1200,
-      "likes": 23,
-      "comments": 0,
-      "durationSeconds": 62
-    },
-    {
-      "id": "ydC_89ZWblo",
-      "title": "Brown Men, Your NAME Is Killing Your Matches (so do THIS)",
-      "publishedAt": "2026-09-19T14:15:53Z",
-      "thumbnail": "thumbs/ydC_89ZWblo.jpg",
-      "views": 727,
-      "likes": 6,
-      "comments": 0,
-      "durationSeconds": 40
     }
   ],
   "longform": {
@@ -304,7 +304,7 @@
     "title": "Dating Is Not Race Blind. Why Indian And Asian Men On $300K Lose To A $30K Barista. How To Fix It.",
     "publishedAt": "2026-08-19T18:00:23Z",
     "thumbnail": "thumbs/NB8PFFrdQVs.jpg",
-    "views": 150,
+    "views": 152,
     "likes": 4,
     "comments": 0,
     "durationSeconds": 1084
@@ -505,7 +505,7 @@
       "title": "Brown Men FAIL At Online Dating (Unless They Know THIS)",
       "publishedAt": "2026-09-30T13:34:17Z",
       "thumbnail": "thumbs/ndl-uB8zoRs.jpg",
-      "views": 1309,
+      "views": 1310,
       "likes": 16,
       "comments": 0,
       "durationSeconds": 43
@@ -567,6 +567,8 @@
     "F3mYu1ibhvY",
     "tdoM4VkWpjQ",
     "rdwXHIuHzn8",
-    "nnAoVrFK1es"
+    "nnAoVrFK1es",
+    "Vp5y7hMKqlw",
+    "mDfE_jyEcUY"
   ]
 }

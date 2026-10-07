@@ -1,5 +1,5 @@
 {
-  "version": "1.39",
+  "version": "1.40",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 383,
-    "videoCount": 232,
-    "channelViews": 99982,
+    "videoCount": 234,
+    "channelViews": 100060,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-06T19:00:11.262Z",
+    "lastUpdated": "2026-10-07T07:00:21.018Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -91,16 +91,30 @@
     {
       "date": "2026-10-06",
       "subscriberCount": 383
+    },
+    {
+      "date": "2026-10-07",
+      "subscriberCount": 383
     }
   ],
   "videos": [
+    {
+      "id": "nnAoVrFK1es",
+      "title": "Brown & Asian Men WILL Get Rejected On Dating Apps By The Western Female Gaze",
+      "publishedAt": "2026-10-07T06:21:43Z",
+      "thumbnail": "thumbs/nnAoVrFK1es.jpg",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 60
+    },
     {
       "id": "tdoM4VkWpjQ",
       "title": "Brown and Asian Men Pay THIS Tax In Dating",
       "publishedAt": "2026-10-06T16:12:36Z",
       "thumbnail": "thumbs/tdoM4VkWpjQ.jpg",
-      "views": 223,
-      "likes": 3,
+      "views": 468,
+      "likes": 5,
       "comments": 0,
       "durationSeconds": 70
     },
@@ -119,7 +133,7 @@
       "title": "Brown Men Will NEVER Attract Women (unless they do THIS)",
       "publishedAt": "2026-10-02T21:30:07Z",
       "thumbnail": "thumbs/F3mYu1ibhvY.jpg",
-      "views": 83,
+      "views": 87,
       "likes": 3,
       "comments": 1,
       "durationSeconds": 70
@@ -129,7 +143,7 @@
       "title": "Insecure Brown Men DESTROY Their Dating Option (unless they do THIS)",
       "publishedAt": "2026-10-02T18:30:35Z",
       "thumbnail": "thumbs/hXfBiy7LuhM.jpg",
-      "views": 428,
+      "views": 409,
       "likes": 3,
       "comments": 0,
       "durationSeconds": 75
@@ -159,7 +173,7 @@
       "title": "Brown Men Dating LOSE The Girl (Unless They Do THIS)",
       "publishedAt": "2026-10-01T12:00:31Z",
       "thumbnail": "thumbs/JyYvwwh782w.jpg",
-      "views": 1074,
+      "views": 1073,
       "likes": 15,
       "comments": 0,
       "durationSeconds": 60
@@ -283,16 +297,6 @@
       "likes": 6,
       "comments": 0,
       "durationSeconds": 40
-    },
-    {
-      "id": "OCJQLjruaBY",
-      "title": "Brown Men Will NEVER Get Hot Girls",
-      "publishedAt": "2026-09-18T07:32:33Z",
-      "thumbnail": "thumbs/OCJQLjruaBY.jpg",
-      "views": 33,
-      "likes": 2,
-      "comments": 0,
-      "durationSeconds": 69
     }
   ],
   "longform": {
@@ -381,7 +385,7 @@
       "title": "Why Modern Calm Men Are Rare And Why Women Notice Immediately",
       "publishedAt": "2025-11-15T15:00:22Z",
       "thumbnail": "thumbs/5YJyKj9HZ9I.jpg",
-      "views": 1602,
+      "views": 1603,
       "likes": 41,
       "comments": 19,
       "durationSeconds": 419
@@ -562,6 +566,7 @@
     "37mXg-VBl7Q",
     "F3mYu1ibhvY",
     "tdoM4VkWpjQ",
-    "rdwXHIuHzn8"
+    "rdwXHIuHzn8",
+    "nnAoVrFK1es"
   ]
 }

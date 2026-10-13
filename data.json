@@ -1,5 +1,5 @@
 {
-  "version": "1.52",
+  "version": "1.53",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
-    "subscriberCount": 385,
-    "videoCount": 241,
+    "subscriberCount": 386,
+    "videoCount": 244,
     "channelViews": 101912,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-13T07:01:07.514Z",
+    "lastUpdated": "2026-10-13T19:00:56.664Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -118,16 +118,46 @@
     },
     {
       "date": "2026-10-13",
-      "subscriberCount": 385
+      "subscriberCount": 386
     }
   ],
   "videos": [
+    {
+      "id": "_vbk0vqxhSo",
+      "title": "Professional Brown & Asian Men Get REJECTED In One Second (ONE Mistake) #shorts",
+      "publishedAt": "2026-10-13T18:00:38Z",
+      "thumbnail": "thumbs/_vbk0vqxhSo.jpg",
+      "views": 37,
+      "likes": 1,
+      "comments": 1,
+      "durationSeconds": 49
+    },
+    {
+      "id": "SUtoHFfbG7Q",
+      "title": "Professional Brown & Asian Men: ZERO Matches In One City, 100+ In Another #shorts",
+      "publishedAt": "2026-10-13T16:00:08Z",
+      "thumbnail": "thumbs/SUtoHFfbG7Q.jpg",
+      "views": 12,
+      "likes": 2,
+      "comments": 1,
+      "durationSeconds": 47
+    },
+    {
+      "id": "Ob0vYWzDfnY",
+      "title": "Professional Brown & Asian Men LOSE To Black & White Men (ONE Mistake) #shorts",
+      "publishedAt": "2026-10-13T14:02:07Z",
+      "thumbnail": "thumbs/Ob0vYWzDfnY.jpg",
+      "views": 55,
+      "likes": 4,
+      "comments": 1,
+      "durationSeconds": 56
+    },
     {
       "id": "rmvNvt82OgE",
       "title": "Professional Brown & Asian Men Keep Getting FRIEND-ZONED (THIS Hidden Tax) #shorts",
       "publishedAt": "2026-10-08T21:30:33Z",
       "thumbnail": "thumbs/rmvNvt82OgE.jpg",
-      "views": 82,
+      "views": 81,
       "likes": 5,
       "comments": 1,
       "durationSeconds": 56
@@ -291,36 +321,6 @@
       "likes": 1,
       "comments": 1,
       "durationSeconds": 62
-    },
-    {
-      "id": "TqvlPb-2bZE",
-      "title": "Successful Brown Men LOSE In Dating (Unless They Do THIS)",
-      "publishedAt": "2026-09-30T16:22:13Z",
-      "thumbnail": "thumbs/TqvlPb-2bZE.jpg",
-      "views": 39,
-      "likes": 1,
-      "comments": 0,
-      "durationSeconds": 64
-    },
-    {
-      "id": "ndl-uB8zoRs",
-      "title": "Brown Men FAIL At Online Dating (Unless They Know THIS)",
-      "publishedAt": "2026-09-30T13:34:17Z",
-      "thumbnail": "thumbs/ndl-uB8zoRs.jpg",
-      "views": 1314,
-      "likes": 16,
-      "comments": 0,
-      "durationSeconds": 43
-    },
-    {
-      "id": "x9gWVlII3rk",
-      "title": "Brown Men Will NEVER Get Hot Girls (Unless They Do THIS)",
-      "publishedAt": "2026-09-28T16:42:52Z",
-      "thumbnail": "thumbs/x9gWVlII3rk.jpg",
-      "views": 37,
-      "likes": 1,
-      "comments": 0,
-      "durationSeconds": 77
     }
   ],
   "longform": {
@@ -598,6 +598,9 @@
     "dOgr68ZSgbA",
     "ssKNaDiFc3g",
     "rmvNvt82OgE",
-    "O9IQkwnAQeY"
+    "O9IQkwnAQeY",
+    "_vbk0vqxhSo",
+    "SUtoHFfbG7Q",
+    "Ob0vYWzDfnY"
   ]
 }

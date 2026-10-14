@@ -1,5 +1,5 @@
 {
-  "version": "1.54",
+  "version": "1.55",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 386,
-    "videoCount": 245,
+    "videoCount": 246,
     "channelViews": 102047,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-14T07:00:50.868Z",
+    "lastUpdated": "2026-10-14T19:01:03.009Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -127,11 +127,21 @@
   ],
   "videos": [
     {
+      "id": "v0gE6cIRpiM",
+      "title": "Professional Brown & Asian Men Can't Get Second Dates (ONE Mistake) #shorts",
+      "publishedAt": "2026-10-14T16:00:12Z",
+      "thumbnail": "thumbs/v0gE6cIRpiM.jpg",
+      "views": 45,
+      "likes": 3,
+      "comments": 1,
+      "durationSeconds": 62
+    },
+    {
       "id": "Vcvg3GDq7So",
       "title": "Professional Brown & Asian Men Stay SINGLE For Years (ONE Mistake) #shorts",
       "publishedAt": "2026-10-13T20:00:18Z",
       "thumbnail": "thumbs/Vcvg3GDq7So.jpg",
-      "views": 136,
+      "views": 176,
       "likes": 7,
       "comments": 1,
       "durationSeconds": 60
@@ -141,7 +151,7 @@
       "title": "Professional Brown & Asian Men Get REJECTED In One Second (ONE Mistake) #shorts",
       "publishedAt": "2026-10-13T18:00:38Z",
       "thumbnail": "thumbs/_vbk0vqxhSo.jpg",
-      "views": 160,
+      "views": 168,
       "likes": 8,
       "comments": 1,
       "durationSeconds": 49
@@ -151,8 +161,8 @@
       "title": "Professional Brown & Asian Men: ZERO Matches In One City, 100+ In Another #shorts",
       "publishedAt": "2026-10-13T16:00:08Z",
       "thumbnail": "thumbs/SUtoHFfbG7Q.jpg",
-      "views": 59,
-      "likes": 5,
+      "views": 79,
+      "likes": 7,
       "comments": 1,
       "durationSeconds": 47
     },
@@ -161,8 +171,8 @@
       "title": "Professional Brown & Asian Men LOSE To Black & White Men (ONE Mistake) #shorts",
       "publishedAt": "2026-10-13T14:02:07Z",
       "thumbnail": "thumbs/Ob0vYWzDfnY.jpg",
-      "views": 85,
-      "likes": 6,
+      "views": 89,
+      "likes": 8,
       "comments": 1,
       "durationSeconds": 56
     },
@@ -211,7 +221,7 @@
       "title": "Why Can’t Brown & Asian Men Get Matches In Online Dating?",
       "publishedAt": "2026-10-07T21:30:14Z",
       "thumbnail": "thumbs/poUnZSEGLvg.jpg",
-      "views": 272,
+      "views": 275,
       "likes": 8,
       "comments": 0,
       "durationSeconds": 39
@@ -261,7 +271,7 @@
       "title": "5 Reasons Brown Men Are FUCKED If They're Dating In The West (+The Fix)",
       "publishedAt": "2026-10-06T12:35:30Z",
       "thumbnail": "thumbs/rdwXHIuHzn8.jpg",
-      "views": 8,
+      "views": 9,
       "likes": 1,
       "comments": 0,
       "durationSeconds": 80
@@ -315,16 +325,6 @@
       "likes": 15,
       "comments": 0,
       "durationSeconds": 60
-    },
-    {
-      "id": "DlmbNSsQzlU",
-      "title": "Brown Men Dating MUST Avoid This (Or They'll FAIL)",
-      "publishedAt": "2026-10-01T08:41:34Z",
-      "thumbnail": "thumbs/DlmbNSsQzlU.jpg",
-      "views": 1205,
-      "likes": 17,
-      "comments": 0,
-      "durationSeconds": 73
     }
   ],
   "longform": {
@@ -332,7 +332,7 @@
     "title": "Dating Is Not Race Blind. Why Indian And Asian Men On $300K Lose To A $30K Barista. How To Fix It.",
     "publishedAt": "2026-08-19T18:00:23Z",
     "thumbnail": "thumbs/NB8PFFrdQVs.jpg",
-    "views": 158,
+    "views": 159,
     "likes": 4,
     "comments": 0,
     "durationSeconds": 1084
@@ -513,7 +513,7 @@
       "title": "Brown Men Ruin Their Dates (Unless They Do This)",
       "publishedAt": "2026-09-11T13:10:27Z",
       "thumbnail": "thumbs/obaeZPGgVrQ.jpg",
-      "views": 1331,
+      "views": 1332,
       "likes": 19,
       "comments": 2,
       "durationSeconds": 55
@@ -606,6 +606,7 @@
     "_vbk0vqxhSo",
     "SUtoHFfbG7Q",
     "Ob0vYWzDfnY",
-    "Vcvg3GDq7So"
+    "Vcvg3GDq7So",
+    "v0gE6cIRpiM"
   ]
 }

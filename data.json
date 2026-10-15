@@ -1,5 +1,5 @@
 {
-  "version": "1.56",
+  "version": "1.57",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 386,
-    "videoCount": 246,
-    "channelViews": 102047,
+    "videoCount": 247,
+    "channelViews": 102609,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-15T07:00:20.632Z",
+    "lastUpdated": "2026-10-15T19:00:59.054Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -131,12 +131,22 @@
   ],
   "videos": [
     {
+      "id": "cO2Qg-LJpRU",
+      "title": "Brown & Asian Men Dating In The West Get REJECTED In 2 Seconds #shorts",
+      "publishedAt": "2026-10-15T10:07:35Z",
+      "thumbnail": "thumbs/cO2Qg-LJpRU.jpg",
+      "views": 76,
+      "likes": 2,
+      "comments": 1,
+      "durationSeconds": 53
+    },
+    {
       "id": "v0gE6cIRpiM",
       "title": "Professional Brown & Asian Men Can't Get Second Dates (ONE Mistake) #shorts",
       "publishedAt": "2026-10-14T16:00:12Z",
       "thumbnail": "thumbs/v0gE6cIRpiM.jpg",
-      "views": 86,
-      "likes": 3,
+      "views": 106,
+      "likes": 4,
       "comments": 1,
       "durationSeconds": 62
     },
@@ -145,8 +155,8 @@
       "title": "Professional Brown & Asian Men Stay SINGLE For Years (ONE Mistake) #shorts",
       "publishedAt": "2026-10-13T20:00:18Z",
       "thumbnail": "thumbs/Vcvg3GDq7So.jpg",
-      "views": 187,
-      "likes": 7,
+      "views": 195,
+      "likes": 8,
       "comments": 1,
       "durationSeconds": 60
     },
@@ -155,7 +165,7 @@
       "title": "Professional Brown & Asian Men Get REJECTED In One Second (ONE Mistake) #shorts",
       "publishedAt": "2026-10-13T18:00:38Z",
       "thumbnail": "thumbs/_vbk0vqxhSo.jpg",
-      "views": 171,
+      "views": 174,
       "likes": 8,
       "comments": 1,
       "durationSeconds": 49
@@ -165,7 +175,7 @@
       "title": "Professional Brown & Asian Men: ZERO Matches In One City, 100+ In Another #shorts",
       "publishedAt": "2026-10-13T16:00:08Z",
       "thumbnail": "thumbs/SUtoHFfbG7Q.jpg",
-      "views": 93,
+      "views": 96,
       "likes": 7,
       "comments": 1,
       "durationSeconds": 47
@@ -175,7 +185,7 @@
       "title": "Professional Brown & Asian Men LOSE To Black & White Men (ONE Mistake) #shorts",
       "publishedAt": "2026-10-13T14:02:07Z",
       "thumbnail": "thumbs/Ob0vYWzDfnY.jpg",
-      "views": 98,
+      "views": 108,
       "likes": 8,
       "comments": 1,
       "durationSeconds": 56
@@ -319,16 +329,6 @@
       "likes": 9,
       "comments": 1,
       "durationSeconds": 70
-    },
-    {
-      "id": "JyYvwwh782w",
-      "title": "Brown Men Dating LOSE The Girl (Unless They Do THIS)",
-      "publishedAt": "2026-10-01T12:00:31Z",
-      "thumbnail": "thumbs/JyYvwwh782w.jpg",
-      "views": 1083,
-      "likes": 15,
-      "comments": 0,
-      "durationSeconds": 60
     }
   ],
   "longform": {
@@ -467,7 +467,7 @@
       "title": "I'm Losing 25lbs to Stop Getting 'Indian Rejected' in NYC: 60 Days To Turn Instant No Into Maybe",
       "publishedAt": "2026-02-09T16:41:35Z",
       "thumbnail": "thumbs/9u_ljwE12lk.jpg",
-      "views": 1410,
+      "views": 1411,
       "likes": 15,
       "comments": 14,
       "durationSeconds": 496
@@ -477,7 +477,7 @@
       "title": "Brown Men NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-14T09:13:41Z",
       "thumbnail": "thumbs/jaJt7lNpp2M.jpg",
-      "views": 1395,
+      "views": 1399,
       "likes": 20,
       "comments": 9,
       "durationSeconds": 50
@@ -611,6 +611,7 @@
     "SUtoHFfbG7Q",
     "Ob0vYWzDfnY",
     "Vcvg3GDq7So",
-    "v0gE6cIRpiM"
+    "v0gE6cIRpiM",
+    "cO2Qg-LJpRU"
   ]
 }

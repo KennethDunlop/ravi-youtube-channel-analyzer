@@ -1,5 +1,5 @@
 {
-  "version": "1.58",
+  "version": "1.59",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 386,
-    "videoCount": 247,
+    "videoCount": 248,
     "channelViews": 102609,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-16T07:01:31.697Z",
+    "lastUpdated": "2026-10-16T19:00:21.869Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -135,12 +135,22 @@
   ],
   "videos": [
     {
+      "id": "--bF20Dbs3M",
+      "title": "Brown & Asian Men STAY SINGLE (Even After $1000s On Dating Coaching) #shorts",
+      "publishedAt": "2026-10-16T11:45:55Z",
+      "thumbnail": "thumbs/--bF20Dbs3M.jpg",
+      "views": 47,
+      "likes": 1,
+      "comments": 1,
+      "durationSeconds": 64
+    },
+    {
       "id": "cO2Qg-LJpRU",
       "title": "Brown & Asian Men Dating In The West Get REJECTED In 2 Seconds #shorts",
       "publishedAt": "2026-10-15T10:07:35Z",
       "thumbnail": "thumbs/cO2Qg-LJpRU.jpg",
-      "views": 111,
-      "likes": 2,
+      "views": 115,
+      "likes": 3,
       "comments": 1,
       "durationSeconds": 53
     },
@@ -149,7 +159,7 @@
       "title": "Professional Brown & Asian Men Can't Get Second Dates (ONE Mistake) #shorts",
       "publishedAt": "2026-10-14T16:00:12Z",
       "thumbnail": "thumbs/v0gE6cIRpiM.jpg",
-      "views": 118,
+      "views": 125,
       "likes": 4,
       "comments": 1,
       "durationSeconds": 62
@@ -159,7 +169,7 @@
       "title": "Professional Brown & Asian Men Stay SINGLE For Years (ONE Mistake) #shorts",
       "publishedAt": "2026-10-13T20:00:18Z",
       "thumbnail": "thumbs/Vcvg3GDq7So.jpg",
-      "views": 199,
+      "views": 200,
       "likes": 8,
       "comments": 1,
       "durationSeconds": 60
@@ -179,7 +189,7 @@
       "title": "Professional Brown & Asian Men: ZERO Matches In One City, 100+ In Another #shorts",
       "publishedAt": "2026-10-13T16:00:08Z",
       "thumbnail": "thumbs/SUtoHFfbG7Q.jpg",
-      "views": 96,
+      "views": 97,
       "likes": 7,
       "comments": 1,
       "durationSeconds": 47
@@ -209,7 +219,7 @@
       "title": "Professional Brown & Asian Men Can't Get SECOND DATES (THIS Hidden Tax) #shorts",
       "publishedAt": "2026-10-08T20:00:34Z",
       "thumbnail": "thumbs/O9IQkwnAQeY.jpg",
-      "views": 60,
+      "views": 61,
       "likes": 1,
       "comments": 1,
       "durationSeconds": 58
@@ -239,7 +249,7 @@
       "title": "Why Can’t Brown & Asian Men Get Matches In Online Dating?",
       "publishedAt": "2026-10-07T21:30:14Z",
       "thumbnail": "thumbs/poUnZSEGLvg.jpg",
-      "views": 276,
+      "views": 277,
       "likes": 8,
       "comments": 0,
       "durationSeconds": 39
@@ -319,20 +329,10 @@
       "title": "Brown Men Will NEVER Get Hot Wives (unless they do THIS)",
       "publishedAt": "2026-10-02T15:05:59Z",
       "thumbnail": "thumbs/37mXg-VBl7Q.jpg",
-      "views": 34,
+      "views": 35,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 64
-    },
-    {
-      "id": "613ex24C4Tw",
-      "title": "Brown Men Dating MUST OVERCOME This (Or They’ll Fail)",
-      "publishedAt": "2026-10-01T18:30:03Z",
-      "thumbnail": "thumbs/613ex24C4Tw.jpg",
-      "views": 518,
-      "likes": 9,
-      "comments": 1,
-      "durationSeconds": 70
     }
   ],
   "longform": {
@@ -361,7 +361,7 @@
       "title": "Average Looking Brown Men Will Fat At Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-16T09:56:45Z",
       "thumbnail": "thumbs/ep_Z8SeN4TI.jpg",
-      "views": 1848,
+      "views": 1849,
       "likes": 24,
       "comments": 3,
       "durationSeconds": 78
@@ -411,7 +411,7 @@
       "title": "Do Passport Bros Regret Living The  Laptop Lifestyle & Working On Skills With Girls?",
       "publishedAt": "2026-02-21T02:09:23Z",
       "thumbnail": "thumbs/dKGZva_EwUo.jpg",
-      "views": 1618,
+      "views": 1619,
       "likes": 8,
       "comments": 1,
       "durationSeconds": 19
@@ -481,8 +481,8 @@
       "title": "Brown Men NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-14T09:13:41Z",
       "thumbnail": "thumbs/jaJt7lNpp2M.jpg",
-      "views": 1399,
-      "likes": 20,
+      "views": 1401,
+      "likes": 19,
       "comments": 9,
       "durationSeconds": 50
     },
@@ -616,6 +616,7 @@
     "Ob0vYWzDfnY",
     "Vcvg3GDq7So",
     "v0gE6cIRpiM",
-    "cO2Qg-LJpRU"
+    "cO2Qg-LJpRU",
+    "--bF20Dbs3M"
   ]
 }

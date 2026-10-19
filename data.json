@@ -1,5 +1,5 @@
 {
-  "version": "1.64",
+  "version": "1.65",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
-    "subscriberCount": 385,
-    "videoCount": 248,
+    "subscriberCount": 384,
+    "videoCount": 249,
     "channelViews": 103158,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-19T07:00:07.551Z",
+    "lastUpdated": "2026-10-19T19:00:10.501Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -142,16 +142,26 @@
     },
     {
       "date": "2026-10-19",
-      "subscriberCount": 385
+      "subscriberCount": 384
     }
   ],
   "videos": [
+    {
+      "id": "M5CxGvyI31A",
+      "title": "Brown Men End Up In An Arranged Marriage (Unless They Do This) #shorts",
+      "publishedAt": "2026-10-19T14:06:51Z",
+      "thumbnail": "thumbs/M5CxGvyI31A.jpg",
+      "views": 8,
+      "likes": 0,
+      "comments": 1,
+      "durationSeconds": 55
+    },
     {
       "id": "--bF20Dbs3M",
       "title": "Brown & Asian Men STAY SINGLE (Even After $1000s On Dating Coaching) #shorts",
       "publishedAt": "2026-10-16T11:45:55Z",
       "thumbnail": "thumbs/--bF20Dbs3M.jpg",
-      "views": 144,
+      "views": 146,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 64
@@ -181,7 +191,7 @@
       "title": "Professional Brown & Asian Men Stay SINGLE For Years (ONE Mistake) #shorts",
       "publishedAt": "2026-10-13T20:00:18Z",
       "thumbnail": "thumbs/Vcvg3GDq7So.jpg",
-      "views": 202,
+      "views": 204,
       "likes": 8,
       "comments": 1,
       "durationSeconds": 60
@@ -278,7 +288,7 @@
     },
     {
       "id": "mDfE_jyEcUY",
-      "title": "Brown & Asian Men Can’t Get Second Sates Because Of THIS Hidden Tax",
+      "title": "Brown & Asian Men Can’t Get Second Dates Because Of THIS Hidden Tax",
       "publishedAt": "2026-10-07T12:13:06Z",
       "thumbnail": "thumbs/mDfE_jyEcUY.jpg",
       "views": 159,
@@ -291,7 +301,7 @@
       "title": "Brown & Asian Men WILL Get Rejected On Dating Apps By The Western Female Gaze",
       "publishedAt": "2026-10-07T06:21:43Z",
       "thumbnail": "thumbs/nnAoVrFK1es.jpg",
-      "views": 277,
+      "views": 278,
       "likes": 6,
       "comments": 0,
       "durationSeconds": 60
@@ -335,16 +345,6 @@
       "likes": 3,
       "comments": 0,
       "durationSeconds": 75
-    },
-    {
-      "id": "37mXg-VBl7Q",
-      "title": "Brown Men Will NEVER Get Hot Wives (unless they do THIS)",
-      "publishedAt": "2026-10-02T15:05:59Z",
-      "thumbnail": "thumbs/37mXg-VBl7Q.jpg",
-      "views": 35,
-      "likes": 2,
-      "comments": 0,
-      "durationSeconds": 64
     }
   ],
   "longform": {
@@ -393,7 +393,7 @@
       "title": "I Was A 30 Year Old Virgin. What I Wish I Knew.",
       "publishedAt": "2025-03-20T18:02:22Z",
       "thumbnail": "thumbs/By4OGcBsOYc.jpg",
-      "views": 1698,
+      "views": 1699,
       "likes": 19,
       "comments": 28,
       "durationSeconds": 1349
@@ -403,7 +403,7 @@
       "title": "Brown Men Must Take 3 STEPS To Win In Western Dating",
       "publishedAt": "2026-09-26T21:30:10Z",
       "thumbnail": "thumbs/GXwbtnKC8h0.jpg",
-      "views": 1677,
+      "views": 1678,
       "likes": 9,
       "comments": 2,
       "durationSeconds": 124
@@ -629,6 +629,7 @@
     "Vcvg3GDq7So",
     "v0gE6cIRpiM",
     "cO2Qg-LJpRU",
-    "--bF20Dbs3M"
+    "--bF20Dbs3M",
+    "M5CxGvyI31A"
   ]
 }

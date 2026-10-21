@@ -1,5 +1,5 @@
 {
-  "version": "1.68",
+  "version": "1.69",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
-    "subscriberCount": 384,
-    "videoCount": 249,
+    "subscriberCount": 386,
+    "videoCount": 250,
     "channelViews": 103319,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-21T07:00:08.808Z",
+    "lastUpdated": "2026-10-21T19:00:10.281Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -150,17 +150,27 @@
     },
     {
       "date": "2026-10-21",
-      "subscriberCount": 384
+      "subscriberCount": 386
     }
   ],
   "videos": [
+    {
+      "id": "52-L1g2MTlA",
+      "title": "I Was a Virgin at 30. Five Years Later I'd Been on Hundreds of Dates #shorts",
+      "publishedAt": "2026-10-21T15:00:40Z",
+      "thumbnail": "thumbs/52-L1g2MTlA.jpg",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 43
+    },
     {
       "id": "M5CxGvyI31A",
       "title": "Brown Men End Up In An Arranged Marriage (Unless They Do This) #shorts",
       "publishedAt": "2026-10-19T14:06:51Z",
       "thumbnail": "thumbs/M5CxGvyI31A.jpg",
-      "views": 119,
-      "likes": 1,
+      "views": 266,
+      "likes": 5,
       "comments": 1,
       "durationSeconds": 55
     },
@@ -169,7 +179,7 @@
       "title": "Brown & Asian Men STAY SINGLE (Even After $1000s On Dating Coaching) #shorts",
       "publishedAt": "2026-10-16T11:45:55Z",
       "thumbnail": "thumbs/--bF20Dbs3M.jpg",
-      "views": 153,
+      "views": 154,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 64
@@ -239,7 +249,7 @@
       "title": "Professional Brown & Asian Men Keep Getting FRIEND-ZONED (THIS Hidden Tax) #shorts",
       "publishedAt": "2026-10-08T21:30:33Z",
       "thumbnail": "thumbs/rmvNvt82OgE.jpg",
-      "views": 82,
+      "views": 83,
       "likes": 5,
       "comments": 1,
       "durationSeconds": 56
@@ -279,7 +289,7 @@
       "title": "Why Can’t Brown & Asian Men Get Matches In Online Dating?",
       "publishedAt": "2026-10-07T21:30:14Z",
       "thumbnail": "thumbs/poUnZSEGLvg.jpg",
-      "views": 278,
+      "views": 283,
       "likes": 8,
       "comments": 0,
       "durationSeconds": 39
@@ -343,16 +353,6 @@
       "likes": 3,
       "comments": 1,
       "durationSeconds": 70
-    },
-    {
-      "id": "hXfBiy7LuhM",
-      "title": "Insecure Brown Men DESTROY Their Dating Option (unless they do THIS)",
-      "publishedAt": "2026-10-02T18:30:35Z",
-      "thumbnail": "thumbs/hXfBiy7LuhM.jpg",
-      "views": 411,
-      "likes": 3,
-      "comments": 0,
-      "durationSeconds": 75
     }
   ],
   "longform": {
@@ -371,7 +371,7 @@
       "title": "She Was On The Phone…So I Did This (NYC)",
       "publishedAt": "2026-04-21T00:08:44Z",
       "thumbnail": "thumbs/scvzeoMGr-0.jpg",
-      "views": 2837,
+      "views": 2838,
       "likes": 61,
       "comments": 3,
       "durationSeconds": 18
@@ -381,7 +381,7 @@
       "title": "Average Looking Brown Men Will Fat At Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-16T09:56:45Z",
       "thumbnail": "thumbs/ep_Z8SeN4TI.jpg",
-      "views": 1852,
+      "views": 1853,
       "likes": 24,
       "comments": 3,
       "durationSeconds": 78
@@ -638,6 +638,7 @@
     "v0gE6cIRpiM",
     "cO2Qg-LJpRU",
     "--bF20Dbs3M",
-    "M5CxGvyI31A"
+    "M5CxGvyI31A",
+    "52-L1g2MTlA"
   ]
 }

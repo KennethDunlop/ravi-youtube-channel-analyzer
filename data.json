@@ -1,5 +1,5 @@
 {
-  "version": "1.69",
+  "version": "1.70",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
-    "subscriberCount": 386,
-    "videoCount": 250,
-    "channelViews": 103319,
+    "subscriberCount": 387,
+    "videoCount": 252,
+    "channelViews": 103557,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-21T19:00:10.281Z",
+    "lastUpdated": "2026-10-22T07:00:37.927Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -151,15 +151,39 @@
     {
       "date": "2026-10-21",
       "subscriberCount": 386
+    },
+    {
+      "date": "2026-10-22",
+      "subscriberCount": 387
     }
   ],
   "videos": [
+    {
+      "id": "Q2oZQWiY1kU",
+      "title": "Brown & Asian Men: The More You Earn, The Less She Wants You #shorts",
+      "publishedAt": "2026-10-21T22:30:34Z",
+      "thumbnail": "thumbs/Q2oZQWiY1kU.jpg",
+      "views": 157,
+      "likes": 1,
+      "comments": 0,
+      "durationSeconds": 54
+    },
+    {
+      "id": "Jl7qRsSchVI",
+      "title": "Brown & Asian Men Aren't Rejected. Hollywood Filtered Them Out. #shorts",
+      "publishedAt": "2026-10-21T20:28:02Z",
+      "thumbnail": "thumbs/Jl7qRsSchVI.jpg",
+      "views": 169,
+      "likes": 2,
+      "comments": 1,
+      "durationSeconds": 55
+    },
     {
       "id": "52-L1g2MTlA",
       "title": "I Was a Virgin at 30. Five Years Later I'd Been on Hundreds of Dates #shorts",
       "publishedAt": "2026-10-21T15:00:40Z",
       "thumbnail": "thumbs/52-L1g2MTlA.jpg",
-      "views": 0,
+      "views": 5,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 43
@@ -169,7 +193,7 @@
       "title": "Brown Men End Up In An Arranged Marriage (Unless They Do This) #shorts",
       "publishedAt": "2026-10-19T14:06:51Z",
       "thumbnail": "thumbs/M5CxGvyI31A.jpg",
-      "views": 266,
+      "views": 270,
       "likes": 5,
       "comments": 1,
       "durationSeconds": 55
@@ -179,7 +203,7 @@
       "title": "Brown & Asian Men STAY SINGLE (Even After $1000s On Dating Coaching) #shorts",
       "publishedAt": "2026-10-16T11:45:55Z",
       "thumbnail": "thumbs/--bF20Dbs3M.jpg",
-      "views": 154,
+      "views": 156,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 64
@@ -189,7 +213,7 @@
       "title": "Brown & Asian Men Dating In The West Get REJECTED In 2 Seconds #shorts",
       "publishedAt": "2026-10-15T10:07:35Z",
       "thumbnail": "thumbs/cO2Qg-LJpRU.jpg",
-      "views": 135,
+      "views": 137,
       "likes": 4,
       "comments": 1,
       "durationSeconds": 53
@@ -199,7 +223,7 @@
       "title": "Professional Brown & Asian Men Can't Get Second Dates (ONE Mistake) #shorts",
       "publishedAt": "2026-10-14T16:00:12Z",
       "thumbnail": "thumbs/v0gE6cIRpiM.jpg",
-      "views": 141,
+      "views": 142,
       "likes": 4,
       "comments": 1,
       "durationSeconds": 62
@@ -209,7 +233,7 @@
       "title": "Professional Brown & Asian Men Stay SINGLE For Years (ONE Mistake) #shorts",
       "publishedAt": "2026-10-13T20:00:18Z",
       "thumbnail": "thumbs/Vcvg3GDq7So.jpg",
-      "views": 204,
+      "views": 205,
       "likes": 8,
       "comments": 1,
       "durationSeconds": 60
@@ -219,7 +243,7 @@
       "title": "Professional Brown & Asian Men Get REJECTED In One Second (ONE Mistake) #shorts",
       "publishedAt": "2026-10-13T18:00:38Z",
       "thumbnail": "thumbs/_vbk0vqxhSo.jpg",
-      "views": 177,
+      "views": 178,
       "likes": 8,
       "comments": 1,
       "durationSeconds": 49
@@ -333,26 +357,6 @@
       "likes": 8,
       "comments": 0,
       "durationSeconds": 70
-    },
-    {
-      "id": "rdwXHIuHzn8",
-      "title": "5 Reasons Brown Men Are FUCKED If They're Dating In The West (+The Fix)",
-      "publishedAt": "2026-10-06T12:35:30Z",
-      "thumbnail": "thumbs/rdwXHIuHzn8.jpg",
-      "views": 10,
-      "likes": 1,
-      "comments": 0,
-      "durationSeconds": 80
-    },
-    {
-      "id": "F3mYu1ibhvY",
-      "title": "Brown Men Will NEVER Attract Women (unless they do THIS)",
-      "publishedAt": "2026-10-02T21:30:07Z",
-      "thumbnail": "thumbs/F3mYu1ibhvY.jpg",
-      "views": 90,
-      "likes": 3,
-      "comments": 1,
-      "durationSeconds": 70
     }
   ],
   "longform": {
@@ -360,7 +364,7 @@
     "title": "Dating Is Not Race Blind. Why Indian And Asian Men On $300K Lose To A $30K Barista. How To Fix It.",
     "publishedAt": "2026-08-19T18:00:23Z",
     "thumbnail": "thumbs/NB8PFFrdQVs.jpg",
-    "views": 160,
+    "views": 164,
     "likes": 4,
     "comments": 0,
     "durationSeconds": 1084
@@ -471,7 +475,7 @@
       "title": "Why Women Instantly Feel the Difference in a Man’s Behavior — High-Value vs Low-Value",
       "publishedAt": "2025-12-27T17:03:17Z",
       "thumbnail": "thumbs/CXgxvfG-2Xc.jpg",
-      "views": 1496,
+      "views": 1497,
       "likes": 28,
       "comments": 13,
       "durationSeconds": 570
@@ -639,6 +643,8 @@
     "cO2Qg-LJpRU",
     "--bF20Dbs3M",
     "M5CxGvyI31A",
-    "52-L1g2MTlA"
+    "52-L1g2MTlA",
+    "Q2oZQWiY1kU",
+    "Jl7qRsSchVI"
   ]
 }

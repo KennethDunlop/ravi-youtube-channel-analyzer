@@ -1,5 +1,5 @@
 {
-  "version": "1.73",
+  "version": "1.74",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -9,9 +9,9 @@
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 386,
     "videoCount": 254,
-    "channelViews": 105888,
+    "channelViews": 105999,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-23T19:00:19.206Z",
+    "lastUpdated": "2026-10-24T07:00:23.062Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -159,6 +159,10 @@
     {
       "date": "2026-10-23",
       "subscriberCount": 386
+    },
+    {
+      "date": "2026-10-24",
+      "subscriberCount": 386
     }
   ],
   "videos": [
@@ -167,7 +171,7 @@
       "title": "Brown & Asian Men Get Rated At The Bottom (Unless They Do This) #shorts",
       "publishedAt": "2026-10-22T20:00:20Z",
       "thumbnail": "thumbs/V_RZ_oDQsYg.jpg",
-      "views": 911,
+      "views": 986,
       "likes": 4,
       "comments": 1,
       "durationSeconds": 58
@@ -177,7 +181,7 @@
       "title": "Brown & Asian Men Get Told \"You're A Nice Guy\" (50 Dates In A Row) #shorts",
       "publishedAt": "2026-10-22T15:00:00Z",
       "thumbnail": "thumbs/6Fcq15N7UCE.jpg",
-      "views": 959,
+      "views": 988,
       "likes": 6,
       "comments": 1,
       "durationSeconds": 55
@@ -187,7 +191,7 @@
       "title": "Brown & Asian Men: The More You Earn, The Less She Wants You #shorts",
       "publishedAt": "2026-10-21T22:30:34Z",
       "thumbnail": "thumbs/Q2oZQWiY1kU.jpg",
-      "views": 211,
+      "views": 218,
       "likes": 3,
       "comments": 1,
       "durationSeconds": 54
@@ -197,7 +201,7 @@
       "title": "Brown & Asian Men Aren't Rejected. Hollywood Filtered Them Out. #shorts",
       "publishedAt": "2026-10-21T20:28:02Z",
       "thumbnail": "thumbs/Jl7qRsSchVI.jpg",
-      "views": 221,
+      "views": 235,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 55
@@ -227,7 +231,7 @@
       "title": "Brown & Asian Men STAY SINGLE (Even After $1000s On Dating Coaching) #shorts",
       "publishedAt": "2026-10-16T11:45:55Z",
       "thumbnail": "thumbs/--bF20Dbs3M.jpg",
-      "views": 159,
+      "views": 161,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 64
@@ -365,7 +369,7 @@
   ],
   "longform": {
     "id": "NB8PFFrdQVs",
-    "title": "Dating Is Not Race Blind. Why Indian And Asian Men On $300K Lose To A $30K Barista. How To Fix It.",
+    "title": "Why Is Dating So Hard for Indian Men? Why $300K Engineers Lose to a $30K Barista",
     "publishedAt": "2026-08-19T18:00:23Z",
     "thumbnail": "thumbs/NB8PFFrdQVs.jpg",
     "views": 166,
@@ -389,7 +393,7 @@
       "title": "Average Looking Brown Men Will Fat At Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-16T09:56:45Z",
       "thumbnail": "thumbs/ep_Z8SeN4TI.jpg",
-      "views": 1854,
+      "views": 1855,
       "likes": 24,
       "comments": 3,
       "durationSeconds": 78
@@ -509,7 +513,7 @@
       "title": "Brown Men NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-14T09:13:41Z",
       "thumbnail": "thumbs/jaJt7lNpp2M.jpg",
-      "views": 1403,
+      "views": 1406,
       "likes": 19,
       "comments": 9,
       "durationSeconds": 50
@@ -569,7 +573,7 @@
       "title": "Brown Men FAIL At Online Dating (Unless They Know THIS)",
       "publishedAt": "2026-09-30T13:34:17Z",
       "thumbnail": "thumbs/ndl-uB8zoRs.jpg",
-      "views": 1316,
+      "views": 1317,
       "likes": 16,
       "comments": 0,
       "durationSeconds": 43

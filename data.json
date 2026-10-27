@@ -1,5 +1,5 @@
 {
-  "version": "1.79",
+  "version": "1.80",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 387,
-    "videoCount": 254,
-    "channelViews": 106244,
+    "videoCount": 256,
+    "channelViews": 106277,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-26T19:00:20.208Z",
+    "lastUpdated": "2026-10-27T07:00:19.006Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -171,9 +171,33 @@
     {
       "date": "2026-10-26",
       "subscriberCount": 387
+    },
+    {
+      "date": "2026-10-27",
+      "subscriberCount": 387
     }
   ],
   "videos": [
+    {
+      "id": "L1bi9yukALw",
+      "title": "Minority Men In Tech Repel Women (It Was Me) #shorts",
+      "publishedAt": "2026-10-26T23:40:25Z",
+      "thumbnail": "thumbs/L1bi9yukALw.jpg",
+      "views": 268,
+      "likes": 0,
+      "comments": 1,
+      "durationSeconds": 60
+    },
+    {
+      "id": "3ZkfxnUF4X0",
+      "title": "From \"Generic Indian Engineer\" to \"Are You a Model?\" (Real Coaching Call) #shorts",
+      "publishedAt": "2026-10-26T20:07:05Z",
+      "thumbnail": "thumbs/3ZkfxnUF4X0.jpg",
+      "views": 87,
+      "likes": 2,
+      "comments": 0,
+      "durationSeconds": 36
+    },
     {
       "id": "V_RZ_oDQsYg",
       "title": "Brown & Asian Men Get Rated At The Bottom (Unless They Do This) #shorts",
@@ -229,7 +253,7 @@
       "title": "Brown Men End Up In An Arranged Marriage (Unless They Do This) #shorts",
       "publishedAt": "2026-10-19T14:06:51Z",
       "thumbnail": "thumbs/M5CxGvyI31A.jpg",
-      "views": 274,
+      "views": 275,
       "likes": 5,
       "comments": 1,
       "durationSeconds": 55
@@ -259,7 +283,7 @@
       "title": "Professional Brown & Asian Men Can't Get Second Dates (ONE Mistake) #shorts",
       "publishedAt": "2026-10-14T16:00:12Z",
       "thumbnail": "thumbs/v0gE6cIRpiM.jpg",
-      "views": 143,
+      "views": 145,
       "likes": 4,
       "comments": 1,
       "durationSeconds": 62
@@ -353,26 +377,6 @@
       "likes": 8,
       "comments": 0,
       "durationSeconds": 39
-    },
-    {
-      "id": "Vp5y7hMKqlw",
-      "title": "Brown & Asian Men Are INVISIBLE To Women, Because Of THIS Hidden Tax",
-      "publishedAt": "2026-10-07T17:30:22Z",
-      "thumbnail": "thumbs/Vp5y7hMKqlw.jpg",
-      "views": 16,
-      "likes": 0,
-      "comments": 0,
-      "durationSeconds": 38
-    },
-    {
-      "id": "mDfE_jyEcUY",
-      "title": "Brown & Asian Men Can’t Get Second Dates Because Of THIS Hidden Tax",
-      "publishedAt": "2026-10-07T12:13:06Z",
-      "thumbnail": "thumbs/mDfE_jyEcUY.jpg",
-      "views": 159,
-      "likes": 7,
-      "comments": 0,
-      "durationSeconds": 33
     }
   ],
   "longform": {
@@ -401,7 +405,7 @@
       "title": "Average Looking Brown Men Will Fat At Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-16T09:56:45Z",
       "thumbnail": "thumbs/ep_Z8SeN4TI.jpg",
-      "views": 1857,
+      "views": 1858,
       "likes": 25,
       "comments": 3,
       "durationSeconds": 78
@@ -521,7 +525,7 @@
       "title": "Brown Men NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-14T09:13:41Z",
       "thumbnail": "thumbs/jaJt7lNpp2M.jpg",
-      "views": 1406,
+      "views": 1407,
       "likes": 19,
       "comments": 9,
       "durationSeconds": 50
@@ -663,6 +667,8 @@
     "Q2oZQWiY1kU",
     "Jl7qRsSchVI",
     "6Fcq15N7UCE",
-    "V_RZ_oDQsYg"
+    "V_RZ_oDQsYg",
+    "L1bi9yukALw",
+    "3ZkfxnUF4X0"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": "1.84",
+  "version": "1.85",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 387,
-    "videoCount": 256,
-    "channelViews": 106777,
+    "videoCount": 257,
+    "channelViews": 106780,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-29T07:00:56.294Z",
+    "lastUpdated": "2026-10-29T19:00:54.816Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -186,6 +186,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "yJd6BIBMHNU",
+      "title": "Minority Men Earning Six Figures: Your Salary Isn't Sexy #shorts",
+      "publishedAt": "2026-10-29T17:58:10Z",
+      "thumbnail": "thumbs/yJd6BIBMHNU.jpg",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 54
+    },
     {
       "id": "L1bi9yukALw",
       "title": "Minority Men In Tech Repel Women (It Was Me) #shorts",
@@ -375,16 +385,6 @@
       "likes": 5,
       "comments": 1,
       "durationSeconds": 52
-    },
-    {
-      "id": "poUnZSEGLvg",
-      "title": "Why Can’t Brown & Asian Men Get Matches In Online Dating?",
-      "publishedAt": "2026-10-07T21:30:14Z",
-      "thumbnail": "thumbs/poUnZSEGLvg.jpg",
-      "views": 286,
-      "likes": 8,
-      "comments": 0,
-      "durationSeconds": 39
     }
   ],
   "longform": {
@@ -677,6 +677,7 @@
     "6Fcq15N7UCE",
     "V_RZ_oDQsYg",
     "L1bi9yukALw",
-    "3ZkfxnUF4X0"
+    "3ZkfxnUF4X0",
+    "yJd6BIBMHNU"
   ]
 }

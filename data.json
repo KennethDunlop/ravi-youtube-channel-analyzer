@@ -1,5 +1,5 @@
 {
-  "version": "1.85",
+  "version": "1.86",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 387,
-    "videoCount": 257,
+    "videoCount": 258,
     "channelViews": 106780,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-29T19:00:54.816Z",
+    "lastUpdated": "2026-10-30T07:00:55.054Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -183,17 +183,31 @@
     {
       "date": "2026-10-29",
       "subscriberCount": 387
+    },
+    {
+      "date": "2026-10-30",
+      "subscriberCount": 387
     }
   ],
   "videos": [
+    {
+      "id": "VVU8gk8Lc-I",
+      "title": "Minority Men In Tech: She Didn't Ghost You, You Bored Her #shorts",
+      "publishedAt": "2026-10-29T20:00:06Z",
+      "thumbnail": "thumbs/VVU8gk8Lc-I.jpg",
+      "views": 15,
+      "likes": 1,
+      "comments": 0,
+      "durationSeconds": 52
+    },
     {
       "id": "yJd6BIBMHNU",
       "title": "Minority Men Earning Six Figures: Your Salary Isn't Sexy #shorts",
       "publishedAt": "2026-10-29T17:58:10Z",
       "thumbnail": "thumbs/yJd6BIBMHNU.jpg",
-      "views": 0,
-      "likes": 0,
-      "comments": 0,
+      "views": 33,
+      "likes": 1,
+      "comments": 1,
       "durationSeconds": 54
     },
     {
@@ -201,7 +215,7 @@
       "title": "Minority Men In Tech Repel Women (It Was Me) #shorts",
       "publishedAt": "2026-10-26T23:40:25Z",
       "thumbnail": "thumbs/L1bi9yukALw.jpg",
-      "views": 352,
+      "views": 354,
       "likes": 0,
       "comments": 1,
       "durationSeconds": 60
@@ -211,7 +225,7 @@
       "title": "From \"Generic Indian Engineer\" to \"Are You a Model?\" (Real Coaching Call) #shorts",
       "publishedAt": "2026-10-26T20:07:05Z",
       "thumbnail": "thumbs/3ZkfxnUF4X0.jpg",
-      "views": 102,
+      "views": 104,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 36
@@ -221,7 +235,7 @@
       "title": "Brown & Asian Men Get Rated At The Bottom (Unless They Do This) #shorts",
       "publishedAt": "2026-10-22T20:00:20Z",
       "thumbnail": "thumbs/V_RZ_oDQsYg.jpg",
-      "views": 1045,
+      "views": 1046,
       "likes": 5,
       "comments": 1,
       "durationSeconds": 58
@@ -281,7 +295,7 @@
       "title": "Brown & Asian Men STAY SINGLE (Even After $1000s On Dating Coaching) #shorts",
       "publishedAt": "2026-10-16T11:45:55Z",
       "thumbnail": "thumbs/--bF20Dbs3M.jpg",
-      "views": 165,
+      "views": 167,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 64
@@ -375,16 +389,6 @@
       "likes": 6,
       "comments": 1,
       "durationSeconds": 57
-    },
-    {
-      "id": "ssKNaDiFc3g",
-      "title": "Professional Brown & Asian Men WIN At Work, LOSE At Dating (THIS Hidden Tax) #shorts",
-      "publishedAt": "2026-10-08T16:56:43Z",
-      "thumbnail": "thumbs/ssKNaDiFc3g.jpg",
-      "views": 145,
-      "likes": 5,
-      "comments": 1,
-      "durationSeconds": 52
     }
   ],
   "longform": {
@@ -392,7 +396,7 @@
     "title": "Why Is Dating So Hard for Indian Men? Why $300K Engineers Lose to a $30K Barista",
     "publishedAt": "2026-08-19T18:00:23Z",
     "thumbnail": "thumbs/NB8PFFrdQVs.jpg",
-    "views": 168,
+    "views": 169,
     "likes": 4,
     "comments": 0,
     "durationSeconds": 1084
@@ -678,6 +682,7 @@
     "V_RZ_oDQsYg",
     "L1bi9yukALw",
     "3ZkfxnUF4X0",
-    "yJd6BIBMHNU"
+    "yJd6BIBMHNU",
+    "VVU8gk8Lc-I"
   ]
 }

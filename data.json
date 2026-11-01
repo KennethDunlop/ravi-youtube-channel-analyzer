@@ -1,5 +1,5 @@
 {
-  "version": "1.89",
+  "version": "1.90",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
-    "subscriberCount": 388,
-    "videoCount": 263,
-    "channelViews": 108203,
+    "subscriberCount": 387,
+    "videoCount": 264,
+    "channelViews": 108514,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-10-31T19:00:53.475Z",
+    "lastUpdated": "2026-11-01T07:00:49.497Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -191,15 +191,29 @@
     {
       "date": "2026-10-31",
       "subscriberCount": 388
+    },
+    {
+      "date": "2026-11-01",
+      "subscriberCount": 387
     }
   ],
   "videos": [
+    {
+      "id": "h-EQyPkm9Ro",
+      "title": "High-Earning Minority Men Will Never Get Dates Unless They Fix This #shorts",
+      "publishedAt": "2026-10-31T20:00:22Z",
+      "thumbnail": "thumbs/h-EQyPkm9Ro.jpg",
+      "views": 38,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 64
+    },
     {
       "id": "S-ZMuLdrsTg",
       "title": "Minority Men Lose Her In 4 Seconds Unless They Do This #shorts",
       "publishedAt": "2026-10-31T16:00:15Z",
       "thumbnail": "thumbs/S-ZMuLdrsTg.jpg",
-      "views": 4,
+      "views": 52,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 63
@@ -209,7 +223,7 @@
       "title": "Day 5 in Belgrade #shorts",
       "publishedAt": "2026-10-31T11:25:42Z",
       "thumbnail": "thumbs/U8U65GNL7YU.jpg",
-      "views": 130,
+      "views": 145,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 17
@@ -219,7 +233,7 @@
       "title": "\"I'd Never Date An Indian Guy\": How Minority Men Get Out Of The Box #shorts",
       "publishedAt": "2026-10-30T17:30:15Z",
       "thumbnail": "thumbs/z41RArAYBsI.jpg",
-      "views": 230,
+      "views": 237,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 56
@@ -229,7 +243,7 @@
       "title": "Virgin At 30, About 300 Dates Since: The One Thing I Changed #shorts",
       "publishedAt": "2026-10-30T15:00:13Z",
       "thumbnail": "thumbs/SGFDv7CiQJw.jpg",
-      "views": 25,
+      "views": 33,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 48
@@ -239,7 +253,7 @@
       "title": "Belgrade Night Out: The Mixed Grill Had Its Own Postcode #shorts",
       "publishedAt": "2026-10-30T11:58:33Z",
       "thumbnail": "thumbs/XNnnpY_oFOE.jpg",
-      "views": 1140,
+      "views": 1148,
       "likes": 4,
       "comments": 0,
       "durationSeconds": 15
@@ -249,7 +263,7 @@
       "title": "Minority Men In Tech: She Didn't Ghost You, You Bored Her #shorts",
       "publishedAt": "2026-10-29T20:00:06Z",
       "thumbnail": "thumbs/VVU8gk8Lc-I.jpg",
-      "views": 34,
+      "views": 35,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 52
@@ -259,7 +273,7 @@
       "title": "Minority Men Earning Six Figures: Your Salary Isn't Sexy #shorts",
       "publishedAt": "2026-10-29T17:58:10Z",
       "thumbnail": "thumbs/yJd6BIBMHNU.jpg",
-      "views": 55,
+      "views": 58,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 54
@@ -383,16 +397,6 @@
       "likes": 8,
       "comments": 1,
       "durationSeconds": 60
-    },
-    {
-      "id": "_vbk0vqxhSo",
-      "title": "Professional Brown & Asian Men Get REJECTED In One Second (ONE Mistake) #shorts",
-      "publishedAt": "2026-10-13T18:00:38Z",
-      "thumbnail": "thumbs/_vbk0vqxhSo.jpg",
-      "views": 180,
-      "likes": 8,
-      "comments": 1,
-      "durationSeconds": 49
     }
   ],
   "longform": {
@@ -400,7 +404,7 @@
     "title": "Why Is Dating So Hard for Indian Men? Why $300K Engineers Lose to a $30K Barista",
     "publishedAt": "2026-08-19T18:00:23Z",
     "thumbnail": "thumbs/NB8PFFrdQVs.jpg",
-    "views": 169,
+    "views": 170,
     "likes": 4,
     "comments": 0,
     "durationSeconds": 1084
@@ -541,7 +545,7 @@
       "title": "Brown Men NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-14T09:13:41Z",
       "thumbnail": "thumbs/jaJt7lNpp2M.jpg",
-      "views": 1408,
+      "views": 1410,
       "likes": 19,
       "comments": 9,
       "durationSeconds": 50
@@ -571,7 +575,7 @@
       "title": "Brown Men Should NOT Say This When Theyre Dating",
       "publishedAt": "2026-09-10T19:07:04Z",
       "thumbnail": "thumbs/l0K20G1sB6E.jpg",
-      "views": 1340,
+      "views": 1342,
       "likes": 8,
       "comments": 0,
       "durationSeconds": 50
@@ -581,7 +585,7 @@
       "title": "Brown Men Ruin Their Dates (Unless They Do This)",
       "publishedAt": "2026-09-11T13:10:27Z",
       "thumbnail": "thumbs/obaeZPGgVrQ.jpg",
-      "views": 1334,
+      "views": 1336,
       "likes": 19,
       "comments": 2,
       "durationSeconds": 55
@@ -692,6 +696,7 @@
     "SGFDv7CiQJw",
     "XNnnpY_oFOE",
     "S-ZMuLdrsTg",
-    "U8U65GNL7YU"
+    "U8U65GNL7YU",
+    "h-EQyPkm9Ro"
   ]
 }

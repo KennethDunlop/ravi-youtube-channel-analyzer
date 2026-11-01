@@ -1,5 +1,5 @@
 {
-  "version": "1.90",
+  "version": "1.91",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
-    "subscriberCount": 387,
-    "videoCount": 264,
-    "channelViews": 108514,
+    "subscriberCount": 386,
+    "videoCount": 265,
+    "channelViews": 108628,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-01T07:00:49.497Z",
+    "lastUpdated": "2026-11-01T19:00:50.523Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -194,16 +194,26 @@
     },
     {
       "date": "2026-11-01",
-      "subscriberCount": 387
+      "subscriberCount": 386
     }
   ],
   "videos": [
+    {
+      "id": "4zw1kC9A_IY",
+      "title": "I Was a Virgin at 30. I Don't Blame Women. #shorts",
+      "publishedAt": "2026-11-01T17:00:07Z",
+      "thumbnail": "thumbs/4zw1kC9A_IY.jpg",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 45
+    },
     {
       "id": "h-EQyPkm9Ro",
       "title": "High-Earning Minority Men Will Never Get Dates Unless They Fix This #shorts",
       "publishedAt": "2026-10-31T20:00:22Z",
       "thumbnail": "thumbs/h-EQyPkm9Ro.jpg",
-      "views": 38,
+      "views": 42,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 64
@@ -213,7 +223,7 @@
       "title": "Minority Men Lose Her In 4 Seconds Unless They Do This #shorts",
       "publishedAt": "2026-10-31T16:00:15Z",
       "thumbnail": "thumbs/S-ZMuLdrsTg.jpg",
-      "views": 52,
+      "views": 53,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 63
@@ -223,7 +233,7 @@
       "title": "Day 5 in Belgrade #shorts",
       "publishedAt": "2026-10-31T11:25:42Z",
       "thumbnail": "thumbs/U8U65GNL7YU.jpg",
-      "views": 145,
+      "views": 147,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 17
@@ -233,7 +243,7 @@
       "title": "\"I'd Never Date An Indian Guy\": How Minority Men Get Out Of The Box #shorts",
       "publishedAt": "2026-10-30T17:30:15Z",
       "thumbnail": "thumbs/z41RArAYBsI.jpg",
-      "views": 237,
+      "views": 238,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 56
@@ -243,7 +253,7 @@
       "title": "Virgin At 30, About 300 Dates Since: The One Thing I Changed #shorts",
       "publishedAt": "2026-10-30T15:00:13Z",
       "thumbnail": "thumbs/SGFDv7CiQJw.jpg",
-      "views": 33,
+      "views": 40,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 48
@@ -253,7 +263,7 @@
       "title": "Belgrade Night Out: The Mixed Grill Had Its Own Postcode #shorts",
       "publishedAt": "2026-10-30T11:58:33Z",
       "thumbnail": "thumbs/XNnnpY_oFOE.jpg",
-      "views": 1148,
+      "views": 1166,
       "likes": 4,
       "comments": 0,
       "durationSeconds": 15
@@ -363,7 +373,7 @@
       "title": "Brown & Asian Men STAY SINGLE (Even After $1000s On Dating Coaching) #shorts",
       "publishedAt": "2026-10-16T11:45:55Z",
       "thumbnail": "thumbs/--bF20Dbs3M.jpg",
-      "views": 167,
+      "views": 168,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 64
@@ -387,16 +397,6 @@
       "likes": 4,
       "comments": 1,
       "durationSeconds": 62
-    },
-    {
-      "id": "Vcvg3GDq7So",
-      "title": "Professional Brown & Asian Men Stay SINGLE For Years (ONE Mistake) #shorts",
-      "publishedAt": "2026-10-13T20:00:18Z",
-      "thumbnail": "thumbs/Vcvg3GDq7So.jpg",
-      "views": 207,
-      "likes": 8,
-      "comments": 1,
-      "durationSeconds": 60
     }
   ],
   "longform": {
@@ -425,7 +425,7 @@
       "title": "Average Looking Brown Men Will Fat At Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-16T09:56:45Z",
       "thumbnail": "thumbs/ep_Z8SeN4TI.jpg",
-      "views": 1861,
+      "views": 1862,
       "likes": 25,
       "comments": 3,
       "durationSeconds": 78
@@ -545,7 +545,7 @@
       "title": "Brown Men NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-14T09:13:41Z",
       "thumbnail": "thumbs/jaJt7lNpp2M.jpg",
-      "views": 1410,
+      "views": 1411,
       "likes": 19,
       "comments": 9,
       "durationSeconds": 50
@@ -697,6 +697,7 @@
     "XNnnpY_oFOE",
     "S-ZMuLdrsTg",
     "U8U65GNL7YU",
-    "h-EQyPkm9Ro"
+    "h-EQyPkm9Ro",
+    "4zw1kC9A_IY"
   ]
 }

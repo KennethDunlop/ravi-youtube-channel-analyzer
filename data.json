@@ -1,5 +1,5 @@
 {
-  "version": "1.92",
+  "version": "1.93",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 386,
-    "videoCount": 265,
+    "videoCount": 267,
     "channelViews": 108659,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-02T07:00:58.614Z",
+    "lastUpdated": "2026-11-02T19:01:03.689Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -203,6 +203,26 @@
   ],
   "videos": [
     {
+      "id": "whYTgWfw0Cw",
+      "title": "Indian Doctors & Engineers: Dating On Hard Mode #shorts",
+      "publishedAt": "2026-11-02T16:00:27Z",
+      "thumbnail": "thumbs/whYTgWfw0Cw.jpg",
+      "views": 88,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 54
+    },
+    {
+      "id": "q6er9NP8VGE",
+      "title": "The ashtray turned up before the menu did ☕️ #shorts",
+      "publishedAt": "2026-11-02T13:29:38Z",
+      "thumbnail": "thumbs/q6er9NP8VGE.jpg",
+      "views": 150,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 9
+    },
+    {
       "id": "4zw1kC9A_IY",
       "title": "I Was a Virgin at 30. I Don't Blame Women. #shorts",
       "publishedAt": "2026-11-01T17:00:07Z",
@@ -217,7 +237,7 @@
       "title": "High-Earning Minority Men Will Never Get Dates Unless They Fix This #shorts",
       "publishedAt": "2026-10-31T20:00:22Z",
       "thumbnail": "thumbs/h-EQyPkm9Ro.jpg",
-      "views": 44,
+      "views": 51,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 64
@@ -227,7 +247,7 @@
       "title": "Minority Men Lose Her In 4 Seconds Unless They Do This #shorts",
       "publishedAt": "2026-10-31T16:00:15Z",
       "thumbnail": "thumbs/S-ZMuLdrsTg.jpg",
-      "views": 59,
+      "views": 60,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 63
@@ -237,7 +257,7 @@
       "title": "Day 5 in Belgrade #shorts",
       "publishedAt": "2026-10-31T11:25:42Z",
       "thumbnail": "thumbs/U8U65GNL7YU.jpg",
-      "views": 150,
+      "views": 152,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 17
@@ -307,7 +327,7 @@
       "title": "From \"Generic Indian Engineer\" to \"Are You a Model?\" (Real Coaching Call) #shorts",
       "publishedAt": "2026-10-26T20:07:05Z",
       "thumbnail": "thumbs/3ZkfxnUF4X0.jpg",
-      "views": 106,
+      "views": 109,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 36
@@ -381,26 +401,6 @@
       "likes": 2,
       "comments": 1,
       "durationSeconds": 64
-    },
-    {
-      "id": "cO2Qg-LJpRU",
-      "title": "Brown & Asian Men Dating In The West Get REJECTED In 2 Seconds #shorts",
-      "publishedAt": "2026-10-15T10:07:35Z",
-      "thumbnail": "thumbs/cO2Qg-LJpRU.jpg",
-      "views": 143,
-      "likes": 4,
-      "comments": 1,
-      "durationSeconds": 53
-    },
-    {
-      "id": "v0gE6cIRpiM",
-      "title": "Professional Brown & Asian Men Can't Get Second Dates (ONE Mistake) #shorts",
-      "publishedAt": "2026-10-14T16:00:12Z",
-      "thumbnail": "thumbs/v0gE6cIRpiM.jpg",
-      "views": 145,
-      "likes": 4,
-      "comments": 1,
-      "durationSeconds": 62
     }
   ],
   "longform": {
@@ -408,7 +408,7 @@
     "title": "Why Is Dating So Hard for Indian Men? Why $300K Engineers Lose to a $30K Barista",
     "publishedAt": "2026-08-19T18:00:23Z",
     "thumbnail": "thumbs/NB8PFFrdQVs.jpg",
-    "views": 170,
+    "views": 171,
     "likes": 4,
     "comments": 0,
     "durationSeconds": 1084
@@ -429,7 +429,7 @@
       "title": "Average Looking Brown Men Will Fat At Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-16T09:56:45Z",
       "thumbnail": "thumbs/ep_Z8SeN4TI.jpg",
-      "views": 1862,
+      "views": 1863,
       "likes": 25,
       "comments": 3,
       "durationSeconds": 78
@@ -489,7 +489,7 @@
       "title": "Why Modern Calm Men Are Rare And Why Women Notice Immediately",
       "publishedAt": "2025-11-15T15:00:22Z",
       "thumbnail": "thumbs/5YJyKj9HZ9I.jpg",
-      "views": 1604,
+      "views": 1605,
       "likes": 41,
       "comments": 19,
       "durationSeconds": 419
@@ -702,6 +702,8 @@
     "S-ZMuLdrsTg",
     "U8U65GNL7YU",
     "h-EQyPkm9Ro",
-    "4zw1kC9A_IY"
+    "4zw1kC9A_IY",
+    "whYTgWfw0Cw",
+    "q6er9NP8VGE"
   ]
 }

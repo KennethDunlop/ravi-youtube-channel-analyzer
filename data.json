@@ -1,5 +1,5 @@
 {
-  "version": "1.93",
+  "version": "1.94",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 386,
-    "videoCount": 267,
-    "channelViews": 108659,
+    "videoCount": 268,
+    "channelViews": 108975,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-02T19:01:03.689Z",
+    "lastUpdated": "2026-11-03T07:01:00.454Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -199,15 +199,29 @@
     {
       "date": "2026-11-02",
       "subscriberCount": 386
+    },
+    {
+      "date": "2026-11-03",
+      "subscriberCount": 386
     }
   ],
   "videos": [
+    {
+      "id": "HsI_Jk37xWs",
+      "title": "Six Figures, Hinge Premium… Still No Dates #shorts",
+      "publishedAt": "2026-11-02T20:00:17Z",
+      "thumbnail": "thumbs/HsI_Jk37xWs.jpg",
+      "views": 7,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 56
+    },
     {
       "id": "whYTgWfw0Cw",
       "title": "Indian Doctors & Engineers: Dating On Hard Mode #shorts",
       "publishedAt": "2026-11-02T16:00:27Z",
       "thumbnail": "thumbs/whYTgWfw0Cw.jpg",
-      "views": 88,
+      "views": 109,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 54
@@ -217,7 +231,7 @@
       "title": "The ashtray turned up before the menu did ☕️ #shorts",
       "publishedAt": "2026-11-02T13:29:38Z",
       "thumbnail": "thumbs/q6er9NP8VGE.jpg",
-      "views": 150,
+      "views": 156,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 9
@@ -227,7 +241,7 @@
       "title": "I Was a Virgin at 30. I Don't Blame Women. #shorts",
       "publishedAt": "2026-11-01T17:00:07Z",
       "thumbnail": "thumbs/4zw1kC9A_IY.jpg",
-      "views": 12,
+      "views": 15,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 45
@@ -237,7 +251,7 @@
       "title": "High-Earning Minority Men Will Never Get Dates Unless They Fix This #shorts",
       "publishedAt": "2026-10-31T20:00:22Z",
       "thumbnail": "thumbs/h-EQyPkm9Ro.jpg",
-      "views": 51,
+      "views": 52,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 64
@@ -267,7 +281,7 @@
       "title": "\"I'd Never Date An Indian Guy\": How Minority Men Get Out Of The Box #shorts",
       "publishedAt": "2026-10-30T17:30:15Z",
       "thumbnail": "thumbs/z41RArAYBsI.jpg",
-      "views": 239,
+      "views": 240,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 56
@@ -391,16 +405,6 @@
       "likes": 5,
       "comments": 1,
       "durationSeconds": 55
-    },
-    {
-      "id": "--bF20Dbs3M",
-      "title": "Brown & Asian Men STAY SINGLE (Even After $1000s On Dating Coaching) #shorts",
-      "publishedAt": "2026-10-16T11:45:55Z",
-      "thumbnail": "thumbs/--bF20Dbs3M.jpg",
-      "views": 168,
-      "likes": 2,
-      "comments": 1,
-      "durationSeconds": 64
     }
   ],
   "longform": {
@@ -704,6 +708,7 @@
     "h-EQyPkm9Ro",
     "4zw1kC9A_IY",
     "whYTgWfw0Cw",
-    "q6er9NP8VGE"
+    "q6er9NP8VGE",
+    "HsI_Jk37xWs"
   ]
 }

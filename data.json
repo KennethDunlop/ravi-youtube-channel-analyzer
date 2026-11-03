@@ -1,5 +1,5 @@
 {
-  "version": "1.94",
+  "version": "1.95",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 386,
-    "videoCount": 268,
+    "videoCount": 269,
     "channelViews": 108975,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-03T07:01:00.454Z",
+    "lastUpdated": "2026-11-03T19:01:01.743Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -207,11 +207,21 @@
   ],
   "videos": [
     {
+      "id": "rlJSZvUOk0A",
+      "title": "Your City Is Costing You Dates (High-Earning Brown & Asian Men) #shorts",
+      "publishedAt": "2026-11-03T16:00:19Z",
+      "thumbnail": "thumbs/rlJSZvUOk0A.jpg",
+      "views": 6,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 54
+    },
+    {
       "id": "HsI_Jk37xWs",
       "title": "Six Figures, Hinge Premium… Still No Dates #shorts",
       "publishedAt": "2026-11-02T20:00:17Z",
       "thumbnail": "thumbs/HsI_Jk37xWs.jpg",
-      "views": 7,
+      "views": 8,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 56
@@ -221,7 +231,7 @@
       "title": "Indian Doctors & Engineers: Dating On Hard Mode #shorts",
       "publishedAt": "2026-11-02T16:00:27Z",
       "thumbnail": "thumbs/whYTgWfw0Cw.jpg",
-      "views": 109,
+      "views": 110,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 54
@@ -231,7 +241,7 @@
       "title": "The ashtray turned up before the menu did ☕️ #shorts",
       "publishedAt": "2026-11-02T13:29:38Z",
       "thumbnail": "thumbs/q6er9NP8VGE.jpg",
-      "views": 156,
+      "views": 154,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 9
@@ -241,7 +251,7 @@
       "title": "I Was a Virgin at 30. I Don't Blame Women. #shorts",
       "publishedAt": "2026-11-01T17:00:07Z",
       "thumbnail": "thumbs/4zw1kC9A_IY.jpg",
-      "views": 15,
+      "views": 19,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 45
@@ -281,7 +291,7 @@
       "title": "\"I'd Never Date An Indian Guy\": How Minority Men Get Out Of The Box #shorts",
       "publishedAt": "2026-10-30T17:30:15Z",
       "thumbnail": "thumbs/z41RArAYBsI.jpg",
-      "views": 240,
+      "views": 238,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 56
@@ -395,16 +405,6 @@
       "likes": 0,
       "comments": 0,
       "durationSeconds": 43
-    },
-    {
-      "id": "M5CxGvyI31A",
-      "title": "Brown Men End Up In An Arranged Marriage (Unless They Do This) #shorts",
-      "publishedAt": "2026-10-19T14:06:51Z",
-      "thumbnail": "thumbs/M5CxGvyI31A.jpg",
-      "views": 275,
-      "likes": 5,
-      "comments": 1,
-      "durationSeconds": 55
     }
   ],
   "longform": {
@@ -709,6 +709,7 @@
     "4zw1kC9A_IY",
     "whYTgWfw0Cw",
     "q6er9NP8VGE",
-    "HsI_Jk37xWs"
+    "HsI_Jk37xWs",
+    "rlJSZvUOk0A"
   ]
 }

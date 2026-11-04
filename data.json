@@ -1,5 +1,5 @@
 {
-  "version": "1.95",
+  "version": "1.96",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 386,
-    "videoCount": 269,
-    "channelViews": 108975,
+    "videoCount": 270,
+    "channelViews": 109017,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-03T19:01:01.743Z",
+    "lastUpdated": "2026-11-04T07:01:00.003Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -203,15 +203,29 @@
     {
       "date": "2026-11-03",
       "subscriberCount": 386
+    },
+    {
+      "date": "2026-11-04",
+      "subscriberCount": 386
     }
   ],
   "videos": [
+    {
+      "id": "Lt4HUbR-0q8",
+      "title": "Pro Photos Are Killing Your Dates (High-Earning Brown & Asian Men) #shorts",
+      "publishedAt": "2026-11-03T20:00:07Z",
+      "thumbnail": "thumbs/Lt4HUbR-0q8.jpg",
+      "views": 43,
+      "likes": 1,
+      "comments": 0,
+      "durationSeconds": 58
+    },
     {
       "id": "rlJSZvUOk0A",
       "title": "Your City Is Costing You Dates (High-Earning Brown & Asian Men) #shorts",
       "publishedAt": "2026-11-03T16:00:19Z",
       "thumbnail": "thumbs/rlJSZvUOk0A.jpg",
-      "views": 6,
+      "views": 29,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 54
@@ -221,7 +235,7 @@
       "title": "Six Figures, Hinge Premium… Still No Dates #shorts",
       "publishedAt": "2026-11-02T20:00:17Z",
       "thumbnail": "thumbs/HsI_Jk37xWs.jpg",
-      "views": 8,
+      "views": 10,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 56
@@ -231,7 +245,7 @@
       "title": "Indian Doctors & Engineers: Dating On Hard Mode #shorts",
       "publishedAt": "2026-11-02T16:00:27Z",
       "thumbnail": "thumbs/whYTgWfw0Cw.jpg",
-      "views": 110,
+      "views": 112,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 54
@@ -241,7 +255,7 @@
       "title": "The ashtray turned up before the menu did ☕️ #shorts",
       "publishedAt": "2026-11-02T13:29:38Z",
       "thumbnail": "thumbs/q6er9NP8VGE.jpg",
-      "views": 154,
+      "views": 159,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 9
@@ -261,7 +275,7 @@
       "title": "High-Earning Minority Men Will Never Get Dates Unless They Fix This #shorts",
       "publishedAt": "2026-10-31T20:00:22Z",
       "thumbnail": "thumbs/h-EQyPkm9Ro.jpg",
-      "views": 52,
+      "views": 53,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 64
@@ -291,7 +305,7 @@
       "title": "\"I'd Never Date An Indian Guy\": How Minority Men Get Out Of The Box #shorts",
       "publishedAt": "2026-10-30T17:30:15Z",
       "thumbnail": "thumbs/z41RArAYBsI.jpg",
-      "views": 238,
+      "views": 240,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 56
@@ -301,7 +315,7 @@
       "title": "Virgin At 30, About 300 Dates Since: The One Thing I Changed #shorts",
       "publishedAt": "2026-10-30T15:00:13Z",
       "thumbnail": "thumbs/SGFDv7CiQJw.jpg",
-      "views": 43,
+      "views": 45,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 48
@@ -395,16 +409,6 @@
       "likes": 2,
       "comments": 1,
       "durationSeconds": 55
-    },
-    {
-      "id": "52-L1g2MTlA",
-      "title": "I Was a Virgin at 30. Five Years Later I'd Been on Hundreds of Dates #shorts",
-      "publishedAt": "2026-10-21T15:00:40Z",
-      "thumbnail": "thumbs/52-L1g2MTlA.jpg",
-      "views": 10,
-      "likes": 0,
-      "comments": 0,
-      "durationSeconds": 43
     }
   ],
   "longform": {
@@ -593,7 +597,7 @@
       "title": "Brown Men Ruin Their Dates (Unless They Do This)",
       "publishedAt": "2026-09-11T13:10:27Z",
       "thumbnail": "thumbs/obaeZPGgVrQ.jpg",
-      "views": 1336,
+      "views": 1337,
       "likes": 19,
       "comments": 2,
       "durationSeconds": 55
@@ -710,6 +714,7 @@
     "whYTgWfw0Cw",
     "q6er9NP8VGE",
     "HsI_Jk37xWs",
-    "rlJSZvUOk0A"
+    "rlJSZvUOk0A",
+    "Lt4HUbR-0q8"
   ]
 }

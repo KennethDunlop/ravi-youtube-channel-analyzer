@@ -1,5 +1,5 @@
 {
-  "version": "1.107",
+  "version": "1.108",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 386,
-    "videoCount": 271,
-    "channelViews": 109351,
+    "videoCount": 272,
+    "channelViews": 109375,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-09T19:00:55.452Z",
+    "lastUpdated": "2026-11-10T07:00:54.487Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -227,16 +227,30 @@
     {
       "date": "2026-11-09",
       "subscriberCount": 386
+    },
+    {
+      "date": "2026-11-10",
+      "subscriberCount": 386
     }
   ],
   "videos": [
+    {
+      "id": "ApahUT1MnaU",
+      "title": "Brown & Asian men on six figures: first dates go nowhere (and they think it went well) #shorts",
+      "publishedAt": "2026-11-10T06:58:23Z",
+      "thumbnail": "thumbs/ApahUT1MnaU.jpg",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 60
+    },
     {
       "id": "5PVNprZlkvc",
       "title": "Brown & Asian men on six figures never get matches (change ONE word) #shorts",
       "publishedAt": "2026-11-09T16:05:55Z",
       "thumbnail": "thumbs/5PVNprZlkvc.jpg",
-      "views": 144,
-      "likes": 2,
+      "views": 291,
+      "likes": 3,
       "comments": 0,
       "durationSeconds": 58
     },
@@ -245,7 +259,7 @@
       "title": "Pro Photos Are Killing Your Dates (High-Earning Brown & Asian Men) #shorts",
       "publishedAt": "2026-11-03T20:00:07Z",
       "thumbnail": "thumbs/Lt4HUbR-0q8.jpg",
-      "views": 72,
+      "views": 73,
       "likes": 3,
       "comments": 0,
       "durationSeconds": 58
@@ -255,7 +269,7 @@
       "title": "Your City Is Costing You Dates (High-Earning Brown & Asian Men) #shorts",
       "publishedAt": "2026-11-03T16:00:19Z",
       "thumbnail": "thumbs/rlJSZvUOk0A.jpg",
-      "views": 51,
+      "views": 52,
       "likes": 3,
       "comments": 0,
       "durationSeconds": 54
@@ -265,7 +279,7 @@
       "title": "Six Figures, Hinge Premium… Still No Dates #shorts",
       "publishedAt": "2026-11-02T20:00:17Z",
       "thumbnail": "thumbs/HsI_Jk37xWs.jpg",
-      "views": 17,
+      "views": 18,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 56
@@ -275,7 +289,7 @@
       "title": "Indian Doctors & Engineers: Dating On Hard Mode #shorts",
       "publishedAt": "2026-11-02T16:00:27Z",
       "thumbnail": "thumbs/whYTgWfw0Cw.jpg",
-      "views": 119,
+      "views": 120,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 54
@@ -285,7 +299,7 @@
       "title": "The ashtray turned up before the menu did ☕️ #shorts",
       "publishedAt": "2026-11-02T13:29:38Z",
       "thumbnail": "thumbs/q6er9NP8VGE.jpg",
-      "views": 176,
+      "views": 177,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 9
@@ -295,7 +309,7 @@
       "title": "I Was a Virgin at 30. I Don't Blame Women. #shorts",
       "publishedAt": "2026-11-01T17:00:07Z",
       "thumbnail": "thumbs/4zw1kC9A_IY.jpg",
-      "views": 27,
+      "views": 28,
       "likes": 1,
       "comments": 0,
       "durationSeconds": 45
@@ -305,7 +319,7 @@
       "title": "High-Earning Minority Men Will Never Get Dates Unless They Fix This #shorts",
       "publishedAt": "2026-10-31T20:00:22Z",
       "thumbnail": "thumbs/h-EQyPkm9Ro.jpg",
-      "views": 57,
+      "views": 58,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 64
@@ -315,7 +329,7 @@
       "title": "Minority Men Lose Her In 4 Seconds Unless They Do This #shorts",
       "publishedAt": "2026-10-31T16:00:15Z",
       "thumbnail": "thumbs/S-ZMuLdrsTg.jpg",
-      "views": 62,
+      "views": 63,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 63
@@ -325,7 +339,7 @@
       "title": "Day 5 in Belgrade #shorts",
       "publishedAt": "2026-10-31T11:25:42Z",
       "thumbnail": "thumbs/U8U65GNL7YU.jpg",
-      "views": 154,
+      "views": 156,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 17
@@ -335,7 +349,7 @@
       "title": "\"I'd Never Date An Indian Guy\": How Minority Men Get Out Of The Box #shorts",
       "publishedAt": "2026-10-30T17:30:15Z",
       "thumbnail": "thumbs/z41RArAYBsI.jpg",
-      "views": 246,
+      "views": 248,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 56
@@ -345,7 +359,7 @@
       "title": "Virgin At 30, About 300 Dates Since: The One Thing I Changed #shorts",
       "publishedAt": "2026-10-30T15:00:13Z",
       "thumbnail": "thumbs/SGFDv7CiQJw.jpg",
-      "views": 48,
+      "views": 49,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 48
@@ -355,7 +369,7 @@
       "title": "Belgrade Night Out: The Mixed Grill Had Its Own Postcode #shorts",
       "publishedAt": "2026-10-30T11:58:33Z",
       "thumbnail": "thumbs/XNnnpY_oFOE.jpg",
-      "views": 1173,
+      "views": 1174,
       "likes": 4,
       "comments": 0,
       "durationSeconds": 15
@@ -419,16 +433,6 @@
       "likes": 6,
       "comments": 1,
       "durationSeconds": 55
-    },
-    {
-      "id": "Q2oZQWiY1kU",
-      "title": "Brown & Asian Men: The More You Earn, The Less She Wants You #shorts",
-      "publishedAt": "2026-10-21T22:30:34Z",
-      "thumbnail": "thumbs/Q2oZQWiY1kU.jpg",
-      "views": 223,
-      "likes": 3,
-      "comments": 1,
-      "durationSeconds": 54
     }
   ],
   "longform": {
@@ -436,7 +440,7 @@
     "title": "Why Is Dating So Hard for Indian Men? Why $300K Engineers Lose to a $30K Barista",
     "publishedAt": "2026-08-19T18:00:23Z",
     "thumbnail": "thumbs/NB8PFFrdQVs.jpg",
-    "views": 175,
+    "views": 178,
     "likes": 4,
     "comments": 0,
     "durationSeconds": 1084
@@ -477,7 +481,7 @@
       "title": "I Was A 30 Year Old Virgin. What I Wish I Knew.",
       "publishedAt": "2025-03-20T18:02:22Z",
       "thumbnail": "thumbs/By4OGcBsOYc.jpg",
-      "views": 1703,
+      "views": 1704,
       "likes": 19,
       "comments": 28,
       "durationSeconds": 1349
@@ -736,6 +740,7 @@
     "HsI_Jk37xWs",
     "rlJSZvUOk0A",
     "Lt4HUbR-0q8",
-    "5PVNprZlkvc"
+    "5PVNprZlkvc",
+    "ApahUT1MnaU"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": "1.109",
+  "version": "1.110",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 387,
-    "videoCount": 273,
+    "videoCount": 274,
     "channelViews": 109375,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-10T19:00:55.816Z",
+    "lastUpdated": "2026-11-11T07:00:54.638Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -231,17 +231,31 @@
     {
       "date": "2026-11-10",
       "subscriberCount": 387
+    },
+    {
+      "date": "2026-11-11",
+      "subscriberCount": 387
     }
   ],
   "videos": [
+    {
+      "id": "nOfRBkHCr-Q",
+      "title": "Brown & Asian men on six figures get written off as nice guys #shorts",
+      "publishedAt": "2026-11-10T23:00:27Z",
+      "thumbnail": "thumbs/nOfRBkHCr-Q.jpg",
+      "views": 1193,
+      "likes": 4,
+      "comments": 2,
+      "durationSeconds": 49
+    },
     {
       "id": "reA5J-Zh_Qs",
       "title": "High-earning Brown & Asian men are secretly losing at dating #shorts",
       "publishedAt": "2026-11-10T13:53:13Z",
       "thumbnail": "thumbs/reA5J-Zh_Qs.jpg",
-      "views": 134,
-      "likes": 0,
-      "comments": 0,
+      "views": 310,
+      "likes": 3,
+      "comments": 1,
       "durationSeconds": 55
     },
     {
@@ -249,7 +263,7 @@
       "title": "Brown & Asian men on six figures: first dates go nowhere (and they think it went well) #shorts",
       "publishedAt": "2026-11-10T06:58:23Z",
       "thumbnail": "thumbs/ApahUT1MnaU.jpg",
-      "views": 223,
+      "views": 262,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 60
@@ -259,8 +273,8 @@
       "title": "Brown & Asian men on six figures never get matches (change ONE word) #shorts",
       "publishedAt": "2026-11-09T16:05:55Z",
       "thumbnail": "thumbs/5PVNprZlkvc.jpg",
-      "views": 1345,
-      "likes": 9,
+      "views": 1349,
+      "likes": 10,
       "comments": 6,
       "durationSeconds": 58
     },
@@ -269,7 +283,7 @@
       "title": "Pro Photos Are Killing Your Dates (High-Earning Brown & Asian Men) #shorts",
       "publishedAt": "2026-11-03T20:00:07Z",
       "thumbnail": "thumbs/Lt4HUbR-0q8.jpg",
-      "views": 75,
+      "views": 76,
       "likes": 3,
       "comments": 0,
       "durationSeconds": 58
@@ -279,7 +293,7 @@
       "title": "Your City Is Costing You Dates (High-Earning Brown & Asian Men) #shorts",
       "publishedAt": "2026-11-03T16:00:19Z",
       "thumbnail": "thumbs/rlJSZvUOk0A.jpg",
-      "views": 52,
+      "views": 53,
       "likes": 3,
       "comments": 0,
       "durationSeconds": 54
@@ -289,7 +303,7 @@
       "title": "Six Figures, Hinge Premium… Still No Dates #shorts",
       "publishedAt": "2026-11-02T20:00:17Z",
       "thumbnail": "thumbs/HsI_Jk37xWs.jpg",
-      "views": 18,
+      "views": 20,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 56
@@ -299,7 +313,7 @@
       "title": "Indian Doctors & Engineers: Dating On Hard Mode #shorts",
       "publishedAt": "2026-11-02T16:00:27Z",
       "thumbnail": "thumbs/whYTgWfw0Cw.jpg",
-      "views": 121,
+      "views": 122,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 54
@@ -309,7 +323,7 @@
       "title": "The ashtray turned up before the menu did ☕️ #shorts",
       "publishedAt": "2026-11-02T13:29:38Z",
       "thumbnail": "thumbs/q6er9NP8VGE.jpg",
-      "views": 177,
+      "views": 178,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 9
@@ -319,7 +333,7 @@
       "title": "I Was a Virgin at 30. I Don't Blame Women. #shorts",
       "publishedAt": "2026-11-01T17:00:07Z",
       "thumbnail": "thumbs/4zw1kC9A_IY.jpg",
-      "views": 29,
+      "views": 31,
       "likes": 1,
       "comments": 0,
       "durationSeconds": 45
@@ -329,7 +343,7 @@
       "title": "High-Earning Minority Men Will Never Get Dates Unless They Fix This #shorts",
       "publishedAt": "2026-10-31T20:00:22Z",
       "thumbnail": "thumbs/h-EQyPkm9Ro.jpg",
-      "views": 59,
+      "views": 60,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 64
@@ -339,7 +353,7 @@
       "title": "Minority Men Lose Her In 4 Seconds Unless They Do This #shorts",
       "publishedAt": "2026-10-31T16:00:15Z",
       "thumbnail": "thumbs/S-ZMuLdrsTg.jpg",
-      "views": 65,
+      "views": 66,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 63
@@ -349,7 +363,7 @@
       "title": "Day 5 in Belgrade #shorts",
       "publishedAt": "2026-10-31T11:25:42Z",
       "thumbnail": "thumbs/U8U65GNL7YU.jpg",
-      "views": 156,
+      "views": 157,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 17
@@ -359,7 +373,7 @@
       "title": "\"I'd Never Date An Indian Guy\": How Minority Men Get Out Of The Box #shorts",
       "publishedAt": "2026-10-30T17:30:15Z",
       "thumbnail": "thumbs/z41RArAYBsI.jpg",
-      "views": 249,
+      "views": 250,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 56
@@ -369,7 +383,7 @@
       "title": "Virgin At 30, About 300 Dates Since: The One Thing I Changed #shorts",
       "publishedAt": "2026-10-30T15:00:13Z",
       "thumbnail": "thumbs/SGFDv7CiQJw.jpg",
-      "views": 49,
+      "views": 51,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 48
@@ -379,7 +393,7 @@
       "title": "Belgrade Night Out: The Mixed Grill Had Its Own Postcode #shorts",
       "publishedAt": "2026-10-30T11:58:33Z",
       "thumbnail": "thumbs/XNnnpY_oFOE.jpg",
-      "views": 1174,
+      "views": 1176,
       "likes": 4,
       "comments": 0,
       "durationSeconds": 15
@@ -423,16 +437,6 @@
       "likes": 2,
       "comments": 0,
       "durationSeconds": 36
-    },
-    {
-      "id": "V_RZ_oDQsYg",
-      "title": "Brown & Asian Men Get Rated At The Bottom (Unless They Do This) #shorts",
-      "publishedAt": "2026-10-22T20:00:20Z",
-      "thumbnail": "thumbs/V_RZ_oDQsYg.jpg",
-      "views": 1049,
-      "likes": 5,
-      "comments": 1,
-      "durationSeconds": 58
     }
   ],
   "longform": {
@@ -440,7 +444,7 @@
     "title": "Why Is Dating So Hard for Indian Men? Why $300K Engineers Lose to a $30K Barista",
     "publishedAt": "2026-08-19T18:00:23Z",
     "thumbnail": "thumbs/NB8PFFrdQVs.jpg",
-    "views": 178,
+    "views": 179,
     "likes": 4,
     "comments": 0,
     "durationSeconds": 1084
@@ -541,7 +545,7 @@
       "title": "How Do I Build Real Masculine Confidence?",
       "publishedAt": "2025-05-02T05:03:25Z",
       "thumbnail": "thumbs/uD_52lYM2k8.jpg",
-      "views": 1498,
+      "views": 1499,
       "likes": 4,
       "comments": 0,
       "durationSeconds": 57
@@ -611,8 +615,8 @@
       "title": "Brown & Asian men on six figures never get matches (change ONE word) #shorts",
       "publishedAt": "2026-11-09T16:05:55Z",
       "thumbnail": "thumbs/5PVNprZlkvc.jpg",
-      "views": 1345,
-      "likes": 9,
+      "views": 1349,
+      "likes": 10,
       "comments": 6,
       "durationSeconds": 58
     },
@@ -742,6 +746,7 @@
     "Lt4HUbR-0q8",
     "5PVNprZlkvc",
     "ApahUT1MnaU",
-    "reA5J-Zh_Qs"
+    "reA5J-Zh_Qs",
+    "nOfRBkHCr-Q"
   ]
 }

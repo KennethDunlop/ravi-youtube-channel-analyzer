@@ -1,5 +1,5 @@
 {
-  "version": "1.114",
+  "version": "1.115",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 388,
-    "videoCount": 276,
-    "channelViews": 113813,
+    "videoCount": 277,
+    "channelViews": 114470,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-13T07:00:20.374Z",
+    "lastUpdated": "2026-11-13T19:00:24.117Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -247,11 +247,21 @@
   ],
   "videos": [
     {
+      "id": "KU8EZsE_z14",
+      "title": "Short Brown & Asian Men in NYC: \"Too Short\" For Her? #shorts",
+      "publishedAt": "2026-11-13T17:00:25Z",
+      "thumbnail": "thumbs/KU8EZsE_z14.jpg",
+      "views": 7,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 53
+    },
+    {
       "id": "yDAEkPQSU3k",
       "title": "Brown & Asian men on six figures will never marry their dream girl #shorts",
       "publishedAt": "2026-11-11T23:00:29Z",
       "thumbnail": "thumbs/yDAEkPQSU3k.jpg",
-      "views": 910,
+      "views": 1059,
       "likes": 6,
       "comments": 0,
       "durationSeconds": 65
@@ -261,7 +271,7 @@
       "title": "Brown & Asian men on six figures keep losing her to broke guys #shorts",
       "publishedAt": "2026-11-11T17:25:09Z",
       "thumbnail": "thumbs/CXgnaSlMXjA.jpg",
-      "views": 509,
+      "views": 566,
       "likes": 2,
       "comments": 7,
       "durationSeconds": 67
@@ -271,7 +281,7 @@
       "title": "Brown & Asian men on six figures get written off as nice guys #shorts",
       "publishedAt": "2026-11-10T23:00:27Z",
       "thumbnail": "thumbs/nOfRBkHCr-Q.jpg",
-      "views": 1244,
+      "views": 1247,
       "likes": 5,
       "comments": 2,
       "durationSeconds": 49
@@ -281,7 +291,7 @@
       "title": "High-earning Brown & Asian men are secretly losing at dating #shorts",
       "publishedAt": "2026-11-10T13:53:13Z",
       "thumbnail": "thumbs/reA5J-Zh_Qs.jpg",
-      "views": 424,
+      "views": 425,
       "likes": 3,
       "comments": 1,
       "durationSeconds": 55
@@ -291,7 +301,7 @@
       "title": "Brown & Asian men on six figures: first dates go nowhere (and they think it went well) #shorts",
       "publishedAt": "2026-11-10T06:58:23Z",
       "thumbnail": "thumbs/ApahUT1MnaU.jpg",
-      "views": 279,
+      "views": 280,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 60
@@ -435,16 +445,6 @@
       "likes": 2,
       "comments": 0,
       "durationSeconds": 52
-    },
-    {
-      "id": "yJd6BIBMHNU",
-      "title": "Minority Men Earning Six Figures: Your Salary Isn't Sexy #shorts",
-      "publishedAt": "2026-10-29T17:58:10Z",
-      "thumbnail": "thumbs/yJd6BIBMHNU.jpg",
-      "views": 62,
-      "likes": 2,
-      "comments": 1,
-      "durationSeconds": 54
     }
   ],
   "longform": {
@@ -523,7 +523,7 @@
       "title": "Do Passport Bros Regret Living The  Laptop Lifestyle & Working On Skills With Girls?",
       "publishedAt": "2026-02-21T02:09:23Z",
       "thumbnail": "thumbs/dKGZva_EwUo.jpg",
-      "views": 1622,
+      "views": 1623,
       "likes": 8,
       "comments": 1,
       "durationSeconds": 19
@@ -757,6 +757,7 @@
     "reA5J-Zh_Qs",
     "nOfRBkHCr-Q",
     "CXgnaSlMXjA",
-    "yDAEkPQSU3k"
+    "yDAEkPQSU3k",
+    "KU8EZsE_z14"
   ]
 }

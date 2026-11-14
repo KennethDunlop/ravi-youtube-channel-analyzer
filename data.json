@@ -1,5 +1,5 @@
 {
-  "version": "1.115",
+  "version": "1.116",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
-    "subscriberCount": 388,
-    "videoCount": 277,
-    "channelViews": 114470,
+    "subscriberCount": 389,
+    "videoCount": 278,
+    "channelViews": 114719,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-13T19:00:24.117Z",
+    "lastUpdated": "2026-11-14T07:00:30.666Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -243,16 +243,30 @@
     {
       "date": "2026-11-13",
       "subscriberCount": 388
+    },
+    {
+      "date": "2026-11-14",
+      "subscriberCount": 389
     }
   ],
   "videos": [
+    {
+      "id": "4uVmLb3BRyc",
+      "title": "Brown & Asian Men Dating in NYC: Rich and Alone #shorts",
+      "publishedAt": "2026-11-13T23:00:35Z",
+      "thumbnail": "thumbs/4uVmLb3BRyc.jpg",
+      "views": 14,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 57
+    },
     {
       "id": "KU8EZsE_z14",
       "title": "Short Brown & Asian Men in NYC: \"Too Short\" For Her? #shorts",
       "publishedAt": "2026-11-13T17:00:25Z",
       "thumbnail": "thumbs/KU8EZsE_z14.jpg",
-      "views": 7,
-      "likes": 0,
+      "views": 192,
+      "likes": 1,
       "comments": 0,
       "durationSeconds": 53
     },
@@ -261,7 +275,7 @@
       "title": "Brown & Asian men on six figures will never marry their dream girl #shorts",
       "publishedAt": "2026-11-11T23:00:29Z",
       "thumbnail": "thumbs/yDAEkPQSU3k.jpg",
-      "views": 1059,
+      "views": 1106,
       "likes": 6,
       "comments": 0,
       "durationSeconds": 65
@@ -271,7 +285,7 @@
       "title": "Brown & Asian men on six figures keep losing her to broke guys #shorts",
       "publishedAt": "2026-11-11T17:25:09Z",
       "thumbnail": "thumbs/CXgnaSlMXjA.jpg",
-      "views": 566,
+      "views": 567,
       "likes": 2,
       "comments": 7,
       "durationSeconds": 67
@@ -301,7 +315,7 @@
       "title": "Brown & Asian men on six figures: first dates go nowhere (and they think it went well) #shorts",
       "publishedAt": "2026-11-10T06:58:23Z",
       "thumbnail": "thumbs/ApahUT1MnaU.jpg",
-      "views": 280,
+      "views": 281,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 60
@@ -311,7 +325,7 @@
       "title": "Brown & Asian men on six figures never get matches (change ONE word) #shorts",
       "publishedAt": "2026-11-09T16:05:55Z",
       "thumbnail": "thumbs/5PVNprZlkvc.jpg",
-      "views": 1365,
+      "views": 1363,
       "likes": 10,
       "comments": 6,
       "durationSeconds": 58
@@ -435,16 +449,6 @@
       "likes": 4,
       "comments": 0,
       "durationSeconds": 15
-    },
-    {
-      "id": "VVU8gk8Lc-I",
-      "title": "Minority Men In Tech: She Didn't Ghost You, You Bored Her #shorts",
-      "publishedAt": "2026-10-29T20:00:06Z",
-      "thumbnail": "thumbs/VVU8gk8Lc-I.jpg",
-      "views": 37,
-      "likes": 2,
-      "comments": 0,
-      "durationSeconds": 52
     }
   ],
   "longform": {
@@ -483,7 +487,7 @@
       "title": "Asking Girls In NYC The Real Reason Women Lose Interest in Men",
       "publishedAt": "2026-04-15T21:50:34Z",
       "thumbnail": "thumbs/OdU7SQEZeK4.jpg",
-      "views": 1750,
+      "views": 1751,
       "likes": 14,
       "comments": 7,
       "durationSeconds": 239
@@ -613,7 +617,7 @@
       "title": "Brown & Asian men on six figures never get matches (change ONE word) #shorts",
       "publishedAt": "2026-11-09T16:05:55Z",
       "thumbnail": "thumbs/5PVNprZlkvc.jpg",
-      "views": 1365,
+      "views": 1363,
       "likes": 10,
       "comments": 6,
       "durationSeconds": 58
@@ -758,6 +762,7 @@
     "nOfRBkHCr-Q",
     "CXgnaSlMXjA",
     "yDAEkPQSU3k",
-    "KU8EZsE_z14"
+    "KU8EZsE_z14",
+    "4uVmLb3BRyc"
   ]
 }

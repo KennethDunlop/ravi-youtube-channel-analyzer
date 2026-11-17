@@ -1,5 +1,5 @@
 {
-  "version": "1.122",
+  "version": "1.123",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 389,
-    "videoCount": 273,
-    "channelViews": 115800,
+    "videoCount": 275,
+    "channelViews": 114827,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-17T07:00:20.236Z",
+    "lastUpdated": "2026-11-17T19:00:25.515Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -263,11 +263,31 @@
   ],
   "videos": [
     {
+      "id": "GJqGtrZr-jg",
+      "title": "Brown & Asian Men Dating in NYC: Judged in Seconds #shorts",
+      "publishedAt": "2026-11-17T17:00:00Z",
+      "thumbnail": "thumbs/GJqGtrZr-jg.jpg",
+      "views": 70,
+      "likes": 1,
+      "comments": 0,
+      "durationSeconds": 53
+    },
+    {
+      "id": "LwdULfZC8vc",
+      "title": "unfortunately, success with women is literally this simple.",
+      "publishedAt": "2026-11-17T15:32:09Z",
+      "thumbnail": "thumbs/LwdULfZC8vc.jpg",
+      "views": 24,
+      "likes": 5,
+      "comments": 0,
+      "durationSeconds": 928
+    },
+    {
       "id": "4uVmLb3BRyc",
       "title": "Brown & Asian Men Dating in NYC: Rich and Alone #shorts",
       "publishedAt": "2026-11-13T23:00:35Z",
       "thumbnail": "thumbs/4uVmLb3BRyc.jpg",
-      "views": 320,
+      "views": 321,
       "likes": 4,
       "comments": 2,
       "durationSeconds": 57
@@ -277,7 +297,7 @@
       "title": "Short Brown & Asian Men in NYC: \"Too Short\" For Her? #shorts",
       "publishedAt": "2026-11-13T17:00:25Z",
       "thumbnail": "thumbs/KU8EZsE_z14.jpg",
-      "views": 780,
+      "views": 774,
       "likes": 3,
       "comments": 0,
       "durationSeconds": 53
@@ -287,8 +307,8 @@
       "title": "Brown & Asian men on six figures will never marry their dream girl #shorts",
       "publishedAt": "2026-11-11T23:00:29Z",
       "thumbnail": "thumbs/yDAEkPQSU3k.jpg",
-      "views": 1121,
-      "likes": 6,
+      "views": 1123,
+      "likes": 7,
       "comments": 0,
       "durationSeconds": 65
     },
@@ -297,7 +317,7 @@
       "title": "Brown & Asian men on six figures keep losing her to broke guys #shorts",
       "publishedAt": "2026-11-11T17:25:09Z",
       "thumbnail": "thumbs/CXgnaSlMXjA.jpg",
-      "views": 569,
+      "views": 572,
       "likes": 2,
       "comments": 7,
       "durationSeconds": 67
@@ -317,7 +337,7 @@
       "title": "High-earning Brown & Asian men are secretly losing at dating #shorts",
       "publishedAt": "2026-11-10T13:53:13Z",
       "thumbnail": "thumbs/reA5J-Zh_Qs.jpg",
-      "views": 432,
+      "views": 433,
       "likes": 3,
       "comments": 1,
       "durationSeconds": 55
@@ -327,7 +347,7 @@
       "title": "Brown & Asian men on six figures: first dates go nowhere (and they think it went well) #shorts",
       "publishedAt": "2026-11-10T06:58:23Z",
       "thumbnail": "thumbs/ApahUT1MnaU.jpg",
-      "views": 287,
+      "views": 288,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 60
@@ -337,7 +357,7 @@
       "title": "Brown & Asian men on six figures never get matches (change ONE word) #shorts",
       "publishedAt": "2026-11-09T16:05:55Z",
       "thumbnail": "thumbs/5PVNprZlkvc.jpg",
-      "views": 1369,
+      "views": 1370,
       "likes": 10,
       "comments": 6,
       "durationSeconds": 58
@@ -441,37 +461,17 @@
       "likes": 2,
       "comments": 1,
       "durationSeconds": 56
-    },
-    {
-      "id": "SGFDv7CiQJw",
-      "title": "Virgin At 30, About 300 Dates Since: The One Thing I Changed #shorts",
-      "publishedAt": "2026-10-30T15:00:13Z",
-      "thumbnail": "thumbs/SGFDv7CiQJw.jpg",
-      "views": 53,
-      "likes": 0,
-      "comments": 0,
-      "durationSeconds": 48
-    },
-    {
-      "id": "XNnnpY_oFOE",
-      "title": "Belgrade Night Out: The Mixed Grill Had Its Own Postcode #shorts",
-      "publishedAt": "2026-10-30T11:58:33Z",
-      "thumbnail": "thumbs/XNnnpY_oFOE.jpg",
-      "views": 1180,
-      "likes": 4,
-      "comments": 0,
-      "durationSeconds": 15
     }
   ],
   "longform": {
-    "id": "f74776YkTSY",
-    "title": "Hinge Profile Review: Two Dating Coaches Rate His \"Perfect\" Profile",
-    "publishedAt": "2026-08-15T12:15:26Z",
-    "thumbnail": "thumbs/f74776YkTSY.jpg",
-    "views": 251,
-    "likes": 2,
-    "comments": 6,
-    "durationSeconds": 709
+    "id": "LwdULfZC8vc",
+    "title": "unfortunately, success with women is literally this simple.",
+    "publishedAt": "2026-11-17T15:32:09Z",
+    "thumbnail": "thumbs/LwdULfZC8vc.jpg",
+    "views": 24,
+    "likes": 5,
+    "comments": 0,
+    "durationSeconds": 928
   },
   "popularVideos": [
     {
@@ -629,7 +629,7 @@
       "title": "Brown & Asian men on six figures never get matches (change ONE word) #shorts",
       "publishedAt": "2026-11-09T16:05:55Z",
       "thumbnail": "thumbs/5PVNprZlkvc.jpg",
-      "views": 1369,
+      "views": 1370,
       "likes": 10,
       "comments": 6,
       "durationSeconds": 58
@@ -776,6 +776,8 @@
     "yDAEkPQSU3k",
     "KU8EZsE_z14",
     "4uVmLb3BRyc",
-    "f74776YkTSY"
+    "f74776YkTSY",
+    "GJqGtrZr-jg",
+    "LwdULfZC8vc"
   ]
 }

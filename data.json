@@ -1,5 +1,5 @@
 {
-  "version": "1.126",
+  "version": "1.127",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 388,
-    "videoCount": 275,
+    "videoCount": 276,
     "channelViews": 115270,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-19T07:00:39.725Z",
+    "lastUpdated": "2026-11-19T19:00:44.768Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -271,11 +271,21 @@
   ],
   "videos": [
     {
+      "id": "1zICF2_6u1o",
+      "title": "Brown & Asian Men on Six Figures: No Matches on Hinge? It's Your First Photo #shorts",
+      "publishedAt": "2026-11-19T19:00:03Z",
+      "thumbnail": "thumbs/1zICF2_6u1o.jpg",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 59
+    },
+    {
       "id": "GJqGtrZr-jg",
       "title": "Brown & Asian Men Dating in NYC: Judged in Seconds #shorts",
       "publishedAt": "2026-11-17T17:00:00Z",
       "thumbnail": "thumbs/GJqGtrZr-jg.jpg",
-      "views": 313,
+      "views": 331,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 53
@@ -285,7 +295,7 @@
       "title": "unfortunately, success with women is literally this simple.",
       "publishedAt": "2026-11-17T15:32:09Z",
       "thumbnail": "thumbs/LwdULfZC8vc.jpg",
-      "views": 106,
+      "views": 144,
       "likes": 5,
       "comments": 0,
       "durationSeconds": 928
@@ -305,7 +315,7 @@
       "title": "Short Brown & Asian Men in NYC: \"Too Short\" For Her? #shorts",
       "publishedAt": "2026-11-13T17:00:25Z",
       "thumbnail": "thumbs/KU8EZsE_z14.jpg",
-      "views": 771,
+      "views": 773,
       "likes": 3,
       "comments": 0,
       "durationSeconds": 53
@@ -315,7 +325,7 @@
       "title": "Brown & Asian men on six figures will never marry their dream girl #shorts",
       "publishedAt": "2026-11-11T23:00:29Z",
       "thumbnail": "thumbs/yDAEkPQSU3k.jpg",
-      "views": 1126,
+      "views": 1128,
       "likes": 7,
       "comments": 0,
       "durationSeconds": 65
@@ -365,7 +375,7 @@
       "title": "Brown & Asian men on six figures never get matches (change ONE word) #shorts",
       "publishedAt": "2026-11-09T16:05:55Z",
       "thumbnail": "thumbs/5PVNprZlkvc.jpg",
-      "views": 1370,
+      "views": 1369,
       "likes": 10,
       "comments": 6,
       "durationSeconds": 58
@@ -459,16 +469,6 @@
       "likes": 2,
       "comments": 0,
       "durationSeconds": 17
-    },
-    {
-      "id": "z41RArAYBsI",
-      "title": "\"I'd Never Date An Indian Guy\": How Minority Men Get Out Of The Box #shorts",
-      "publishedAt": "2026-10-30T17:30:15Z",
-      "thumbnail": "thumbs/z41RArAYBsI.jpg",
-      "views": 254,
-      "likes": 2,
-      "comments": 1,
-      "durationSeconds": 56
     }
   ],
   "longform": {
@@ -476,7 +476,7 @@
     "title": "unfortunately, success with women is literally this simple.",
     "publishedAt": "2026-11-17T15:32:09Z",
     "thumbnail": "thumbs/LwdULfZC8vc.jpg",
-    "views": 106,
+    "views": 144,
     "likes": 5,
     "comments": 0,
     "durationSeconds": 928
@@ -637,7 +637,7 @@
       "title": "Brown & Asian men on six figures never get matches (change ONE word) #shorts",
       "publishedAt": "2026-11-09T16:05:55Z",
       "thumbnail": "thumbs/5PVNprZlkvc.jpg",
-      "views": 1370,
+      "views": 1369,
       "likes": 10,
       "comments": 6,
       "durationSeconds": 58
@@ -786,6 +786,7 @@
     "4uVmLb3BRyc",
     "f74776YkTSY",
     "GJqGtrZr-jg",
-    "LwdULfZC8vc"
+    "LwdULfZC8vc",
+    "1zICF2_6u1o"
   ]
 }

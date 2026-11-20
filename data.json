@@ -1,5 +1,5 @@
 {
-  "version": "1.128",
+  "version": "1.129",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 389,
-    "videoCount": 276,
+    "videoCount": 277,
     "channelViews": 115512,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-20T07:00:40.409Z",
+    "lastUpdated": "2026-11-20T19:01:00.764Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -275,12 +275,22 @@
   ],
   "videos": [
     {
+      "id": "uKPZycZcDOE",
+      "title": "Brown & Asian Men on Six Figures: We're Never Validated (Build This) #shorts",
+      "publishedAt": "2026-11-20T16:50:28Z",
+      "thumbnail": "thumbs/uKPZycZcDOE.jpg",
+      "views": 36,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 62
+    },
+    {
       "id": "1zICF2_6u1o",
       "title": "Brown & Asian Men on Six Figures: No Matches on Hinge? It's Your First Photo #shorts",
       "publishedAt": "2026-11-19T19:00:03Z",
       "thumbnail": "thumbs/1zICF2_6u1o.jpg",
-      "views": 529,
-      "likes": 3,
+      "views": 803,
+      "likes": 6,
       "comments": 1,
       "durationSeconds": 59
     },
@@ -289,7 +299,7 @@
       "title": "Brown & Asian Men Dating in NYC: Judged in Seconds #shorts",
       "publishedAt": "2026-11-17T17:00:00Z",
       "thumbnail": "thumbs/GJqGtrZr-jg.jpg",
-      "views": 345,
+      "views": 349,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 53
@@ -299,9 +309,9 @@
       "title": "unfortunately, success with women is literally this simple.",
       "publishedAt": "2026-11-17T15:32:09Z",
       "thumbnail": "thumbs/LwdULfZC8vc.jpg",
-      "views": 190,
+      "views": 224,
       "likes": 5,
-      "comments": 0,
+      "comments": 2,
       "durationSeconds": 928
     },
     {
@@ -463,16 +473,6 @@
       "likes": 0,
       "comments": 0,
       "durationSeconds": 63
-    },
-    {
-      "id": "U8U65GNL7YU",
-      "title": "Day 5 in Belgrade #shorts",
-      "publishedAt": "2026-10-31T11:25:42Z",
-      "thumbnail": "thumbs/U8U65GNL7YU.jpg",
-      "views": 162,
-      "likes": 2,
-      "comments": 0,
-      "durationSeconds": 17
     }
   ],
   "longform": {
@@ -480,9 +480,9 @@
     "title": "unfortunately, success with women is literally this simple.",
     "publishedAt": "2026-11-17T15:32:09Z",
     "thumbnail": "thumbs/LwdULfZC8vc.jpg",
-    "views": 190,
+    "views": 224,
     "likes": 5,
-    "comments": 0,
+    "comments": 2,
     "durationSeconds": 928
   },
   "popularVideos": [
@@ -521,7 +521,7 @@
       "title": "I Was A 30 Year Old Virgin. What I Wish I Knew.",
       "publishedAt": "2025-03-20T18:02:22Z",
       "thumbnail": "thumbs/By4OGcBsOYc.jpg",
-      "views": 1709,
+      "views": 1713,
       "likes": 19,
       "comments": 28,
       "durationSeconds": 1349
@@ -791,6 +791,7 @@
     "f74776YkTSY",
     "GJqGtrZr-jg",
     "LwdULfZC8vc",
-    "1zICF2_6u1o"
+    "1zICF2_6u1o",
+    "uKPZycZcDOE"
   ]
 }

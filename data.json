@@ -1,5 +1,5 @@
 {
-  "version": "1.130",
+  "version": "1.131",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 390,
-    "videoCount": 277,
-    "channelViews": 116174,
+    "videoCount": 279,
+    "channelViews": 116610,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-21T07:00:58.259Z",
+    "lastUpdated": "2026-11-21T19:01:03.316Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -279,11 +279,31 @@
   ],
   "videos": [
     {
+      "id": "XaeICuB35OM",
+      "title": "Brown & Asian Men: Don't Use This Photo on Hinge #shorts",
+      "publishedAt": "2026-11-21T14:34:08Z",
+      "thumbnail": "thumbs/XaeICuB35OM.jpg",
+      "views": 341,
+      "likes": 1,
+      "comments": 1,
+      "durationSeconds": 37
+    },
+    {
+      "id": "N8mYqJFZ0Ko",
+      "title": "Brown Guy's Hinge Profile Review: Only 2 Likes. Here's How We'd Get Him 50",
+      "publishedAt": "2026-11-21T12:49:20Z",
+      "thumbnail": "thumbs/N8mYqJFZ0Ko.jpg",
+      "views": 15,
+      "likes": 4,
+      "comments": 1,
+      "durationSeconds": 802
+    },
+    {
       "id": "uKPZycZcDOE",
       "title": "Brown & Asian Men on Six Figures: We're Never Validated (Build This) #shorts",
       "publishedAt": "2026-11-20T16:50:28Z",
       "thumbnail": "thumbs/uKPZycZcDOE.jpg",
-      "views": 98,
+      "views": 187,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 62
@@ -293,7 +313,7 @@
       "title": "Brown & Asian Men on Six Figures: No Matches on Hinge? It's Your First Photo #shorts",
       "publishedAt": "2026-11-19T19:00:03Z",
       "thumbnail": "thumbs/1zICF2_6u1o.jpg",
-      "views": 927,
+      "views": 985,
       "likes": 7,
       "comments": 1,
       "durationSeconds": 59
@@ -313,8 +333,8 @@
       "title": "unfortunately, success with women is literally this simple.",
       "publishedAt": "2026-11-17T15:32:09Z",
       "thumbnail": "thumbs/LwdULfZC8vc.jpg",
-      "views": 272,
-      "likes": 5,
+      "views": 285,
+      "likes": 6,
       "comments": 2,
       "durationSeconds": 928
     },
@@ -323,7 +343,7 @@
       "title": "Brown & Asian Men Dating in NYC: Rich and Alone #shorts",
       "publishedAt": "2026-11-13T23:00:35Z",
       "thumbnail": "thumbs/4uVmLb3BRyc.jpg",
-      "views": 324,
+      "views": 325,
       "likes": 4,
       "comments": 2,
       "durationSeconds": 57
@@ -333,7 +353,7 @@
       "title": "Short Brown & Asian Men in NYC: \"Too Short\" For Her? #shorts",
       "publishedAt": "2026-11-13T17:00:25Z",
       "thumbnail": "thumbs/KU8EZsE_z14.jpg",
-      "views": 773,
+      "views": 775,
       "likes": 3,
       "comments": 0,
       "durationSeconds": 53
@@ -457,37 +477,17 @@
       "likes": 1,
       "comments": 0,
       "durationSeconds": 45
-    },
-    {
-      "id": "h-EQyPkm9Ro",
-      "title": "High-Earning Minority Men Will Never Get Dates Unless They Fix This #shorts",
-      "publishedAt": "2026-10-31T20:00:22Z",
-      "thumbnail": "thumbs/h-EQyPkm9Ro.jpg",
-      "views": 63,
-      "likes": 0,
-      "comments": 0,
-      "durationSeconds": 64
-    },
-    {
-      "id": "S-ZMuLdrsTg",
-      "title": "Minority Men Lose Her In 4 Seconds Unless They Do This #shorts",
-      "publishedAt": "2026-10-31T16:00:15Z",
-      "thumbnail": "thumbs/S-ZMuLdrsTg.jpg",
-      "views": 68,
-      "likes": 0,
-      "comments": 0,
-      "durationSeconds": 63
     }
   ],
   "longform": {
-    "id": "LwdULfZC8vc",
-    "title": "unfortunately, success with women is literally this simple.",
-    "publishedAt": "2026-11-17T15:32:09Z",
-    "thumbnail": "thumbs/LwdULfZC8vc.jpg",
-    "views": 272,
-    "likes": 5,
-    "comments": 2,
-    "durationSeconds": 928
+    "id": "N8mYqJFZ0Ko",
+    "title": "Brown Guy's Hinge Profile Review: Only 2 Likes. Here's How We'd Get Him 50",
+    "publishedAt": "2026-11-21T12:49:20Z",
+    "thumbnail": "thumbs/N8mYqJFZ0Ko.jpg",
+    "views": 15,
+    "likes": 4,
+    "comments": 1,
+    "durationSeconds": 802
   },
   "popularVideos": [
     {
@@ -495,7 +495,7 @@
       "title": "She Was On The Phone…So I Did This (NYC)",
       "publishedAt": "2026-04-21T00:08:44Z",
       "thumbnail": "thumbs/scvzeoMGr-0.jpg",
-      "views": 2847,
+      "views": 2848,
       "likes": 61,
       "comments": 3,
       "durationSeconds": 18
@@ -505,7 +505,7 @@
       "title": "Average Looking Brown Men Will Fat At Dating (Unless They Do THIS)",
       "publishedAt": "2026-09-16T09:56:45Z",
       "thumbnail": "thumbs/ep_Z8SeN4TI.jpg",
-      "views": 1870,
+      "views": 1871,
       "likes": 25,
       "comments": 3,
       "durationSeconds": 78
@@ -796,6 +796,8 @@
     "GJqGtrZr-jg",
     "LwdULfZC8vc",
     "1zICF2_6u1o",
-    "uKPZycZcDOE"
+    "uKPZycZcDOE",
+    "XaeICuB35OM",
+    "N8mYqJFZ0Ko"
   ]
 }

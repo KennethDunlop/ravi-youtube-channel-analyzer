@@ -1,5 +1,5 @@
 {
-  "version": "1.138",
+  "version": "1.139",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -7,11 +7,11 @@
     "avatarLarge": "thumbs/avatar-large.jpg",
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
-    "subscriberCount": 394,
-    "videoCount": 233,
+    "subscriberCount": 396,
+    "videoCount": 234,
     "channelViews": 112860,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-25T07:00:23.600Z",
+    "lastUpdated": "2026-11-25T19:00:38.934Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -290,16 +290,26 @@
     },
     {
       "date": "2026-11-25",
-      "subscriberCount": 394
+      "subscriberCount": 396
     }
   ],
   "videos": [
+    {
+      "id": "0F2QshAl1z0",
+      "title": "Brown & Asian Men on Six Figures: Women Don't Want You? Then Explain K-Dramas #shorts",
+      "publishedAt": "2026-11-25T17:00:39Z",
+      "thumbnail": "thumbs/0F2QshAl1z0.jpg",
+      "views": 1,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 47
+    },
     {
       "id": "zyDk7o4phCw",
       "title": "3 Dates This Week: What Changed for This Asian Engineer #shorts",
       "publishedAt": "2026-11-24T14:32:32Z",
       "thumbnail": "thumbs/zyDk7o4phCw.jpg",
-      "views": 1136,
+      "views": 1139,
       "likes": 1,
       "comments": 0,
       "durationSeconds": 36
@@ -309,8 +319,8 @@
       "title": "3 Dating Coaches Later: What Finally Worked for an Asian Engineer in New York",
       "publishedAt": "2026-11-24T14:00:09Z",
       "thumbnail": "thumbs/YSf33G4GtCg.jpg",
-      "views": 69,
-      "likes": 1,
+      "views": 117,
+      "likes": 2,
       "comments": 0,
       "durationSeconds": 1080
     },
@@ -319,8 +329,8 @@
       "title": "Brown & Asian Men on Six Figures: Your Parents Lied to You About Women #shorts",
       "publishedAt": "2026-11-24T08:21:19Z",
       "thumbnail": "thumbs/s90VY8Wwiv8.jpg",
-      "views": 1219,
-      "likes": 13,
+      "views": 1244,
+      "likes": 15,
       "comments": 1,
       "durationSeconds": 50
     },
@@ -329,7 +339,7 @@
       "title": "Brown & Asian Men: Don't Use This Photo on Hinge #shorts",
       "publishedAt": "2026-11-21T14:34:08Z",
       "thumbnail": "thumbs/XaeICuB35OM.jpg",
-      "views": 511,
+      "views": 513,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 37
@@ -339,7 +349,7 @@
       "title": "Brown Guy's Hinge Profile Review: Only 2 Likes. Here's How We'd Get Him 50",
       "publishedAt": "2026-11-21T12:49:20Z",
       "thumbnail": "thumbs/N8mYqJFZ0Ko.jpg",
-      "views": 521,
+      "views": 529,
       "likes": 6,
       "comments": 1,
       "durationSeconds": 802
@@ -349,7 +359,7 @@
       "title": "Brown & Asian Men on Six Figures: We're Never Validated (Build This) #shorts",
       "publishedAt": "2026-11-20T16:50:28Z",
       "thumbnail": "thumbs/uKPZycZcDOE.jpg",
-      "views": 292,
+      "views": 293,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 62
@@ -359,7 +369,7 @@
       "title": "Brown & Asian Men on Six Figures: No Matches on Hinge? It's Your First Photo #shorts",
       "publishedAt": "2026-11-19T19:00:03Z",
       "thumbnail": "thumbs/1zICF2_6u1o.jpg",
-      "views": 1016,
+      "views": 1019,
       "likes": 7,
       "comments": 1,
       "durationSeconds": 59
@@ -369,7 +379,7 @@
       "title": "Brown & Asian Men Dating in NYC: Judged in Seconds #shorts",
       "publishedAt": "2026-11-17T17:00:00Z",
       "thumbnail": "thumbs/GJqGtrZr-jg.jpg",
-      "views": 350,
+      "views": 351,
       "likes": 2,
       "comments": 0,
       "durationSeconds": 53
@@ -379,8 +389,8 @@
       "title": "unfortunately, success with women is literally this simple.",
       "publishedAt": "2026-11-17T15:32:09Z",
       "thumbnail": "thumbs/LwdULfZC8vc.jpg",
-      "views": 304,
-      "likes": 6,
+      "views": 307,
+      "likes": 7,
       "comments": 2,
       "durationSeconds": 928
     },
@@ -483,16 +493,6 @@
       "likes": 3,
       "comments": 0,
       "durationSeconds": 54
-    },
-    {
-      "id": "HsI_Jk37xWs",
-      "title": "Six Figures, Hinge Premium… Still No Dates #shorts",
-      "publishedAt": "2026-11-02T20:00:17Z",
-      "thumbnail": "thumbs/HsI_Jk37xWs.jpg",
-      "views": 22,
-      "likes": 0,
-      "comments": 0,
-      "durationSeconds": 56
     }
   ],
   "longform": {
@@ -500,8 +500,8 @@
     "title": "3 Dating Coaches Later: What Finally Worked for an Asian Engineer in New York",
     "publishedAt": "2026-11-24T14:00:09Z",
     "thumbnail": "thumbs/YSf33G4GtCg.jpg",
-    "views": 69,
-    "likes": 1,
+    "views": 117,
+    "likes": 2,
     "comments": 0,
     "durationSeconds": 1080
   },
@@ -531,7 +531,7 @@
       "title": "Asking Girls In NYC The Real Reason Women Lose Interest in Men",
       "publishedAt": "2026-04-15T21:50:34Z",
       "thumbnail": "thumbs/OdU7SQEZeK4.jpg",
-      "views": 1755,
+      "views": 1756,
       "likes": 14,
       "comments": 7,
       "durationSeconds": 239
@@ -817,6 +817,7 @@
     "N8mYqJFZ0Ko",
     "zyDk7o4phCw",
     "YSf33G4GtCg",
-    "s90VY8Wwiv8"
+    "s90VY8Wwiv8",
+    "0F2QshAl1z0"
   ]
 }

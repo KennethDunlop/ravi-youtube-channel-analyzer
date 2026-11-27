@@ -1,5 +1,5 @@
 {
-  "version": "1.142",
+  "version": "1.143",
   "meta": {
     "channelTitle": "Naturally Magnetic Men",
     "channelId": "UCp1RORm-FhxPc3mHVJus85Q",
@@ -8,10 +8,10 @@
     "banner": "thumbs/banner.jpg",
     "channelUrl": "https://www.youtube.com/@naturallymagneticmen",
     "subscriberCount": 395,
-    "videoCount": 237,
-    "channelViews": 113914,
+    "videoCount": 238,
+    "channelViews": 114075,
     "channelCreatedAt": "2024-10-07T20:03:53.930963Z",
-    "lastUpdated": "2026-11-27T07:00:52.578Z",
+    "lastUpdated": "2026-11-27T19:00:52.984Z",
     "refreshedBy": "auto"
   },
   "subscriberGoal": 754,
@@ -303,11 +303,21 @@
   ],
   "videos": [
     {
+      "id": "zWyxo-isPo0",
+      "title": "Brown & Asian Men on Six Figures: Stop Trying to Look White #shorts",
+      "publishedAt": "2026-11-27T17:00:01Z",
+      "thumbnail": "thumbs/zWyxo-isPo0.jpg",
+      "views": 8,
+      "likes": 0,
+      "comments": 0,
+      "durationSeconds": 48
+    },
+    {
       "id": "hBpkydZKhM8",
       "title": "Brown & Asian Men on Six Figures: Same Guy, 5 Years Apart. What Changed? #shorts",
       "publishedAt": "2026-11-26T19:47:24Z",
       "thumbnail": "thumbs/hBpkydZKhM8.jpg",
-      "views": 137,
+      "views": 135,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 45
@@ -317,7 +327,7 @@
       "title": "Brown & Asian Men on Six Figures: 3 Signs You're Actually Hot #shorts",
       "publishedAt": "2026-11-26T17:00:12Z",
       "thumbnail": "thumbs/TgfZjfRDPBY.jpg",
-      "views": 79,
+      "views": 86,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 49
@@ -337,7 +347,7 @@
       "title": "Brown & Asian Men on Six Figures: Women Don't Want You? Then Explain K-Dramas #shorts",
       "publishedAt": "2026-11-25T17:00:39Z",
       "thumbnail": "thumbs/0F2QshAl1z0.jpg",
-      "views": 67,
+      "views": 76,
       "likes": 0,
       "comments": 0,
       "durationSeconds": 47
@@ -347,7 +357,7 @@
       "title": "3 Dates This Week: What Changed for This Asian Engineer #shorts",
       "publishedAt": "2026-11-24T14:32:32Z",
       "thumbnail": "thumbs/zyDk7o4phCw.jpg",
-      "views": 1210,
+      "views": 1212,
       "likes": 1,
       "comments": 0,
       "durationSeconds": 36
@@ -357,7 +367,7 @@
       "title": "3 Dating Coaches Later: What Finally Worked for an Asian Engineer in New York",
       "publishedAt": "2026-11-24T14:00:09Z",
       "thumbnail": "thumbs/YSf33G4GtCg.jpg",
-      "views": 419,
+      "views": 460,
       "likes": 4,
       "comments": 0,
       "durationSeconds": 1080
@@ -377,7 +387,7 @@
       "title": "Brown & Asian Men: Don't Use This Photo on Hinge #shorts",
       "publishedAt": "2026-11-21T14:34:08Z",
       "thumbnail": "thumbs/XaeICuB35OM.jpg",
-      "views": 514,
+      "views": 516,
       "likes": 2,
       "comments": 1,
       "durationSeconds": 37
@@ -387,7 +397,7 @@
       "title": "Brown Guy's Hinge Profile Review: Only 2 Likes. Here's How We'd Get Him 50",
       "publishedAt": "2026-11-21T12:49:20Z",
       "thumbnail": "thumbs/N8mYqJFZ0Ko.jpg",
-      "views": 534,
+      "views": 537,
       "likes": 6,
       "comments": 1,
       "durationSeconds": 802
@@ -407,8 +417,8 @@
       "title": "Brown & Asian Men on Six Figures: No Matches on Hinge? It's Your First Photo #shorts",
       "publishedAt": "2026-11-19T19:00:03Z",
       "thumbnail": "thumbs/1zICF2_6u1o.jpg",
-      "views": 1027,
-      "likes": 7,
+      "views": 1030,
+      "likes": 8,
       "comments": 1,
       "durationSeconds": 59
     },
@@ -427,7 +437,7 @@
       "title": "unfortunately, success with women is literally this simple.",
       "publishedAt": "2026-11-17T15:32:09Z",
       "thumbnail": "thumbs/LwdULfZC8vc.jpg",
-      "views": 311,
+      "views": 314,
       "likes": 7,
       "comments": 2,
       "durationSeconds": 928
@@ -491,16 +501,6 @@
       "likes": 3,
       "comments": 1,
       "durationSeconds": 55
-    },
-    {
-      "id": "ApahUT1MnaU",
-      "title": "Brown & Asian men on six figures: first dates go nowhere (and they think it went well) #shorts",
-      "publishedAt": "2026-11-10T06:58:23Z",
-      "thumbnail": "thumbs/ApahUT1MnaU.jpg",
-      "views": 294,
-      "likes": 2,
-      "comments": 0,
-      "durationSeconds": 60
     }
   ],
   "longform": {
@@ -508,7 +508,7 @@
     "title": "3 Dating Coaches Later: What Finally Worked for an Asian Engineer in New York",
     "publishedAt": "2026-11-24T14:00:09Z",
     "thumbnail": "thumbs/YSf33G4GtCg.jpg",
-    "views": 419,
+    "views": 460,
     "likes": 4,
     "comments": 0,
     "durationSeconds": 1080
@@ -649,7 +649,7 @@
       "title": "Brown Men NEVER Get Hot Girls (Unless They Do THIS)",
       "publishedAt": "2026-09-14T09:13:41Z",
       "thumbnail": "thumbs/jaJt7lNpp2M.jpg",
-      "views": 1415,
+      "views": 1416,
       "likes": 19,
       "comments": 9,
       "durationSeconds": 50
@@ -829,6 +829,7 @@
     "0F2QshAl1z0",
     "q-ArsEw3yYU",
     "TgfZjfRDPBY",
-    "hBpkydZKhM8"
+    "hBpkydZKhM8",
+    "zWyxo-isPo0"
   ]
 }
